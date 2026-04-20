@@ -1,0 +1,10 @@
+{
+  "connect": "connection_status",
+  "authenticate": "auth_status",
+  "login": "auth_status",
+  "register": "registration_status",
+  "approve": "approval_status",
+  "verify": "verification_status",
+  "encrypt": "encryption_status",
+  "assign": "assignment_status"
+}

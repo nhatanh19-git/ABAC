@@ -1,0 +1,30 @@
+Attributes found: ['departmental', 'teaching', 'registrar', 'outdated', 'new', 'while', 'managed']
+Clusters (3 total):
+  Cluster 0: ['departmental', 'registrar', 'new']
+  OUTLIER: ['teaching', 'while']
+  Cluster 1: ['outdated', 'managed']
+
+[INFO] Element → Attributes mapping:
+  officer              (subject): ['departmental']
+  submissions          (object ): ['teaching']
+  transcripts          (context): ['departmental', 'teaching']
+  course schedules     (context): ['departmental', 'outdated']
+  gradebooks           (context): ['teaching']
+  records              (object ): ['outdated']
+  retention period     (subject): ['departmental']
+  [WARN] Hierarchy thất bại: 'context'
+
+[INFO] Machine: 100 policies  |  Gold: 100 policies
+
+==============================================================
+  F-SCORE RESULTS  (100 câu được so sánh)
+==============================================================
+  Field                 P        R       F1   TP    FP    FN
+  --------------------------------------------------------
+  Subject          0.9903   1.0000   0.9951   102     1     0
+  Actions          0.9903   1.0000   0.9951   102     1     0
+  Object           1.0000   1.0000   1.0000   101     0     0
+  Environment      0.9694   0.9406   0.9548    95     3     6
+  --------------------------------------------------------
+  OVERALL (micro)   0.9877   0.9852   0.9864   400     5     6
+==============================================================

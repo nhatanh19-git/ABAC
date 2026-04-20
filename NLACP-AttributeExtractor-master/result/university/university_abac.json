@@ -1,0 +1,3602 @@
+{
+    "policies": [
+        {
+            "id": 1,
+            "sentence": "A student reads his transcript during office hours.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcript"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "working_period",
+                    "trigger": "during",
+                    "phrase": "office hours",
+                    "env_name": "office hours",
+                    "env_value": null,
+                    "full_value": "during office hours",
+                    "ner_type": "",
+                    "normalized": "office_hours",
+                    "namespace": "environment.time.working_period:office_hours",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 2,
+            "sentence": "A student checks application status on the campus portal.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "check"
+            ],
+            "object": [
+                "application status"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_device",
+                    "subcategory": "device_type",
+                    "trigger": "on",
+                    "phrase": "the campus portal",
+                    "env_name": "the campus portal",
+                    "env_value": null,
+                    "full_value": "on the campus portal",
+                    "ner_type": "",
+                    "normalized": "campus_portal",
+                    "namespace": "environment.device.device_type:campus_portal",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 3,
+            "sentence": "An instructor updates a gradebook during the semester.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the semester",
+                    "env_name": "the semester",
+                    "env_value": null,
+                    "full_value": "during the semester",
+                    "ner_type": "",
+                    "normalized": "semester",
+                    "namespace": "environment.time.relative:semester",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 4,
+            "sentence": "A teaching assistant modifies course grades in the lab.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course grades"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "in",
+                    "phrase": "the lab",
+                    "env_name": "the lab",
+                    "env_value": null,
+                    "full_value": "in the lab",
+                    "ner_type": "",
+                    "normalized": "lab",
+                    "namespace": "environment.location.facility:lab",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 5,
+            "sentence": "A registrar officer accesses transcripts during working hours.",
+            "subject": [
+                "officer"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [
+                [
+                    "officer",
+                    "registrar"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "working_period",
+                    "trigger": "during",
+                    "phrase": "working hours",
+                    "env_name": "working hours",
+                    "env_value": null,
+                    "full_value": "during working hours",
+                    "ner_type": "TIME",
+                    "normalized": "working_hours",
+                    "namespace": "environment.time.working_period:working_hours",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "registrar",
+                    "value": "officer",
+                    "category": "subject",
+                    "short_name": "registrar_officer",
+                    "namespace": "subject:role:registrar_officer",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "sentence": "An admissions officer reviews applications in the admissions office.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "review"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "in",
+                    "phrase": "the admissions office",
+                    "env_name": "the admissions office",
+                    "env_value": null,
+                    "full_value": "in the admissions office",
+                    "ner_type": "",
+                    "normalized": "admissions_office",
+                    "namespace": "environment.location.facility:admissions_office",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 7,
+            "sentence": "A department chair views course schedules during meetings.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "meetings",
+                    "env_name": "meetings",
+                    "env_value": null,
+                    "full_value": "during meetings",
+                    "ner_type": "",
+                    "normalized": "meetings",
+                    "namespace": "environment.time.relative:meetings",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 8,
+            "sentence": "A student reads course schedules in the library.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "location",
+                    "trigger": "in",
+                    "phrase": "the library",
+                    "env_name": "the library",
+                    "env_value": null,
+                    "full_value": "in the library",
+                    "ner_type": "",
+                    "normalized": "library",
+                    "namespace": "environment.location.location:library",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 9,
+            "sentence": "An instructor assigns grades during exam period.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "assign"
+            ],
+            "object": [
+                "grades"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "exam period",
+                    "env_name": "exam period",
+                    "env_value": null,
+                    "full_value": "during exam period",
+                    "ner_type": "",
+                    "normalized": "exam_period",
+                    "namespace": "environment.time.relative:exam_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 10,
+            "sentence": "A teaching assistant reviews submissions at night.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "review"
+            ],
+            "object": [
+                "submissions"
+            ],
+            "relation_pairs": [
+                [
+                    "assistant reviews submissions",
+                    "teaching"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "working_period",
+                    "trigger": "at",
+                    "phrase": "night",
+                    "env_name": "night",
+                    "env_value": null,
+                    "full_value": "at night",
+                    "ner_type": "TIME",
+                    "normalized": "night",
+                    "namespace": "environment.time.working_period:night",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "teaching",
+                    "value": "assistant reviews submissions",
+                    "category": "object",
+                    "short_name": "teach_assistant_review_submission",
+                    "namespace": "object:type:teach_assistant_review_submission",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "sentence": "An instructor can update the gradebook between 8am and 6pm.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "8 am and 6 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 8,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 6,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 8 am and 6 pm",
+                    "ner_type": "",
+                    "normalized": "8_am_and_6_pm",
+                    "namespace": "environment.time.absolute:8_am_and_6_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 12,
+            "sentence": "A registrar officer can modify transcripts only during business hours (9am to 5pm).",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "working_period",
+                    "trigger": "during",
+                    "phrase": "business hours",
+                    "env_name": "business hours",
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 9,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 5,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "during business hours (9am to 5pm)",
+                    "ner_type": "",
+                    "normalized": "business_hours",
+                    "namespace": "environment.time.working_period:business_hours",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 13,
+            "sentence": "A teaching assistant can view the gradebook between 7am and 9pm.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "7 am and 9 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 7,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 9,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 7 am and 9 pm",
+                    "ner_type": "",
+                    "normalized": "7_am_and_9_pm",
+                    "namespace": "environment.time.absolute:7_am_and_9_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 14,
+            "sentence": "An admissions officer can review applications after 8am.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "review"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "NER:TIME",
+                    "phrase": "8am",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "at",
+                        "value": 8,
+                        "unit": "am"
+                    },
+                    "full_value": "8am",
+                    "ner_type": "TIME",
+                    "normalized": "8am",
+                    "namespace": "environment.time.absolute:8am",
+                    "data_type": "time",
+                    "method": "ner"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 15,
+            "sentence": "A department chair can approve course schedules before 5pm.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "before",
+                    "phrase": "5 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "before",
+                        "value": 5,
+                        "unit": "pm"
+                    },
+                    "full_value": "before 5 pm",
+                    "ner_type": "",
+                    "normalized": "5_pm",
+                    "namespace": "environment.time.absolute:5_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 16,
+            "sentence": "A student can access course schedules between 6am and 11pm.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "6 am and 11 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 6,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 11,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 6 am and 11 pm",
+                    "ner_type": "",
+                    "normalized": "6_am_and_11_pm",
+                    "namespace": "environment.time.absolute:6_am_and_11_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 17,
+            "sentence": "An instructor can download gradebooks only between 9am and 5pm on weekdays.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "download"
+            ],
+            "object": [
+                "gradebooks"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "recurring",
+                    "trigger": "on",
+                    "phrase": "weekdays",
+                    "env_name": "weekdays",
+                    "env_value": null,
+                    "full_value": "on weekdays",
+                    "ner_type": "DATE",
+                    "normalized": "weekdays",
+                    "namespace": "environment.time.recurring:weekdays",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "NER:TIME",
+                    "phrase": "9am and 5pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 9,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 5,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "9am and 5pm",
+                    "ner_type": "TIME",
+                    "normalized": "9am_and_5pm",
+                    "namespace": "environment.time.absolute:9am_and_5pm",
+                    "data_type": "time",
+                    "method": "ner"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 18,
+            "sentence": "A registrar officer can access transcripts between 8:30am and 4:30pm.",
+            "subject": [
+                "officer"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [
+                [
+                    "officer",
+                    "registrar"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "8:30am and 4:30pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 30,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 30,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 8:30am and 4:30pm",
+                    "ner_type": "",
+                    "normalized": "8:30am_and_4:30pm",
+                    "namespace": "environment.time.absolute:8:30am_and_4:30pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "registrar",
+                    "value": "officer",
+                    "category": "subject",
+                    "short_name": "registrar_officer",
+                    "namespace": "subject:role:registrar_officer",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "sentence": "A student can submit applications between 9am and 11pm.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "9 am and 11 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 9,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 11,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 9 am and 11 pm",
+                    "ner_type": "",
+                    "normalized": "9_am_and_11_pm",
+                    "namespace": "environment.time.absolute:9_am_and_11_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 20,
+            "sentence": "A student can submit an application during the enrollment period.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "application"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the enrollment period",
+                    "env_name": "the enrollment period",
+                    "env_value": null,
+                    "full_value": "during the enrollment period",
+                    "ner_type": "",
+                    "normalized": "enrollment_period",
+                    "namespace": "environment.time.relative:enrollment_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 21,
+            "sentence": "An instructor can update the gradebook during the grading period.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the grading period",
+                    "env_name": "the grading period",
+                    "env_value": null,
+                    "full_value": "during the grading period",
+                    "ner_type": "",
+                    "normalized": "grading_period",
+                    "namespace": "environment.time.relative:grading_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 22,
+            "sentence": "An admissions officer can approve applications before the deadline.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "before",
+                    "phrase": "the deadline",
+                    "env_name": "the deadline",
+                    "env_value": null,
+                    "full_value": "before the deadline",
+                    "ner_type": "",
+                    "normalized": "deadline",
+                    "namespace": "environment.time.relative:deadline",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 23,
+            "sentence": "A registrar officer can view transcripts during the academic year.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the academic year",
+                    "env_name": "the academic year",
+                    "env_value": null,
+                    "full_value": "during the academic year",
+                    "ner_type": "DATE",
+                    "normalized": "academic_year",
+                    "namespace": "environment.time.relative:academic_year",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 24,
+            "sentence": "A teaching assistant can access gradebooks during the active course period.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "gradebooks"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the active course period",
+                    "env_name": "the active course period",
+                    "env_value": null,
+                    "full_value": "during the active course period",
+                    "ner_type": "",
+                    "normalized": "active_course_period",
+                    "namespace": "environment.time.relative:active_course_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 25,
+            "sentence": "An instructor can view applications during the admission review window.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the admission review window",
+                    "env_name": "the admission review window",
+                    "env_value": null,
+                    "full_value": "during the admission review window",
+                    "ner_type": "",
+                    "normalized": "admission_review_window",
+                    "namespace": "environment.time.relative:admission_review_window",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 26,
+            "sentence": "A department chair can approve course schedules before the registration deadline.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "before",
+                    "phrase": "the registration deadline",
+                    "env_name": "the registration deadline",
+                    "env_value": null,
+                    "full_value": "before the registration deadline",
+                    "ner_type": "",
+                    "normalized": "registration_deadline",
+                    "namespace": "environment.time.relative:registration_deadline",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 27,
+            "sentence": "An admissions officer can review applications only during the spring admission cycle.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "review"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the spring admission cycle",
+                    "env_name": "the spring admission cycle",
+                    "env_value": null,
+                    "full_value": "during the spring admission cycle",
+                    "ner_type": "DATE",
+                    "normalized": "spring_admission_cycle",
+                    "namespace": "environment.time.relative:spring_admission_cycle",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 28,
+            "sentence": "A student can update their application until the submission deadline.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "application"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "until",
+                    "phrase": "the submission deadline",
+                    "env_name": "the submission deadline",
+                    "env_value": null,
+                    "full_value": "until the submission deadline",
+                    "ner_type": "",
+                    "normalized": "submission_deadline",
+                    "namespace": "environment.time.relative:submission_deadline",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 29,
+            "sentence": "An instructor can read course schedules during the course planning period.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the course planning period",
+                    "env_name": "the course planning period",
+                    "env_value": null,
+                    "full_value": "during the course planning period",
+                    "ner_type": "",
+                    "normalized": "course_planning_period",
+                    "namespace": "environment.time.relative:course_planning_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 30,
+            "sentence": "A teaching assistant can submit grades before the grade submission deadline.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "grades"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "before",
+                    "phrase": "the grade submission deadline",
+                    "env_name": "the grade submission deadline",
+                    "env_value": null,
+                    "full_value": "before the grade submission deadline",
+                    "ner_type": "",
+                    "normalized": "grade_submission_deadline",
+                    "namespace": "environment.time.relative:grade_submission_deadline",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 31,
+            "sentence": "A department chair can access applications during the faculty recruitment period.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the faculty recruitment period",
+                    "env_name": "the faculty recruitment period",
+                    "env_value": null,
+                    "full_value": "during the faculty recruitment period",
+                    "ner_type": "",
+                    "normalized": "faculty_recruitment_period",
+                    "namespace": "environment.time.relative:faculty_recruitment_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 32,
+            "sentence": "A student can access transcripts only from the university network.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_network",
+                    "subcategory": "network_zone",
+                    "trigger": "from",
+                    "phrase": "the university network",
+                    "env_name": "the university network",
+                    "env_value": null,
+                    "full_value": "from the university network",
+                    "ner_type": "",
+                    "normalized": "university_network",
+                    "namespace": "environment.network.network_zone:university_network",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 33,
+            "sentence": "An instructor can update the gradebook when connected to the campus Wi-Fi.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "connected to the campus Wi - Fi",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when connected to the campus Wi - Fi",
+                    "ner_type": "",
+                    "normalized": "connected_to_campus_wi_-_fi",
+                    "namespace": "environment.condition.conditional_clause:connected_to_campus_wi_-_fi",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "",
+                        "predicate": "connect",
+                        "object": "the campus Wi",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 34,
+            "sentence": "A registrar officer can modify transcripts only from the registrar office.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the registrar office",
+                    "env_name": "the registrar office",
+                    "env_value": null,
+                    "full_value": "from the registrar office",
+                    "ner_type": "",
+                    "normalized": "registrar_office",
+                    "namespace": "environment.location.facility:registrar_office",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 35,
+            "sentence": "A student can download transcripts only while on campus.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "download"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [
+                [
+                    "download",
+                    "while"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "on",
+                    "phrase": "campus",
+                    "env_name": "campus",
+                    "env_value": null,
+                    "full_value": "on campus",
+                    "ner_type": "",
+                    "normalized": "campus",
+                    "namespace": "environment.location.facility:campus",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "while",
+                    "value": "download",
+                    "category": "context",
+                    "short_name": "download",
+                    "namespace": "context:download",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "sentence": "A registrar officer can access course schedules from any university-managed device.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [
+                [
+                    "device",
+                    "managed"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "location",
+                    "trigger": "from",
+                    "phrase": "any university",
+                    "env_name": "any university",
+                    "env_value": null,
+                    "full_value": "from any university",
+                    "ner_type": "",
+                    "normalized": "any_university",
+                    "namespace": "environment.location.location:any_university",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "managed",
+                    "value": "device",
+                    "category": "context",
+                    "short_name": "manage_device",
+                    "namespace": "context:manage_device",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "sentence": "An instructor can view applications remotely only through the secure VPN.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_network",
+                    "subcategory": "access_type",
+                    "trigger": "through",
+                    "phrase": "the secure VPN",
+                    "env_name": "the secure VPN",
+                    "env_value": null,
+                    "full_value": "through the secure VPN",
+                    "ner_type": "",
+                    "normalized": "secure_vpn",
+                    "namespace": "environment.network.access_type:secure_vpn",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 38,
+            "sentence": "A teaching assistant can submit grades only from the department lab.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "grades"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the department lab",
+                    "env_name": "the department lab",
+                    "env_value": null,
+                    "full_value": "from the department lab",
+                    "ner_type": "",
+                    "normalized": "department_lab",
+                    "namespace": "environment.location.facility:department_lab",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 39,
+            "sentence": "A department chair can access transcripts from the administrative network only.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_network",
+                    "subcategory": "network_zone",
+                    "trigger": "from",
+                    "phrase": "the administrative network",
+                    "env_name": "the administrative network",
+                    "env_value": null,
+                    "full_value": "from the administrative network",
+                    "ner_type": "",
+                    "normalized": "administrative_network",
+                    "namespace": "environment.network.network_zone:administrative_network",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 40,
+            "sentence": "A student can view course schedules from any location.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "location",
+                    "trigger": "from",
+                    "phrase": "any location",
+                    "env_name": "any location",
+                    "env_value": null,
+                    "full_value": "from any location",
+                    "ner_type": "",
+                    "normalized": "any_location",
+                    "namespace": "environment.location.location:any_location",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 41,
+            "sentence": "An admissions officer can modify applications only from the main campus offices.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the main campus offices",
+                    "env_name": "the main campus offices",
+                    "env_value": null,
+                    "full_value": "from the main campus offices",
+                    "ner_type": "",
+                    "normalized": "main_campus_offices",
+                    "namespace": "environment.location.facility:main_campus_offices",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 42,
+            "sentence": "A registrar officer can delete records only from the secure terminal in the records room.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "records"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_device",
+                    "subcategory": "device_type",
+                    "trigger": "from",
+                    "phrase": "the secure terminal",
+                    "env_name": "the secure terminal",
+                    "env_value": null,
+                    "full_value": "from the secure terminal",
+                    "ner_type": "",
+                    "normalized": "secure_terminal",
+                    "namespace": "environment.device.device_type:secure_terminal",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "in",
+                    "phrase": "the records room",
+                    "env_name": "the records room",
+                    "env_value": null,
+                    "full_value": "in the records room",
+                    "ner_type": "",
+                    "normalized": "records_room",
+                    "namespace": "environment.location.facility:records_room",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 43,
+            "sentence": "A teaching assistant can read transcripts only from the faculty lounge computers.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "location",
+                    "trigger": "from",
+                    "phrase": "the faculty lounge computers",
+                    "env_name": "the faculty lounge computers",
+                    "env_value": null,
+                    "full_value": "from the faculty lounge computers",
+                    "ner_type": "",
+                    "normalized": "faculty_lounge_computers",
+                    "namespace": "environment.location.location:faculty_lounge_computers",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 44,
+            "sentence": "A student can view their transcript only if their account is in good standing.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcript"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "if",
+                    "phrase": "only their account is in good standing",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "if only their account is in good standing",
+                    "ner_type": "",
+                    "normalized": "only_their_account_is_good_standing",
+                    "namespace": "environment.condition.conditional_clause:only_their_account_is_good_standing",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "account",
+                        "predicate": "be",
+                        "object": "good standing",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 45,
+            "sentence": "An instructor can update the gradebook only when the course is active.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the course is active",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the course is active",
+                    "ner_type": "",
+                    "normalized": "only_course_is_active",
+                    "namespace": "environment.condition.conditional_clause:only_course_is_active",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "course",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 46,
+            "sentence": "An admissions officer can approve an application only if the application status is under review.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "application"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "if",
+                    "phrase": "only the application status is under review",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "if only the application status is under review",
+                    "ner_type": "",
+                    "normalized": "only_application_status_is_under_review",
+                    "namespace": "environment.condition.conditional_clause:only_application_status_is_under_review",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "application status",
+                        "predicate": "be",
+                        "object": "review",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 47,
+            "sentence": "A registrar officer can modify a transcript only if it has not been officially sealed.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcript"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "if",
+                    "phrase": "only it has not been officially sealed",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "if only it has not been officially sealed",
+                    "ner_type": "",
+                    "normalized": "only_it_has_not_been_officially_sealed",
+                    "namespace": "environment.condition.conditional_clause:only_it_has_not_been_officially_sealed",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "it",
+                        "predicate": "seal",
+                        "object": "",
+                        "negated": true
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 48,
+            "sentence": "A department chair can modify a course schedule only when the schedule is in draft status.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedule"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the schedule is in draft status",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the schedule is in draft status",
+                    "ner_type": "",
+                    "normalized": "only_schedule_is_draft_status",
+                    "namespace": "environment.condition.conditional_clause:only_schedule_is_draft_status",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "schedule",
+                        "predicate": "be",
+                        "object": "draft status",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 49,
+            "sentence": "A teaching assistant can access the gradebook only when grading is open.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only grading is open",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only grading is open",
+                    "ner_type": "",
+                    "normalized": "only_grading_is_open",
+                    "namespace": "environment.condition.conditional_clause:only_grading_is_open",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "grading",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 50,
+            "sentence": "A student can submit an application only when the application portal is open.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "application"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the application portal is open",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the application portal is open",
+                    "ner_type": "",
+                    "normalized": "only_application_portal_is_open",
+                    "namespace": "environment.condition.conditional_clause:only_application_portal_is_open",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "application portal",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 51,
+            "sentence": "An instructor can access course schedules only when scheduling is unlocked.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only scheduling is unlocked",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only scheduling is unlocked",
+                    "ner_type": "",
+                    "normalized": "only_scheduling_is_unlocked",
+                    "namespace": "environment.condition.conditional_clause:only_scheduling_is_unlocked",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "scheduling",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 52,
+            "sentence": "A registrar officer can delete a record only when it is marked as archived.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "record"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only it is marked as archived",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only it is marked as archived",
+                    "ner_type": "",
+                    "normalized": "only_it_is_marked_as_archived",
+                    "namespace": "environment.condition.conditional_clause:only_it_is_marked_as_archived",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "it",
+                        "predicate": "mark",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 53,
+            "sentence": "An admissions officer can read applications only when the review committee is assembled.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the review committee is assembled",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the review committee is assembled",
+                    "ner_type": "",
+                    "normalized": "only_review_committee_is_assembled",
+                    "namespace": "environment.condition.conditional_clause:only_review_committee_is_assembled",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "review committee",
+                        "predicate": "assemble",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 54,
+            "sentence": "A department chair can approve a course schedule only when it is pending approval.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedule"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 55,
+            "sentence": "A teaching assistant can download a gradebook only when the grade audit is active.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "download"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the grade audit is active",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the grade audit is active",
+                    "ner_type": "",
+                    "normalized": "only_grade_audit_is_active",
+                    "namespace": "environment.condition.conditional_clause:only_grade_audit_is_active",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "grade audit",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 56,
+            "sentence": "A student can access course schedules only when they are officially enrolled.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course",
+                "schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only they are officially enrolled",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only they are officially enrolled",
+                    "ner_type": "",
+                    "normalized": "only_they_are_officially_enrolled",
+                    "namespace": "environment.condition.conditional_clause:only_they_are_officially_enrolled",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "they",
+                        "predicate": "enrol",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 57,
+            "sentence": "A registrar officer can upload new transcripts only when the system is in maintenance mode.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Create"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [
+                [
+                    "transcripts",
+                    "new"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the system is in maintenance mode",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the system is in maintenance mode",
+                    "ner_type": "",
+                    "normalized": "only_system_is_maintenance_mode",
+                    "namespace": "environment.condition.conditional_clause:only_system_is_maintenance_mode",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "system",
+                        "predicate": "be",
+                        "object": "maintenance mode",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "new",
+                    "value": "transcripts",
+                    "category": "object",
+                    "short_name": "new_transcript",
+                    "namespace": "object:prop:new_transcript",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "sentence": "An instructor can submit grades only when the grading window is open.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "grades"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the grading window is open",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the grading window is open",
+                    "ner_type": "",
+                    "normalized": "only_grading_window_is_open",
+                    "namespace": "environment.condition.conditional_clause:only_grading_window_is_open",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "window",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 59,
+            "sentence": "A student can submit applications during business hours within the enrollment period.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "working_period",
+                    "trigger": "during",
+                    "phrase": "business hours",
+                    "env_name": "business hours",
+                    "env_value": null,
+                    "full_value": "during business hours",
+                    "ner_type": "",
+                    "normalized": "business_hours",
+                    "namespace": "environment.time.working_period:business_hours",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "within",
+                    "phrase": "the enrollment period",
+                    "env_name": "the enrollment period",
+                    "env_value": null,
+                    "full_value": "within the enrollment period",
+                    "ner_type": "",
+                    "normalized": "enrollment_period",
+                    "namespace": "environment.time.relative:enrollment_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 60,
+            "sentence": "A student can access transcripts between 8am and 8pm from the university network.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "8 am and 8 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 8,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 8,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 8 am and 8 pm",
+                    "ner_type": "",
+                    "normalized": "8_am_and_8_pm",
+                    "namespace": "environment.time.absolute:8_am_and_8_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "spatial_network",
+                    "subcategory": "network_zone",
+                    "trigger": "from",
+                    "phrase": "the university network",
+                    "env_name": "the university network",
+                    "env_value": null,
+                    "full_value": "from the university network",
+                    "ner_type": "",
+                    "normalized": "university_network",
+                    "namespace": "environment.network.network_zone:university_network",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 61,
+            "sentence": "A registrar officer can modify course schedules during working hours from the registrar office.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "working_period",
+                    "trigger": "during",
+                    "phrase": "working hours",
+                    "env_name": "working hours",
+                    "env_value": null,
+                    "full_value": "during working hours",
+                    "ner_type": "TIME",
+                    "normalized": "working_hours",
+                    "namespace": "environment.time.working_period:working_hours",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the registrar office",
+                    "env_name": "the registrar office",
+                    "env_value": null,
+                    "full_value": "from the registrar office",
+                    "ner_type": "",
+                    "normalized": "registrar_office",
+                    "namespace": "environment.location.facility:registrar_office",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 62,
+            "sentence": "An instructor can update gradebooks between 9am and 5pm while on campus.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebooks"
+            ],
+            "relation_pairs": [
+                [
+                    "update",
+                    "while"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "9 am and 5",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "value": 9,
+                        "unit": "am"
+                    },
+                    "full_value": "between 9 am and 5",
+                    "ner_type": "",
+                    "normalized": "9_am_and_5",
+                    "namespace": "environment.time.absolute:9_am_and_5",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "on",
+                    "phrase": "campus",
+                    "env_name": "campus",
+                    "env_value": null,
+                    "full_value": "on campus",
+                    "ner_type": "",
+                    "normalized": "campus",
+                    "namespace": "environment.location.facility:campus",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "NER:TIME",
+                    "phrase": "between 9am and 5pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 9,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 5,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 9am and 5pm",
+                    "ner_type": "TIME",
+                    "normalized": "between_9am_and_5pm",
+                    "namespace": "environment.time.absolute:between_9am_and_5pm",
+                    "data_type": "time",
+                    "method": "ner"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "while",
+                    "value": "update",
+                    "category": "context",
+                    "short_name": "update",
+                    "namespace": "context:update",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "sentence": "A student can download transcripts from the university network only when their account is active.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "download"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_network",
+                    "subcategory": "network_zone",
+                    "trigger": "from",
+                    "phrase": "the university network",
+                    "env_name": "the university network",
+                    "env_value": null,
+                    "full_value": "from the university network",
+                    "ner_type": "",
+                    "normalized": "university_network",
+                    "namespace": "environment.network.network_zone:university_network",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only their account is active",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only their account is active",
+                    "ner_type": "",
+                    "normalized": "only_their_account_is_active",
+                    "namespace": "environment.condition.conditional_clause:only_their_account_is_active",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "account",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 64,
+            "sentence": "An admissions officer can approve an application from the admissions office when it is under review.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "application"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the admissions office",
+                    "env_name": "the admissions office",
+                    "env_value": null,
+                    "full_value": "from the admissions office",
+                    "ner_type": "",
+                    "normalized": "admissions_office",
+                    "namespace": "environment.location.facility:admissions_office",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "it is under review",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when it is under review",
+                    "ner_type": "",
+                    "normalized": "it_is_under_review",
+                    "namespace": "environment.condition.conditional_clause:it_is_under_review",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "it",
+                        "predicate": "be",
+                        "object": "review",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 65,
+            "sentence": "A registrar officer can delete a transcript from the secure terminal when it is archived.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "transcript"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_device",
+                    "subcategory": "device_type",
+                    "trigger": "from",
+                    "phrase": "the secure terminal",
+                    "env_name": "the secure terminal",
+                    "env_value": null,
+                    "full_value": "from the secure terminal",
+                    "ner_type": "",
+                    "normalized": "secure_terminal",
+                    "namespace": "environment.device.device_type:secure_terminal",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "it is archived",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when it is archived",
+                    "ner_type": "",
+                    "normalized": "it_is_archived",
+                    "namespace": "environment.condition.conditional_clause:it_is_archived",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "it",
+                        "predicate": "archive",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 66,
+            "sentence": "A teaching assistant can access gradebooks from on-campus terminals when grading is open.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "gradebooks"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "grading is open",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when grading is open",
+                    "ner_type": "",
+                    "normalized": "grading_is_open",
+                    "namespace": "environment.condition.conditional_clause:grading_is_open",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "grading",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 67,
+            "sentence": "An admissions officer can approve applications between 9am and 5pm.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "9 am and 5 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "value": 9,
+                        "unit": "am"
+                    },
+                    "full_value": "between 9 am and 5 pm",
+                    "ner_type": "",
+                    "normalized": "9_am_and_5_pm",
+                    "namespace": "environment.time.absolute:9_am_and_5_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 68,
+            "sentence": "An admissions officer can approve applications during the spring admission cycle.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the spring admission cycle",
+                    "env_name": "the spring admission cycle",
+                    "env_value": null,
+                    "full_value": "during the spring admission cycle",
+                    "ner_type": "DATE",
+                    "normalized": "spring_admission_cycle",
+                    "namespace": "environment.time.relative:spring_admission_cycle",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 69,
+            "sentence": "An admissions officer can approve applications only from the admissions building.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the admissions building",
+                    "env_name": "the admissions building",
+                    "env_value": null,
+                    "full_value": "from the admissions building",
+                    "ner_type": "",
+                    "normalized": "admissions_building",
+                    "namespace": "environment.location.facility:admissions_building",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 70,
+            "sentence": "A registrar officer can modify transcripts between 8am and 4pm.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "8 am and 4 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "value": 8,
+                        "unit": "am"
+                    },
+                    "full_value": "between 8 am and 4 pm",
+                    "ner_type": "",
+                    "normalized": "8_am_and_4_pm",
+                    "namespace": "environment.time.absolute:8_am_and_4_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 71,
+            "sentence": "A registrar officer can modify transcripts before the semester deadline.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "before",
+                    "phrase": "the semester deadline",
+                    "env_name": "the semester deadline",
+                    "env_value": null,
+                    "full_value": "before the semester deadline",
+                    "ner_type": "",
+                    "normalized": "semester_deadline",
+                    "namespace": "environment.time.relative:semester_deadline",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 72,
+            "sentence": "A student can view course schedules after 7am.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "NER:TIME",
+                    "phrase": "7am",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "at",
+                        "value": 7,
+                        "unit": "am"
+                    },
+                    "full_value": "7am",
+                    "ner_type": "TIME",
+                    "normalized": "7am",
+                    "namespace": "environment.time.absolute:7am",
+                    "data_type": "time",
+                    "method": "ner"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 73,
+            "sentence": "A student can view course schedules during the enrollment period.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the enrollment period",
+                    "env_name": "the enrollment period",
+                    "env_value": null,
+                    "full_value": "during the enrollment period",
+                    "ner_type": "",
+                    "normalized": "enrollment_period",
+                    "namespace": "environment.time.relative:enrollment_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 74,
+            "sentence": "A student can view course schedules only from the university network.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_network",
+                    "subcategory": "network_zone",
+                    "trigger": "from",
+                    "phrase": "the university network",
+                    "env_name": "the university network",
+                    "env_value": null,
+                    "full_value": "from the university network",
+                    "ner_type": "",
+                    "normalized": "university_network",
+                    "namespace": "environment.network.network_zone:university_network",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 75,
+            "sentence": "An instructor can update the gradebook between 8am and 6pm.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "8 am and 6 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "from": {
+                            "value": 8,
+                            "unit": "am"
+                        },
+                        "to": {
+                            "value": 6,
+                            "unit": "pm"
+                        }
+                    },
+                    "full_value": "between 8 am and 6 pm",
+                    "ner_type": "",
+                    "normalized": "8_am_and_6_pm",
+                    "namespace": "environment.time.absolute:8_am_and_6_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 76,
+            "sentence": "An instructor can update the gradebook during the grading period.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the grading period",
+                    "env_name": "the grading period",
+                    "env_value": null,
+                    "full_value": "during the grading period",
+                    "ner_type": "",
+                    "normalized": "grading_period",
+                    "namespace": "environment.time.relative:grading_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 77,
+            "sentence": "An instructor can update the gradebook only from campus.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "campus",
+                    "env_name": "campus",
+                    "env_value": null,
+                    "full_value": "from campus",
+                    "ner_type": "",
+                    "normalized": "campus",
+                    "namespace": "environment.location.facility:campus",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 78,
+            "sentence": "An instructor can update the gradebook only when the course is active.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the course is active",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the course is active",
+                    "ner_type": "",
+                    "normalized": "only_course_is_active",
+                    "namespace": "environment.condition.conditional_clause:only_course_is_active",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "course",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 79,
+            "sentence": "A department chair can approve course schedules before 5pm.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "before",
+                    "phrase": "5 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "before",
+                        "value": 5,
+                        "unit": "pm"
+                    },
+                    "full_value": "before 5 pm",
+                    "ner_type": "",
+                    "normalized": "5_pm",
+                    "namespace": "environment.time.absolute:5_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 80,
+            "sentence": "A department chair can approve course schedules before the semester starts.",
+            "subject": [
+                "department chair",
+                "semester"
+            ],
+            "actions": [
+                "Update",
+                "start"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 81,
+            "sentence": "A department chair can approve course schedules only from the department office.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "facility",
+                    "trigger": "from",
+                    "phrase": "the department office",
+                    "env_name": "the department office",
+                    "env_value": null,
+                    "full_value": "from the department office",
+                    "ner_type": "",
+                    "normalized": "department_office",
+                    "namespace": "environment.location.facility:department_office",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 82,
+            "sentence": "A department chair can approve course schedules only when the schedule is pending approval.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 83,
+            "sentence": "An instructor can view the gradebook.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 84,
+            "sentence": "A student can submit an application.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "submit"
+            ],
+            "object": [
+                "application"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 85,
+            "sentence": "A registrar officer can update transcripts.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 86,
+            "sentence": "A department chair can approve course schedules.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 87,
+            "sentence": "A teaching assistant can access gradebooks.",
+            "subject": [
+                "teaching assistant"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "gradebooks"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 88,
+            "sentence": "An admissions officer can review applications.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "review"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 89,
+            "sentence": "A student can view their transcript.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcript"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 90,
+            "sentence": "An instructor can read course schedules.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 91,
+            "sentence": "A registrar officer can delete outdated records.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "records"
+            ],
+            "relation_pairs": [
+                [
+                    "records",
+                    "outdated"
+                ]
+            ],
+            "environment": [],
+            "attributes": [
+                {
+                    "name": "outdated",
+                    "value": "records",
+                    "category": "object",
+                    "short_name": "outdated_record",
+                    "namespace": "object:type:outdated_record",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "sentence": "A department chair can modify departmental course schedules.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [
+                [
+                    "course schedules",
+                    "departmental"
+                ]
+            ],
+            "environment": [],
+            "attributes": [
+                {
+                    "name": "departmental",
+                    "value": "course schedules",
+                    "category": "object",
+                    "short_name": "departmental_course_schedule",
+                    "namespace": "object:prop:departmental_course_schedule",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 93,
+            "sentence": "A student can view transcripts during the academic year only when their account is in good standing.",
+            "subject": [
+                "student"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the academic year",
+                    "env_name": "the academic year",
+                    "env_value": null,
+                    "full_value": "during the academic year",
+                    "ner_type": "DATE",
+                    "normalized": "academic_year",
+                    "namespace": "environment.time.relative:academic_year",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only their account is in good standing",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only their account is in good standing",
+                    "ner_type": "",
+                    "normalized": "only_their_account_is_good_standing",
+                    "namespace": "environment.condition.conditional_clause:only_their_account_is_good_standing",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "account",
+                        "predicate": "be",
+                        "object": "good standing",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 94,
+            "sentence": "An admissions officer can approve applications during the admission cycle only when the application is under review.",
+            "subject": [
+                "admissions officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "applications"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the admission cycle",
+                    "env_name": "the admission cycle",
+                    "env_value": null,
+                    "full_value": "during the admission cycle",
+                    "ner_type": "",
+                    "normalized": "admission_cycle",
+                    "namespace": "environment.time.relative:admission_cycle",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the application is under review",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the application is under review",
+                    "ner_type": "",
+                    "normalized": "only_application_is_under_review",
+                    "namespace": "environment.condition.conditional_clause:only_application_is_under_review",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "application",
+                        "predicate": "be",
+                        "object": "review",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 95,
+            "sentence": "An instructor can update the gradebook during the grading period only when the course is active.",
+            "subject": [
+                "instructor"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "gradebook"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "during",
+                    "phrase": "the grading period",
+                    "env_name": "the grading period",
+                    "env_value": null,
+                    "full_value": "during the grading period",
+                    "ner_type": "",
+                    "normalized": "grading_period",
+                    "namespace": "environment.time.relative:grading_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the course is active",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the course is active",
+                    "ner_type": "",
+                    "normalized": "only_course_is_active",
+                    "namespace": "environment.condition.conditional_clause:only_course_is_active",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "course",
+                        "predicate": "be",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 96,
+            "sentence": "A department chair can modify course schedules before the semester starts.",
+            "subject": [
+                "department chair",
+                "semester"
+            ],
+            "actions": [
+                "Update",
+                "start"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [],
+            "attributes": []
+        },
+        {
+            "id": 97,
+            "sentence": "A department chair can modify course schedules only when the schedule is in draft status.",
+            "subject": [
+                "department chair"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "course schedules"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the schedule is in draft status",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the schedule is in draft status",
+                    "ner_type": "",
+                    "normalized": "only_schedule_is_draft_status",
+                    "namespace": "environment.condition.conditional_clause:only_schedule_is_draft_status",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "schedule",
+                        "predicate": "be",
+                        "object": "draft status",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": []
+        },
+        {
+            "id": 98,
+            "sentence": "A registrar officer can delete transcripts after the retention period expires.",
+            "subject": [
+                "officer",
+                "retention period"
+            ],
+            "actions": [
+                "Delete",
+                "expire"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [
+                [
+                    "officer",
+                    "registrar"
+                ]
+            ],
+            "environment": [],
+            "attributes": [
+                {
+                    "name": "registrar",
+                    "value": "officer",
+                    "category": "subject",
+                    "short_name": "registrar_officer",
+                    "namespace": "subject:role:registrar_officer",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "sentence": "A registrar officer can delete transcripts only when the record is archived.",
+            "subject": [
+                "officer"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [
+                [
+                    "officer",
+                    "registrar"
+                ]
+            ],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "when",
+                    "phrase": "only the record is archived",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "when only the record is archived",
+                    "ner_type": "",
+                    "normalized": "only_record_is_archived",
+                    "namespace": "environment.condition.conditional_clause:only_record_is_archived",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "record",
+                        "predicate": "archive",
+                        "object": "",
+                        "negated": false
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "registrar",
+                    "value": "officer",
+                    "category": "subject",
+                    "short_name": "registrar_officer",
+                    "namespace": "subject:role:registrar_officer",
+                    "data_type": "string"
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "sentence": "A registrar officer can modify transcripts between 9am and 4pm.",
+            "subject": [
+                "registrar officer"
+            ],
+            "actions": [
+                "Update"
+            ],
+            "object": [
+                "transcripts"
+            ],
+            "relation_pairs": [],
+            "environment": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "absolute",
+                    "trigger": "between",
+                    "phrase": "9 am and 4 pm",
+                    "env_name": null,
+                    "env_value": {
+                        "operator": "between",
+                        "value": 9,
+                        "unit": "am"
+                    },
+                    "full_value": "between 9 am and 4 pm",
+                    "ner_type": "",
+                    "normalized": "9_am_and_4_pm",
+                    "namespace": "environment.time.absolute:9_am_and_4_pm",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ],
+            "attributes": []
+        }
+    ]
+}

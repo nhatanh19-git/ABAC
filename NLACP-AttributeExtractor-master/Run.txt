@@ -1,0 +1,133 @@
+=======================================================
+ NLACP-ATTRIBUTE EXTRACTOR - HƯỚNG DẪN CHẠY
+=======================================================
+
+1. THIẾT LẬP MÔI TRƯỜNG
+-------------------------------------------------------
+Đảm bảo đã cài đặt Python 3.8 trở lên.
+Từ thư mục gốc của dự án, cài đặt môi trường ảo (virtual environment):
+
+  > python -m venv venv
+  > .\venv\Scripts\activate            (Windows)
+  > source venv/bin/activate           (Mac/Linux)
+
+2. CÀI ĐẶT THƯ VIỆN BẮT BUỘC
+-------------------------------------------------------
+Cài đặt các thư viện cần thiết và tải mô hình NLP của spaCy:
+
+  > pip install spacy scikit-learn numpy pytest
+  > python -m spacy download en_core_web_md
+  > python -m spacy download en_core_web_sm
+
+3. CÁCH CHẠY DỰ ÁN (PIPELINE 3 BƯỚC)
+-------------------------------------------------------
+Pipeline tách biệt rõ ràng giữa kết quả máy (để tính F-score)
+và Gold Standard (tạo bởi người dùng verify).
+
+╔══════════════════════════════════════════════════════╗
+║   LUỒNG PIPELINE CHÍNH (Chạy thường xuyên)          ║
+╠══════════════════════════════════════════════════════╣
+║                                                      ║
+║  BƯỚC 1: Auto Extraction (Hoàn toàn tự động)        ║
+║  ─────────────────────────────────────────────────── ║
+║  > python scripts/auto_extraction.py                 ║
+║    hoặc: python scripts/auto_extraction.py input.txt ║
+║                                                      ║
+║  Chức năng:                                          ║
+║  - Nhận câu policy từ stdin hoặc file .txt           ║
+║  - Tự động trích xuất Subject, Actions, Object, ENV  ║
+║  - KHÔNG hỏi người dùng, chạy hoàn toàn tự động     ║
+║  - Kết quả: outputs/policies/policy_dataset.json     ║
+║    (đây là RAW machine output — dùng để tính F-score)║
+║                                                      ║
+║  BƯỚC 2: Attribute Clustering                        ║
+║  ─────────────────────────────────────────────────── ║
+║  > python scripts/att_extractor.py                   ║
+║                                                      ║
+║  Chức năng:                                          ║
+║  - Đọc policy_dataset.json từ Bước 1                 ║
+║  - DBSCAN clustering → sinh attribute keys           ║
+║  - Kết quả: outputs/clusters/attribute_clusters.json ║
+║             outputs/hierarchy/namespace_hierarchy.json║
+║                                                      ║
+║  CHẠY TOÀN BỘ PIPELINE 1 LỆNH:                      ║
+║  > python scripts/run_pipeline.py input.txt          ║
+║                                                      ║
+╠══════════════════════════════════════════════════════╣
+║   LUỒNG TẠO GOLD STANDARD & TÍNH F-SCORE            ║
+╠══════════════════════════════════════════════════════╣
+║                                                      ║
+║  BƯỚC 3A: Tạo Gold Standard (chạy 1 lần / theo đợt) ║
+║  ─────────────────────────────────────────────────── ║
+║  > python scripts/interactive_verification.py        ║
+║    hoặc thêm --resume để tiếp tục lần trước          ║
+║                                                      ║
+║  Luồng:                                              ║
+║  - Đọc policy_dataset.json (kết quả máy Bước 1)      ║
+║  - Duyệt từng câu: hỏi Y (sửa) / N (giữ nguyên)     ║
+║  - Nếu Y: cho chỉnh sửa Subject/Actions/Object/ENV   ║
+║  - Kết quả: outputs/policies/policy_dataset_gold.json║
+║                                                      ║
+║  BƯỚC 3B: Tính F-score                              ║
+║  ─────────────────────────────────────────────────── ║
+║  > python scripts/compute_fscore.py                  ║
+║  > python scripts/compute_fscore.py --verbose        ║
+║  > python scripts/compute_fscore.py --field subject  ║
+║                                                      ║
+║  So sánh policy_dataset.json vs policy_dataset_gold  ║
+║  In P, R, F1 cho: Subject / Actions / Object / ENV  ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
+
+4. QUICK TEST (1 CÂU)
+-------------------------------------------------------
+  > python scripts/run_pipeline.py --sentence "A doctor can read patient records during the night shift."
+  hoặc:
+  > python scripts/auto_extraction.py --sentence "..."   (nếu muốn test extraction nhanh)
+
+5. CÁC LỆNH HỮU ÍCH KHÁC
+-------------------------------------------------------
+  Chỉ chạy Bước 1 (auto extraction):
+  > python scripts/run_pipeline.py --auto input.txt
+
+  Chỉ chạy Bước 2 (clustering):
+  > python scripts/run_pipeline.py --extract
+
+  Bỏ qua clustering:
+  > python scripts/run_pipeline.py --extract --no-cluster
+
+  Tiếp tục verify Gold Standard từ lần trước:
+  > python scripts/interactive_verification.py --resume
+
+6. CÁC LỖI THƯỜNG GẶP & CÁCH SỬA
+-------------------------------------------------------
+Lỗi: "[ERROR] Khong tim thay spaCy model."
+Cách sửa: Bạn quên chưa tải mô hình spaCy. Hãy chạy lệnh:
+       > python -m spacy download en_core_web_md
+       > python -m spacy download en_core_web_sm
+
+Lỗi: "ModuleNotFoundError: No module named 'nlacp'"
+Cách sửa: Bạn bắt buộc phải chạy lệnh từ THƯ MỤC GỐC của dự án.
+       Đúng: > python scripts/auto_extraction.py
+       Sai:  > cd scripts && python auto_extraction.py
+
+Lỗi: "Không tìm thấy file policy_dataset_gold.json"
+Cách sửa: Chạy Bước 3A trước để tạo Gold Standard:
+       > python scripts/interactive_verification.py
+
+Lỗi: "FileNotFoundError cho policy_dataset.json khi chạy Bước 2/3"
+Cách sửa: Chạy Bước 1 trước để tạo file:
+       > python scripts/auto_extraction.py
+
+7. CẤU TRÚC FILE ĐẦU RA
+-------------------------------------------------------
+  outputs/
+    policies/
+      policy_dataset.json       ← RAW machine output (Bước 1)
+      policy_dataset_gold.json  ← Gold Standard, đã người dùng verify (Bước 3A)
+    clusters/
+      attribute_clusters.json   ← Kết quả clustering (Bước 2)
+    hierarchy/
+      namespace_hierarchy.json  ← Cấu trúc namespace (Bước 2)
+  dataset/
+    relation_candidate.json     ← Log candidates đã extraction

@@ -1,0 +1,1095 @@
+{
+    "relations": [
+        {
+            "sentence": "The HCP can graph the height or weight of the patient over the last calendar years",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "graph"
+            ],
+            "object": [
+                "height",
+                "weight"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "calendar years",
+                    "last"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The HCP may also add a patient referral",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "Create"
+            ],
+            "object": [
+                "patient referral"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient or personal health representative can choose to view a list of their own prescriptions",
+            "subject": [
+                "patient",
+                "health representative"
+            ],
+            "actions": [
+                "choose",
+                "Read"
+            ],
+            "object": [
+                "prescriptions"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health representative",
+                    "personal"
+                ],
+                [
+                    "prescriptions",
+                    "own"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The LHCP can view a prescription list for a selected patient",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "prescription list"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "patient",
+                    "selected"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The HCP can edit patient information according to data format",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "Update",
+                "accord"
+            ],
+            "object": [
+                "patient information"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The LHCP can schedule an appointment with a patient",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "schedule"
+            ],
+            "object": [
+                "appointment"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The LHCP can view a list of upcoming appointments",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "appointments"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "appointments",
+                    "upcoming"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The user can view appointment details",
+            "subject": [
+                "user"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "appointment details"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The LHCP can view a comprehensive patient report",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "patient report"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "patient report",
+                    "comprehensive"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The LHCP can view a list of requested reports",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "reports"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "reports",
+                    "requested"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP can create a lab procedure for a given office visit",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "Create"
+            ],
+            "object": [
+                "lab procedure"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "office visit",
+                    "given"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP can view a previously created lab procedure",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "lab procedure"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "lab procedure",
+                    "created"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP can reassign a lab procedure to another lab technician if it is not in the testing state",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "reassign"
+            ],
+            "object": [
+                "lab procedure"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "if",
+                    "phrase": "it is not in the testing state",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "if it is not in the testing state",
+                    "ner_type": "",
+                    "normalized": "it_is_not_testing_state",
+                    "namespace": "environment.condition.conditional_clause:it_is_not_testing_state",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "it",
+                        "predicate": "be",
+                        "object": "the testing state",
+                        "negated": true
+                    }
+                }
+            ]
+        },
+        {
+            "sentence": "An HCP can remove a lab procedure if its status is in transit or received",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "lab procedure"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "conditional",
+                    "subcategory": "conditional_clause",
+                    "trigger": "if",
+                    "phrase": "its status is in transit or received",
+                    "env_name": null,
+                    "env_value": null,
+                    "full_value": "if its status is in transit or received",
+                    "ner_type": "",
+                    "normalized": "its_status_is_transit_or_received",
+                    "namespace": "environment.condition.conditional_clause:its_status_is_transit_or_received",
+                    "data_type": "boolean",
+                    "method": "rule+dep",
+                    "condition": {
+                        "subject": "status",
+                        "predicate": "be",
+                        "object": "transit",
+                        "negated": false
+                    }
+                }
+            ]
+        },
+        {
+            "sentence": "The administrator can assign a healthcare provider to hospitals",
+            "subject": [
+                "administrator"
+            ],
+            "actions": [
+                "assign"
+            ],
+            "object": [
+                "healthcare provider"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An LHCP can enter a user as part of the system",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "enter"
+            ],
+            "object": [
+                "user"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient or representative can send a message to an LHCP",
+            "subject": [
+                "patient",
+                "representative"
+            ],
+            "actions": [
+                "send"
+            ],
+            "object": [
+                "message"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An LHCP can send a message to a patient or representative",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "send"
+            ],
+            "object": [
+                "message"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient or representative can reply to a message",
+            "subject": [
+                "patient",
+                "representative"
+            ],
+            "actions": [
+                "reply"
+            ],
+            "object": [
+                "message"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An LHCP can reply to a message",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "reply"
+            ],
+            "object": [
+                "message"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A user can read messages from the inbox or outbox",
+            "subject": [
+                "user"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "messages"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "spatial_physical",
+                    "subcategory": "location",
+                    "trigger": "from",
+                    "phrase": "the inbox or outbox",
+                    "env_name": "the inbox or outbox",
+                    "env_value": null,
+                    "full_value": "from the inbox or outbox",
+                    "ner_type": "",
+                    "normalized": "inbox_or_outbox",
+                    "namespace": "environment.location.location:inbox_or_outbox",
+                    "data_type": "location",
+                    "method": "rule+dep"
+                }
+            ]
+        },
+        {
+            "sentence": "An LHCP can refer a patient to another HCP",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "refer"
+            ],
+            "object": [
+                "patient"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP can view received referrals",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "receive"
+            ],
+            "object": [
+                "referrals"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP can view previously sent referrals",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "send"
+            ],
+            "object": [
+                "referrals"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An LHCP can delete a patient from the monitoring list",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "patient"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient can report physiological measurements",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "measurements"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "measurements",
+                    "physiological"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An LHCP can view physiological monitoring data",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "monitoring data"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "monitoring data",
+                    "physiological"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A UAP can report physiological measurements for patients",
+            "subject": [
+                "UAP"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "measurements"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "measurements",
+                    "physiological"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient representative can report physiological measurements",
+            "subject": [
+                "patient representative"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "measurements"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "measurements",
+                    "physiological"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient can report adverse events for medications",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "events"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "events",
+                    "adverse"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient can report adverse events for immunizations",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "events"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "events",
+                    "adverse"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A public health agent can view adverse event reports",
+            "subject": [
+                "health agent"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "event",
+                "reports"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health",
+                    "public"
+                ],
+                [
+                    "event",
+                    "adverse"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A public health agent can view details of a specific report",
+            "subject": [
+                "health agent"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "details"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health",
+                    "public"
+                ],
+                [
+                    "report",
+                    "specific"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A public health agent can remove an adverse event report",
+            "subject": [
+                "health agent"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "event report"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health",
+                    "public"
+                ],
+                [
+                    "event",
+                    "adverse"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The administrator can record interactions between drugs",
+            "subject": [
+                "administrator"
+            ],
+            "actions": [
+                "record"
+            ],
+            "object": [
+                "interactions"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The administrator can view drug interaction information",
+            "subject": [
+                "administrator"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "interaction information"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The administrator can delete drug interaction information",
+            "subject": [
+                "administrator"
+            ],
+            "actions": [
+                "Delete"
+            ],
+            "object": [
+                "interaction information"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The administrator can set session timeout policies",
+            "subject": [
+                "administrator"
+            ],
+            "actions": [
+                "set"
+            ],
+            "object": [
+                "timeout policies"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A user can change their password after answering a security question correctly",
+            "subject": [
+                "user"
+            ],
+            "actions": [
+                "Update",
+                "answer"
+            ],
+            "object": [
+                "password",
+                "security question"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP must enter a patient MID to edit demographic information",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "enter",
+                "Update"
+            ],
+            "object": [
+                "patient MID",
+                "information"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "information",
+                    "demographic"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "An HCP may upload a photo of a patient",
+            "subject": [
+                "HCP"
+            ],
+            "actions": [
+                "Create"
+            ],
+            "object": [
+                "photo"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient or representative can view personal health records",
+            "subject": [
+                "patient",
+                "representative"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "health records"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health records",
+                    "personal"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient can view access logs sorted by role and date",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "access logs"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "access logs",
+                    "sorted"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient or personal health representative can view a list of prescriptions sorted by start date",
+            "subject": [
+                "patient",
+                "health representative"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "prescriptions"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health representative",
+                    "personal"
+                ],
+                [
+                    "prescriptions",
+                    "sorted"
+                ],
+                [
+                    "date",
+                    "start"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "The LHCP can view a prescription list sorted by start date",
+            "subject": [
+                "LHCP"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "prescription list"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "prescription list",
+                    "sorted"
+                ],
+                [
+                    "date",
+                    "start"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A user can view messages sorted by timestamp with the most recent first",
+            "subject": [
+                "user"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "messages"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "messages",
+                    "sorted"
+                ],
+                [
+                    "first",
+                    "recent"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A user can filter messages based on a timestamp range between a starting date and an ending date",
+            "subject": [
+                "user"
+            ],
+            "actions": [
+                "filter"
+            ],
+            "object": [
+                "messages"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "messages",
+                    "based"
+                ]
+            ],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "on",
+                    "phrase": "a timestamp range",
+                    "env_name": "a timestamp range",
+                    "env_value": null,
+                    "full_value": "on a timestamp range",
+                    "ner_type": "",
+                    "normalized": "timestamp_range",
+                    "namespace": "environment.time.relative:timestamp_range",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                },
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "between",
+                    "phrase": "a starting date and an ending date",
+                    "env_name": "a starting date and an ending date",
+                    "env_value": null,
+                    "full_value": "between a starting date and an ending date",
+                    "ner_type": "DATE",
+                    "normalized": "starting_date_and_ending_date",
+                    "namespace": "environment.time.relative:starting_date_and_ending_date",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ]
+        },
+        {
+            "sentence": "A patient can report adverse events for drugs taken in the last months",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "events"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "events",
+                    "adverse"
+                ],
+                [
+                    "drugs",
+                    "taken"
+                ]
+            ],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "NER:DATE",
+                    "phrase": "the last months",
+                    "env_name": "the last months",
+                    "env_value": null,
+                    "full_value": "the last months",
+                    "ner_type": "DATE",
+                    "normalized": "last_months",
+                    "namespace": "environment.time.relative:last_months",
+                    "data_type": "time",
+                    "method": "ner"
+                }
+            ]
+        },
+        {
+            "sentence": "A patient can report adverse events for immunizations received in the last months",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "report"
+            ],
+            "object": [
+                "events"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "events",
+                    "adverse"
+                ],
+                [
+                    "immunizations",
+                    "received"
+                ]
+            ],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "NER:DATE",
+                    "phrase": "the last months",
+                    "env_name": "the last months",
+                    "env_value": null,
+                    "full_value": "the last months",
+                    "ner_type": "DATE",
+                    "normalized": "last_months",
+                    "namespace": "environment.time.relative:last_months",
+                    "data_type": "time",
+                    "method": "ner"
+                }
+            ]
+        },
+        {
+            "sentence": "A public health agent can view adverse event reports within a given time period",
+            "subject": [
+                "health agent"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "event reports"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "health",
+                    "public"
+                ],
+                [
+                    "event reports",
+                    "adverse"
+                ]
+            ],
+            "env_attrs": [
+                {
+                    "category": "environment",
+                    "env_type": "temporal",
+                    "subcategory": "relative",
+                    "trigger": "within",
+                    "phrase": "a given time period",
+                    "env_name": "a given time period",
+                    "env_value": null,
+                    "full_value": "within a given time period",
+                    "ner_type": "",
+                    "normalized": "given_time_period",
+                    "namespace": "environment.time.relative:given_time_period",
+                    "data_type": "time",
+                    "method": "rule+dep"
+                }
+            ]
+        },
+        {
+            "sentence": "The administrator can set the session timeout period",
+            "subject": [
+                "administrator"
+            ],
+            "actions": [
+                "set"
+            ],
+            "object": [
+                "timeout period"
+            ],
+            "sa_oa_pairs": [],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient can view access logs sorted by date with the most recent access first",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "access logs"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "access logs",
+                    "sorted"
+                ],
+                [
+                    "access",
+                    "recent"
+                ]
+            ],
+            "env_attrs": []
+        },
+        {
+            "sentence": "A patient can view access logs sorted by role and by date for each role with the most recent first",
+            "subject": [
+                "patient"
+            ],
+            "actions": [
+                "Read"
+            ],
+            "object": [
+                "access logs"
+            ],
+            "sa_oa_pairs": [
+                [
+                    "access logs",
+                    "sorted"
+                ],
+                [
+                    "first",
+                    "recent"
+                ]
+            ],
+            "env_attrs": []
+        }
+    ]
+}

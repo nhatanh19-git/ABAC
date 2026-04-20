@@ -1,0 +1,288 @@
+﻿ID,Source,Sentence,temporal_gold,spatial_gold,temporal_OK,spatial_OK,temporal_final,spatial_final,note,annotator,status
+L0001,cyber,"As soon as the full paper deadline has passed, the papers can be assigned to the reviewers.",the full paper deadline has passed,,CHECK,CHECK,the full paper deadline has passed,,,,pending
+L0002,cyber,"For this process to work smoothly, the abstracts should be submitted at least one week  before the full paper is submitted.",one week  before the full paper is submitted,,CHECK,CHECK,one week  before the full paper is submitted,,,,pending
+L0003,cyber,Downloading of papers by the reviewers can start as soon as papers are submitted.,,,CHECK,CHECK,,,,,pending
+L0004,cyber,"In case there are less than 4 reviewers, this process is repeated with the list of reviewers who indicated a low preference for the paper.",,,CHECK,CHECK,,,,,pending
+L0005,cyber,"After the meeting, the reviewers’ comments are sent back to the authors, so that they can improve their paper.",After the meeting,,CHECK,CHECK,After the meeting,,,,pending
+L0006,cyber,"After the PC meeting, the PCC must inform the maintainer about the accepted papers, so that the notifications can be sent to the authors.",After the PC meeting,,CHECK,CHECK,After the PC meeting,,,,pending
+L0007,cyber,"After the program committee meeting has taken place, and papers have been selected, the (anonymous) comments can be automatically sent to the authors.",,,CHECK,CHECK,,,,,pending
+L0008,cyber,"When a reviewer reaches this maximum, he or she will not be part of the preference lists, because apparently his or her expertise is needed to review ’less popular’ papers.",,,CHECK,CHECK,,,,,pending
+L0009,cyber,The 4 reviewers with the least number of papers assigned so far ’get’ the paper.,,,CHECK,CHECK,,,,,pending
+L0010,cyber,"In case the ’expertise-value’ is equal, the reviewer with the least number of papers assigned so far ’gets’ the paper.",,,CHECK,CHECK,,,,,pending
+L0011,cyber,These overviews can be printed in case reviewers want to read the abstracts offline.,,,CHECK,CHECK,,,,,pending
+L0012,cyber,"Finally, after the camera-ready papers have been submitted, the proceedings must be prepared by the maintainer by entering the conference sessions and the numbers of the papers within those sections in a specific template file.",,,CHECK,CHECK,,,,,pending
+L0013,cyber,The pages of the reviewers are generated once by the maintainer when the paper distribution has been done.,,,CHECK,CHECK,,,,,pending
+L0014,cyber,"Based on the preferences and the reviewers' expertise, CyberChair calculates a paper assignment proposal for the chair, where as many as possible preferences of the reviewers are honored, provided that all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers.",,"all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers",CHECK,CHECK,,"all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers",,,pending
+L0015,cyber,"In case a reviewer has already submitted a review of the selected paper, hyperlinks to the reviews of the other reviewers are shown, so that the reviewer can read their opinion.",,,CHECK,CHECK,,,,,pending
+L0016,cyber,"When all submissions have arrived, suitable members of the Program Committee (PC) must be selected to review each paper.",,,CHECK,CHECK,,,,,pending
+L0017,cyber,"As soon as the reviewer has submitted his or her review, the review will be the default to be displayed in this frame when the reviewer clicks on the paper number in the top frame.",,,CHECK,CHECK,,,,,pending
+L0018,cyber,"Moreover, since we chose to regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes, this would make it almost impossible for reviewers to enter a review form.",,regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes,CHECK,CHECK,,regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes,,,pending
+L0019,cyber,"In case not enough reviewers can be found to review a paper, this is an indication that the script should be better tuned.",,,CHECK,CHECK,,,,,pending
+L0020,cyber,"For each paper, a list of the reviewers who indicated a high preference for the paper is generated.",,,CHECK,CHECK,,,,,pending
+L0021,cyber,"After the review process, the authors of submitted papers should submit a camera-ready version of their paper, analogous to step 2.",After the review process,,CHECK,CHECK,After the review process,,,,pending
+L0022,cyber,"Each time the reviewer clicks on a paper number in the top frame, CyberChair checks if the reviewer has already submitted his or her review.",,,CHECK,CHECK,,,,,pending
+L0023,cyber,"When displaying a review, the date and time of the last update of the review is shown as extra check.",When displaying a review,,CHECK,CHECK,When displaying a review,,,,pending
+L0024,cyber,"After clicking on a paper number several hyperlinks are generated to allow the paper to be downloaded, to display the abstract and to submit or update a review.",,,CHECK,CHECK,,,,,pending
+L0025,cyber,Papers that have not received enough bids should be assigned based on the expertise of the reviewers.,,Papers that have not received enough bids,CHECK,CHECK,,Papers that have not received enough bids,,,pending
+L0026,cyber,"If the publisher allows electronic versions, the maintainer should send or upload the proceedings, for further preparation by the publisher.",,,CHECK,CHECK,,,,,pending
+L0027,cyber,"After the paper distribution, CyberChair generates a personal, password-protected webpage for each reviewer.",After the paper distribution,,CHECK,CHECK,After the paper distribution,,,,pending
+L0028,cyber,"In case conflicting reviews exist, the reviewers can use the hyperlink that enables easy communication to the other reviewers by email.",,,CHECK,CHECK,,,,,pending
+L0029,cyber,"When the level of agreement differs too much, the reviewers and chair may give it special attention, even before the PC meeting takes place.",,,CHECK,CHECK,,,,,pending
+L0030,cyber,Not all reviewers like to fill in review forms on-line.,,,CHECK,CHECK,,,,,pending
+L0031,cyber,In The Information Lens  the authors focus on sharing information among a group of people to solve problems.,,In The Information Lens,CHECK,CHECK,,In The Information Lens,,,pending
+L0032,cyber,"After submission of a review, reviewers will be able to read the other reviewers' reviews.",After submission of a review,,CHECK,CHECK,After submission of a review,,,,pending
+L0033,cyber,"After submission of a review, reviewers will be able to prepare for the PC meeting.",After submission of a review,,CHECK,CHECK,After submission of a review,,,,pending
+L0034,cyber,"When a reviewer has submitted all his reviews and has time to review more papers, he may look at the overview containing all papers.",a reviewer has submitted all his reviews and has time to review more papers,,CHECK,CHECK,a reviewer has submitted all his reviews and has time to review more papers,,,,pending
+L0035,cyber,"When a reviewer has submitted all his reviews and has time to review more papers, he may select papers for which conflicting reviews exist.",When a reviewer has submitted all his reviews and has time to review more papers,,CHECK,CHECK,When a reviewer has submitted all his reviews and has time to review more papers,,,,pending
+L0036,cyber,"If there are still not enough reviewers for the paper, the expertise level of reviewers of all topics the paper covers is calculated.",,,CHECK,CHECK,,,,,pending
+L0037,cyber,"If there are still not enough reviewers for the paper, the paper is assigned to the reviewers with the highest overall expertise.",,,CHECK,CHECK,,,,,pending
+L0038,ibm,"""If no alternates are available, then no substitution will be made.""",,no alternates are available,CHECK,CHECK,,no alternates are available,,,pending
+L0039,ibm,"""If a course offering becomes full while a student is building a schedule including that offering, the student must be notified.""",,a course offering becomes full while a student is building a schedule including that offering,CHECK,CHECK,,a course offering becomes full while a student is building a schedule including that offering,,,pending
+L0040,ibm,"""If, in the Update a Professor  or Delete a Professor sub-flows, a professor with the specified id number does not exist, the system displays an error message.""","in the Update a Professor  or Delete a Professor sub-flows, a professor with the specified id number does not exist",,CHECK,CHECK,"in the Update a Professor  or Delete a Professor sub-flows, a professor with the specified id number does not exist",,,,pending
+L0041,ibm,"""If, in the Update a Student  or Delete a Student  sub-flows, a student with the specified id number does not exist, the system displays an error message.""","in the Update a Student  or Delete a Student  sub-flows, a student with the specified id number does not exist",,CHECK,CHECK,"in the Update a Student  or Delete a Student  sub-flows, a student with the specified id number does not exist",,,,pending
+L0042,ibm,"""If, in the Update a Schedule or Delete a Schedule sub-flows, the system is unable to retrieve the Student’s schedule, an error message is displayed.""","in the Update a Schedule or Delete a Schedule sub-flows, the system is unable to retrieve the Student’s schedule",,CHECK,CHECK,"in the Update a Schedule or Delete a Schedule sub-flows, the system is unable to retrieve the Student’s schedule",,,,pending
+L0043,ibm,"""If there is no conflict, the system updates the course offering information for each offering the professor selects (i.e., records the professor as the instructor for the course offering).""",,,CHECK,CHECK,,,,,pending
+L0044,ibm,"""If, in the Basic Flow, the professor is not eligible to teach any course offerings in the upcoming semester, the system will display an error message.""",,,CHECK,CHECK,,,,,pending
+L0045,ibm,"""If the Professor wishes to skip a particular student, the grade information can be left blank and filled in at a later time.""",,,CHECK,CHECK,,,,,pending
+L0046,ibm,"""Once the registration process is completed for a student, the registration system sends information to the billing system so the student can be billed for the semester.""",,registration process is completed for a student,CHECK,CHECK,,registration process is completed for a student,,,pending
+L0047,ibm,"""If, in the Submit Schedule sub-flow, the system determines that the Student has not satisfied the necessary prerequisites, or that the selected course offering is full, or that there are schedule conflicts, an error message is displayed.""",,"in the Submit Schedule sub-flow, the system determines that the Student has not satisfied the necessary prerequisites, or that the selected course offering is full, or that there are schedule conflicts",CHECK,CHECK,,"in the Submit Schedule sub-flow, the system determines that the Student has not satisfied the necessary prerequisites, or that the selected course offering is full, or that there are schedule conflicts",,,pending
+L0048,ibm,"""If the use case was successful, student grades for a course offering are updated.""",,,CHECK,CHECK,,,,,pending
+L0049,ibm,"""If the use case was successful, the student schedule is created, updated, or deleted.""",,,CHECK,CHECK,,,,,pending
+L0050,ibm,"""Once the Registrar updates the necessary information, the system updates the student information.""",Registrar updates the necessary information,,CHECK,CHECK,Registrar updates the necessary information,,,,pending
+L0051,ibm,"""Once the student has made his or her selections, the system updates the schedule for the Student using the selected course offerings.""",,,CHECK,CHECK,,,,,pending
+L0052,ibm,"""Once the Registrar updates the necessary information, the system updates the professor record.""",Registrar updates the necessary information,,CHECK,CHECK,Registrar updates the necessary information,,,,pending
+L0053,ibm,The Student can also update or delete course selections if changes are made within the add or drop period at the beginning of the semester.,changes are made within the add or drop period at the beginning of the semester,,CHECK,CHECK,changes are made within the add or drop period at the beginning of the semester,,,,pending
+L0054,ibm,Professors cannot change the course offerings they teach after registration for the current semester has been closed.,after registration for the current semester has been closed,,CHECK,CHECK,after registration for the current semester has been closed,,,,pending
+L0055,ibm,"""If, in the Basic Flow, the system cannot find any grade information from the previous semester for the Student, a message is displayed.""",,"in the Basic Flow, the system cannot find any grade information from the previous semester for the Student",CHECK,CHECK,,"in the Basic Flow, the system cannot find any grade information from the previous semester for the Student",,,pending
+L0056,ibm,"""If the system is unable to communicate with the Course Catalog System, the system will display an error message to the Student.""",,system is unable to communicate with the Course Catalog System,CHECK,CHECK,,system is unable to communicate with the Course Catalog System,,,pending
+L0057,ibm,"""If the use case was successful, the professor information is added, updated, or deleted from the system.""",,,CHECK,CHECK,,,,,pending
+L0058,ibm,"""If the schedule contains “enrolled in” course offerings, the Student must be removed from the course offering.""",,,CHECK,CHECK,,,,,pending
+L0059,ibm,"""If a course fills up during the actual registration process, the student must be notified of the change before submitting the schedule for processing.""",course fills up during the actual registration process,,CHECK,CHECK,course fills up during the actual registration process,,,,pending
+L0060,ibm,Students cannot register for course offerings after registration for the current semester has been closed.,,registration for the current semester has been closed,CHECK,CHECK,,registration for the current semester has been closed,,,pending
+L0061,ibm,The Close Registration processing cannot be performed if registration is in progress.,,registration is in progress,CHECK,CHECK,,registration is in progress,,,pending
+L0062,ibm,"""Once the student has made his or her selections, the system creates a schedule for the Student containing the selected course offerings.""",,,CHECK,CHECK,,,,,pending
+L0063,ibm,"""If the course offerings do not have at least three students at this point (some may have been added as a result of leveling), then the system cancels the course offering.""",,course offerings do not have at least three students at this point (some may have been added as a result of leveling),CHECK,CHECK,,course offerings do not have at least three students at this point (some may have been added as a result of leveling),,,pending
+L0064,ibm,"""If the systems find a schedule conflict when trying to establish the course offerings the Professor should take, the system will display an error message indicating that a schedule conflict has occurred.""",systems find a schedule conflict when trying to establish the course offerings the Professor should take,,CHECK,CHECK,systems find a schedule conflict when trying to establish the course offerings the Professor should take,,,,pending
+L0065,ibm,"""If the use case was successful, the student information is added, updated, or deleted from the system.""",,,CHECK,CHECK,,,,,pending
+L0066,ibm,"""If, in the Basic Flow, the Professor did not teach any course offerings in the previous semester, the system will display an error message.""",,,CHECK,CHECK,,,,,pending
+L0067,ibm,"""If, in the Basic Flow, the actor enters an invalid name possibly and possibly password, the system displays an error message.""",,,CHECK,CHECK,,,,,pending
+L0068,ibm,"""If the system is unable to communicate with the Billing System, the system will attempt to re-send the request after a specified period.""",,system is unable to communicate with the Billing System,CHECK,CHECK,,system is unable to communicate with the Billing System,,,pending
+L0069,ibm,"If, in the Delete A Student sub-flow, the Registrar decides not to delete the student,",,,CHECK,CHECK,,,,,pending
+L0070,ibm,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Student.",,it is determined that registration for the current semester has been closed,CHECK,CHECK,,it is determined that registration for the current semester has been closed,,,pending
+L0071,ibm,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Professor",,it is determined that registration for the current semester has been closed,CHECK,CHECK,,it is determined that registration for the current semester has been closed,,,pending
+L0072,collected,Customer service reps can use credit card number for the purpose of updating records if requested by a patient.,,requested by a patient,CHECK,CHECK,,requested by a patient,,,pending
+L0073,collected,"Customer Service Reps can modify credit card numbers for order processing, if the customer is notified by email of the change.",,,CHECK,CHECK,,,,,pending
+L0074,collected,"Customer service reps, ducks or Lawyers can use credit card number for the purpose of making treatment decisions if customer has opted-in.",,,CHECK,CHECK,,,,,pending
+L0075,collected,Admission nurses use SSN for reviewing eligibility if requested by a patient who is returning.,,requested by a patient who is returning,CHECK,CHECK,,requested by a patient who is returning,,,pending
+L0076,collected,Supervisors can collect personal information if required by law.,,,CHECK,CHECK,,,,,pending
+L0077,collected,Management can report customer transactions if required by law.,,,CHECK,CHECK,,,,,pending
+L0078,collected,"If the invoice’s total amount exceeds one million, then two different supervisors must authorize the invoice.",,,CHECK,CHECK,,,,,pending
+L0079,collected,"If the subject is a faculty member, then permit that subject to assign grades.",,,CHECK,CHECK,,,,,pending
+L0080,collected,"If the subject is not a faculty member, then permit that subject to enroll in courses.",,,CHECK,CHECK,,,,,pending
+L0081,collected,"Privacy laws require, however, that a person should have full access to any information stored about them (unless the well-being of a third party would be jeopardised by revealing the information).",,,CHECK,CHECK,,,,,pending
+L0082,collected,Pharmacy System can load medicines to the dispenser only at a time interval 12:00-13:00 in a day.,at a time interval 12:00-13:00 in a day,,CHECK,CHECK,at a time interval 12:00-13:00 in a day,,,,pending
+L0083,collected,Any subject with an e-mail name in the med.example.com domain can perform any action on any resource.,,,CHECK,CHECK,,,,,pending
+L0084,collected,"A person may read any record for which he or she is the designated parent or guardian, and for which the patient is under 16 years of age.",,he or she is the designated parent or guardian;  the patient is under 16 years of age,CHECK,CHECK,,he or she is the designated parent or guardian;  the patient is under 16 years of age,,,pending
+L0085,collected,"A physician may write to any medical element for which he or she is the designated primary care physician, provided an email is sent to the patient.",,email is sent to the patient,CHECK,CHECK,,email is sent to the patient,,,pending
+L0086,collected,"Users who do not have access to information should not be able to determine its characteristics (file size, file name, directory path, etc.)",,Users who do not have access to information,CHECK,CHECK,,Users who do not have access to information,,,pending
+L0087,collected,All users are given read or write access to objects only of the same classification (a secret user can only read or write to a secret document).,,objects only of the same classification,CHECK,CHECK,,objects only of the same classification,,,pending
+L0088,collected,"During the submission phase, an author may submit a paper.",submission phase,,CHECK,CHECK,submission phase,,,,pending
+L0089,collected,"During the review phase, reviewer may submit a review for paper if reviewer is assigned to review paper.",review phase,,CHECK,CHECK,review phase,,,,pending
+L0090,collected,"During the meeting phase, reviewer can read the scores for paper if reviewer has submitted a review for paper.",During the meeting phase,,CHECK,CHECK,During the meeting phase,,,,pending
+L0091,collected,A subject cannot review a project he or she has submitted.,,,CHECK,CHECK,,,,,pending
+L0092,collected,A subject cannot approve projects he or she has reviewed or submitted.,,,CHECK,CHECK,,,,,pending
+L0093,collected,"The PC chair can assign a paper to a PC member for reviewing, except if he is one of its authors.",,,CHECK,CHECK,,,,,pending
+L0094,collected,"A reviewer of a paper can resign, unless he has already appointed a sub-reviewer for the paper.",,,CHECK,CHECK,,,,,pending
+L0095,collected,"A sub-reviewer can resign, unless he has already submitted his review.",,,CHECK,CHECK,,,,,pending
+L0096,collected,"If the subject is a student, then do not permit that subject to assign grades.",,,CHECK,CHECK,,,,,pending
+L0097,collected,In an electronic system we can allow residents to hook into the network at any time as long as they can view only their own data and cannot make arbitrary changes.,,they can view only their own data and cannot make arbitrary changes,CHECK,CHECK,,they can view only their own data and cannot make arbitrary changes,,,pending
+L0098,collected,"However, it should not perform these operations when it is loading medicines to the medicine dispenser.",,,CHECK,CHECK,,,,,pending
+L0099,collected,"If a subject is not a pc-chair or admin, then he or she may not set the meeting flag.",,,CHECK,CHECK,,,,,pending
+L0100,collected,"If someone is not a pc-chair or admin, then he or she can never see paper-review-rc for which he or she is conflicted.",,,CHECK,CHECK,,,,,pending
+L0101,collected,"Although she can enter the past medical records when a resident is admitted,",when a resident is admitted,,CHECK,CHECK,when a resident is admitted,,,,pending
+L0102,t2p,"""When an LHCP views a list of his upcoming appointments, system presents an option to edit or remove the appointment.""",,,CHECK,CHECK,,,,,pending
+L0103,t2p,The LHCP views all patients with which he or she has ever had an office visit with.,,,CHECK,CHECK,,,,,pending
+L0104,t2p,"""After a message is sent, the LHCP is directed to his message outbox.""",,,CHECK,CHECK,,,,,pending
+L0105,t2p,"""When the chosen patient satisfies the preconditions of the chosen chronic disease, the LHCP is provided with a warning message.""",,chosen patient satisfies the preconditions of the chosen chronic disease,CHECK,CHECK,,chosen patient satisfies the preconditions of the chosen chronic disease,,,pending
+L0106,t2p,"""After a message is sent, the patient or personal representative is directed to his message outbox.""",,,CHECK,CHECK,,,,,pending
+L0107,t2p,"""By default, the messages in the list should be ordered by timestamp, the most recent first.""",,,CHECK,CHECK,,,,,pending
+L0108,t2p,"""The HCP must provide instructions, or else they cannot add the prescription.""",,,CHECK,CHECK,,,,,pending
+L0109,t2p,"""By default, the messages in the message inbox should be ordered by timestamp, the most recent first.""",,,CHECK,CHECK,,,,,pending
+L0110,t2p,Patients with a weight value 5% more or less than the immediate previously recorded weight value are highlighted.,,Patients with a weight value 5% more or less than the immediate previously recorded weight value,CHECK,CHECK,,Patients with a weight value 5% more or less than the immediate previously recorded weight value,,,pending
+L0111,t2p,The patient views all LHCPs the patient has ever had an office visit with and those whom he or she had designated.,,patient has ever had an office visit with; he or she had designated,CHECK,CHECK,,patient has ever had an office visit with; he or she had designated,,,pending
+L0112,t2p,System presents a screen upon which he can choose a date range.,upon which he can choose a date range,,CHECK,CHECK,upon which he can choose a date range,,,,pending
+L0113,t2p,"""A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID, drug, and symptoms.""",,LHCP who prescribed the medication,CHECK,CHECK,,LHCP who prescribed the medication,,,pending
+L0114,t2p,"""Upon reading the report, the public health agent can send a """"fake email"""" message to the adverse event reporter to gain more information about the report.""",,,CHECK,CHECK,,,,,pending
+L0115,t2p,"""When the patient and LHCP are chosen, system presents the MID of the patient that will be sent to the receiving HCP.""",,patient and LHCP are chosen,CHECK,CHECK,,patient and LHCP are chosen,,,pending
+L0116,t2p,(If a patient or personal representative has not taken an office visit satisfaction survey for an office visit yet) The patient may take the survey for an office visit,,patient or personal representative has not taken an office visit satisfaction survey for an office visit yet,CHECK,CHECK,,patient or personal representative has not taken an office visit satisfaction survey for an office visit yet,,,pending
+L0117,t2p,"(if the survey has already been taken, the patient or personal health representative will not have the ability to take the survey).",,,CHECK,CHECK,,,,,pending
+L0118,t2p,"(if the survey has already been taken, the patient or personal health representative will not have the ability to view their previously submitted survey).",,,CHECK,CHECK,,,,,pending
+L0119,acre,"If the confirmation screen does not show the name of the intended patient, the HCP is then prompted to input the correct patient identification information again.",,confirmation screen does not show the name of the intended patient,CHECK,CHECK,,confirmation screen does not show the name of the intended patient,,,pending
+L0120,acre,"When an LHCP views a list of his or her upcoming appointments, they are presented with an option to edit or remove the appointment.",,,CHECK,CHECK,,,,,pending
+L0121,acre,The LHCP does not confirm the selection and can try again.,,,CHECK,CHECK,,,,,pending
+L0122,acre,The sending HCP does not confirm the selection and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0123,acre,"In the list of in transit lab procedures , the Lab Technician can update the status to received when the sample has been received in his or her lab.",,,CHECK,CHECK,,,,,pending
+L0124,acre,The LHCP is presented with a list of other appointments that conflict with the new one.,,appointments that conflict with the new one,CHECK,CHECK,,appointments that conflict with the new one,,,pending
+L0125,acre,"If the requested appointment time does conflict with an existing appointments, the patient is presented with a list of the three next non-overlapping available appointment times within 7 days of the requested date.",requested appointment time does conflict with an existing appointments,,CHECK,CHECK,requested appointment time does conflict with an existing appointments,,,,pending
+L0126,acre,"If answer to security question is correct, allow user to change their password.",,,CHECK,CHECK,,,,,pending
+L0127,acre,The administrator types an invalid hospital ID and is prompted to try again.,,administrator types an invalid hospital ID,CHECK,CHECK,,administrator types an invalid hospital ID,,,pending
+L0128,acre,A session that has been inactive for more than ten minutes is terminated .,,session that has been inactive for more than ten minutes,CHECK,CHECK,,session that has been inactive for more than ten minutes,,,pending
+L0129,acre,The LHCP types an invalid age range and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0130,acre,"The HCP must provide instructions (can neither be empty nor the default form field value), or else they cannot add the prescription.",,,CHECK,CHECK,,,,,pending
+L0131,acre,"After the patient logs in, an activity feed is displayed .",,patient logs in,CHECK,CHECK,,patient logs in,,,pending
+L0132,acre,"If the LHCP is not one of the patient's DLHCP or the UAP associated with one of their DLHCP, a message is sent to the patient and their personal representative .",,LHCP is not one of the patient's DLHCP;  UAP associated with one of their DLHCP,CHECK,CHECK,,LHCP is not one of the patient's DLHCP;  UAP associated with one of their DLHCP,,,pending
+L0133,acre,The HCP types an invalid medical identification number and is prompted to try again.,,HCP types an invalid medical identification number,CHECK,CHECK,,HCP types an invalid medical identification number,,,pending
+L0134,acre,An HCP can reassign a previously created lab procedure to a different Lab Technician if the lab procedure is not yet in the testing state.,,lab procedure is not yet in the testing state,CHECK,CHECK,,lab procedure is not yet in the testing state,,,pending
+L0135,acre,The LHCP or ER does not confirm the selection and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0136,acre,"After entering all required information, the HCP selects the Add button .",,entering all required information,CHECK,CHECK,,entering all required information,,,pending
+L0137,acre,A sending HCP edits a previously created patient referral as long as the referral has not been viewed by the receiving HCP.,,,CHECK,CHECK,,,,,pending
+L0138,acre,"On the patient homepage, the Patient views a notification center.",,patient homepage,CHECK,CHECK,,patient homepage,,,pending
+L0139,acre,The HCP can choose to remove the lab procedure as long as the status is either in transit or received.,,status is either in transit or received,CHECK,CHECK,,status is either in transit or received,,,pending
+L0140,acre,"Similar to an administrator, a software tester is added by directly entering the software tester into the database by an administrator that has access to the database.",,administrator that has access to the database,CHECK,CHECK,,administrator that has access to the database,,,pending
+L0141,acre,"A patient can click View Full Calendar link to view his or her appointments in the current month together with his or her office visit dates, prescription dates, and lab procedure dates in the current month displayed on a calendar for the current month .","view his or her appointments in the current month together with his or her office visit dates, prescription dates, and lab procedure dates in the current month",,CHECK,CHECK,"view his or her appointments in the current month together with his or her office visit dates, prescription dates, and lab procedure dates in the current month",,,,pending
+L0142,acre,The user inputs the MID of a patient who is deceased and is prompted to try again.,,user inputs the MID of a patient who is deceased,CHECK,CHECK,,user inputs the MID of a patient who is deceased,,,pending
+L0143,acre,The HCP types a invalid zip code (zip codes are five digits) and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0144,acre,"An HCP chooses Office Visit Reminders and then to identify chronic patients who need an office visit , older patients who need a flu shot , or any patient who is overdue for an immunization .",,"identify chronic patients who need an office visit , older patients who need a flu shot , or any patient who is overdue for an immunization",CHECK,CHECK,,"identify chronic patients who need an office visit , older patients who need a flu shot , or any patient who is overdue for an immunization",,,pending
+L0145,acre,The patient chooses to view all LHCPs the patient has ever had an office visit with and those whom he or she had designated .,,patient has ever had an office visit with and those whom he or she had designated,CHECK,CHECK,,patient has ever had an office visit with and those whom he or she had designated,,,pending
+L0146,acre,The user inputs invalid information and is prompted to try again.,,user inputs invalid information,CHECK,CHECK,,user inputs invalid information,,,pending
+L0147,acre,The administrator types an invalid code information and is prompted to try again.,,administrator types an invalid code information,CHECK,CHECK,,administrator types an invalid code information,,,pending
+L0148,acre,The LHCP types an invalid MID and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0149,acre,"By default, the messages in the list should be ordered by timestamp, the most recent first.",,,CHECK,CHECK,,,,,pending
+L0150,acre,The LHCP does not confirm the selection and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0151,acre,The health care professional does not confirm the selection and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0152,acre,The HCP types an invalid date and is prompted to try again.,HCP types an invalid date,,CHECK,CHECK,HCP types an invalid date,,,,pending
+L0153,acre,The LHCP types an invalid medical identification number and is prompted to try again.,,LHCP types an invalid medical identification number,CHECK,CHECK,,LHCP types an invalid medical identification number,,,pending
+L0154,acre,"After a message is sent, the patient or personal representative is directed to his or her message outbox.",After a message is sent,,CHECK,CHECK,After a message is sent,,,,pending
+L0155,acre,The health care personnel does not confirm the selection and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0156,acre,"While documenting an office visit, the HCP selects to prescribe a patient a drug by selecting its NDC and name .",,,CHECK,CHECK,,,,,pending
+L0157,acre,"When a person logs into iTrust, if he or she is a personal representative, they view their own records or those of the person or people they are representing.",,he or she is a personal representative,CHECK,CHECK,,he or she is a personal representative,,,pending
+L0158,acre,The HCP is notified if any of the fields contain characters that are not in the above list.,,any of the fields contain characters that are not in the above list,CHECK,CHECK,,any of the fields contain characters that are not in the above list,,,pending
+L0159,acre,The HCP does not confirm the selection and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0160,acre,The administrator types an invalid name and is prompted to try again.,,administrator types an invalid name,CHECK,CHECK,,administrator types an invalid name,,,pending
+L0161,acre,"Once the date range is selected, the LHCP can see the patient name; patient phone number; personal representative (name and phone number), if applicable; and the blood pressure, glucose levels, height, weight, and pedometer readings as well as whom reported the data (patient, UAP name, personal representative name) for that date range.",date range is selected,,CHECK,CHECK,date range is selected,,,,pending
+L0162,acre,"After a message is sent, the LHCP is directed to to his or her message outbox.",,,CHECK,CHECK,,,,,pending
+L0163,acre,The LHCP is notified if a new or edited appointment time conflicts with another existing appointment .,a new or edited appointment time conflicts with another existing appointment,,CHECK,CHECK,a new or edited appointment time conflicts with another existing appointment,,,,pending
+L0164,acre,The HCP types an invalid diagnosis code and is prompted to try again.,,,CHECK,CHECK,,,,,pending
+L0165,acre,The administrator types an invalid ID and is prompted to try again.,,administrator types an invalid ID,CHECK,CHECK,,administrator types an invalid ID,,,pending
+L0166,acre,"When the HCP selects the Other reason, the HCP shall enter free-style text to provide the details for Other reasons.",,,CHECK,CHECK,,,,,pending
+L0167,acre,"By default, the messages in the message inbox or outbox should be ordered by timestamp, the most recent first.",,,CHECK,CHECK,,,,,pending
+L0168,acre,"Upon recording the results of the lab procedure, the status is updated to pending.",,,CHECK,CHECK,,,,,pending
+L0169,acre,The administrator types an invalid hospital name and is prompted to try again.,,administrator types an invalid hospital name,CHECK,CHECK,,administrator types an invalid hospital name,,,pending
+L0170,acre,"If the requested appointment time does not conflict with any existing appointment for the LHCP, the request is saved.",requested appointment time does not conflict with any existing appointment for the LHCP,,CHECK,CHECK,requested appointment time does not conflict with any existing appointment for the LHCP,,,,pending
+L0171,acre,"If the lab procedure status is marked as completed, the patient can see the results and the HCP-provided comments.",,lab procedure status is marked as completed,CHECK,CHECK,,lab procedure status is marked as completed,,,pending
+L0172,acre,"Privacy laws require, however, that a person should have full access to any information stored about them (unless the well-being of a third party would be jeopardised by revealing the information).",,unless the well-being of a third party would be jeopardised by revealing the information,CHECK,CHECK,,unless the well-being of a third party would be jeopardised by revealing the information,,,pending
+L0173,acre,"After the user modifies the criteria, the user chooses to click the Cancel button to cancel the modifications of the filter (i.e., repopulate the user interface with the values of the filtering criteria from the previously saved filter),",,,CHECK,CHECK,,,,,pending
+L0174,acre,"After the user modifies the criteria, the user chooses to click the Test Search button to search (i.e., displaying the message inbox  including only the messages satisfying the specified filtering criteria),",,,CHECK,CHECK,,,,,pending
+L0175,acre,"After the user modifies the criteria, the user chooses to click the Save button to save the modified filter.",,,CHECK,CHECK,,,,,pending
+L0176,acre,"If the security question or answer has been set (it is not null) , present security question.",,,CHECK,CHECK,,,,,pending
+L0177,acre,"If the security question or answer has been set (it is not null) , obtain answer .",,,CHECK,CHECK,,,,,pending
+L0178,acre,"If a patient or personal health representative has not taken an office visit satisfaction survey for an office visit yet, the patient may choose to take the survey for an office visit",,patient or personal health representative has not taken an office visit satisfaction survey for an office visit yet,CHECK,CHECK,,patient or personal health representative has not taken an office visit satisfaction survey for an office visit yet,,,pending
+L0179,acre,"(if the survey has already been taken, the patient or personal health representative will not have the ability to take the survey )",,,CHECK,CHECK,,,,,pending
+L0180,acre,"(if the survey has already been taken, the patient or personal health representative will not have the ability to view their previously submitted survey)",,,CHECK,CHECK,,,,,pending
+L0181,acre,and the administrator can choose among only the hospitals provided in the hospital list pull down menu.,,,CHECK,CHECK,,,,,pending
+L0182,acre,the administrator can choose among only the hospitals provided in the hospital list pull down menu.,,,CHECK,CHECK,,,,,pending
+L0183,acre,"When viewing the calendar, the user selects an appointment from the list to read comment by clicking the 'Read Comments' link beside the row for the appointment,",,,CHECK,CHECK,,,,,pending
+L0184,acre,Upon notice of allergies possibly and possibly interactions the HCP must either choose to proceed with the prescription,,,CHECK,CHECK,,,,,pending
+L0185,acre,Upon notice of allergies possibly and possibly interactions the HCP must cancel the prescription,,,CHECK,CHECK,,,,,pending
+L0186,acre,Upon notice of allergies possibly and possibly interactions the HCP must remain on the office visit page.,,,CHECK,CHECK,,,,,pending
+L0187,acre,Patient MID should be the number assigned when the patient is added to the system,,patient is added to the system,CHECK,CHECK,,patient is added to the system,,,pending
+S0188,self_created,A nurse can view patient records during night shifts.,,,,,,,,,pending
+S0189,self_created,A doctor may access emergency data only between 8pm and 6am.,,,,,,,,,pending
+S0190,self_created,Senior physicians can update medical records during working hours.,,,,,,,,,pending
+S0191,self_created,Lab technicians can run tests only within business hours.,,,,,,,,,pending
+S0192,self_created,On-call nurses may override medication schedules at night.,,,,,,,,,pending
+S0193,self_created,A pharmacist can issue controlled substances only during daytime.,,,,,,,,,pending
+S0194,self_created,ICU staff may monitor critical patients during all hours.,,,,,,,,,pending
+S0195,self_created,A surgeon can access operation logs only during business days.,,,,,,,,,pending
+S0196,self_created,A hospital administrator can approve budgets before the fiscal deadline.,,,,,,,,,pending
+S0197,self_created,Interns can access teaching resources only during supervision hours.,,,,,,,,,pending
+S0198,self_created,A professor can submit grades only between semester start and end.,,,,,,,,,pending
+S0199,self_created,Students may access exam results after the grading period.,,,,,,,,,pending
+S0200,self_created,Teaching assistants can modify course content during weekdays.,,,,,,,,,pending
+S0201,self_created,Department heads can approve courses within the registration period.,,,,,,,,,pending
+S0202,self_created,Librarians can extend borrowing periods during exam weeks.,,,,,,,,,pending
+S0203,self_created,Students can submit assignments only before the deadline.,,,,,,,,,pending
+S0204,self_created,A dean can modify academic policies during the review period.,,,,,,,,,pending
+S0205,self_created,Research assistants can access lab equipment on weekdays.,,,,,,,,,pending
+S0206,self_created,Advisors may schedule appointments only during office hours.,,,,,,,,,pending
+S0207,self_created,Students can register for courses only during enrollment periods.,,,,,,,,,pending
+S0208,self_created,Reviewers can submit evaluations before the review deadline.,,,,,,,,,pending
+S0209,self_created,Authors may revise papers within the rebuttal period.,,,,,,,,,pending
+S0210,self_created,PC chairs can assign papers during the bidding phase.,,,,,,,,,pending
+S0211,self_created,Program committee members can see all reviews after decisions.,,,,,,,,,pending
+S0212,self_created,Workshop organizers can add sessions before the schedule freeze.,,,,,,,,,pending
+S0213,self_created,Presenters can upload slides during the week before the conference.,,,,,,,,,pending
+S0214,self_created,Attendees can access proceedings after the conference date.,,,,,,,,,pending
+S0215,self_created,Authors of accepted papers can submit camera-ready after notification.,,,,,,,,,pending
+S0216,self_created,Reviewers may update scores during the discussion phase.,,,,,,,,,pending
+S0217,self_created,Session chairs can modify room assignments before the conference.,,,,,,,,,pending
+S0218,self_created,Employees can submit expense reports during the monthly cycle.,,,,,,,,,pending
+S0219,self_created,Managers can approve budgets only within the quarterly review period.,,,,,,,,,pending
+S0220,self_created,Auditors can access financial records during the audit period.,,,,,,,,,pending
+S0221,self_created,System administrators can schedule maintenance only during off-hours.,,,,,,,,,pending
+S0222,self_created,Contractors can access the system only between 9am and 5pm.,,,,,,,,,pending
+S0223,self_created,Security officers can review access logs during business hours.,,,,,,,,,pending
+S0224,self_created,Finance staff can process payments only on business days.,,,,,,,,,pending
+S0225,self_created,HR managers can update payroll only before the payroll deadline.,,,,,,,,,pending
+S0226,self_created,Interns can access resources only during their contract period.,,,,,,,,,pending
+S0227,self_created,Executives can view board materials only before the board meeting.,,,,,,,,,pending
+S0228,self_created,A senior nurse on night shift may change approved lab procedures.,,,,,,,,,pending
+S0229,self_created,Junior doctors can consult specialists only during rounds.,,,,,,,,,pending
+S0230,self_created,A researcher can query the database only during allocated slots.,,,,,,,,,pending
+S0231,self_created,Lab staff can access samples only during designated testing periods.,,,,,,,,,pending
+S0232,self_created,A student can take the exam only within the scheduled time window.,,,,,,,,,pending
+S0233,self_created,A customer can place orders between 8am and 10pm.,,,,,,,,,pending
+S0234,self_created,A driver can update delivery status only during active routes.,,,,,,,,,pending
+S0235,self_created,A cashier can process refunds only during business hours.,,,,,,,,,pending
+S0236,self_created,An IT technician can deploy updates only during maintenance windows.,,,,,,,,,pending
+S0237,self_created,A compliance officer can freeze accounts only during investigations.,,,,,,,,,pending
+S0238,self_created,Administrators accessing from internal VPN can modify system settings.,,,,,,,,,pending
+S0239,self_created,Doctors connecting via the hospital network can view all records.,,,,,,,,,pending
+S0240,self_created,Remote staff using secure connections may access HR systems.,,,,,,,,,pending
+S0241,self_created,Users on the corporate network can submit expense reports.,,,,,,,,,pending
+S0242,self_created,External consultants accessing through the client portal can view reports.,,,,,,,,,pending
+S0243,self_created,Staff connecting via hospital intranet can update patient records.,,,,,,,,,pending
+S0244,self_created,Employees working remotely through VPN can access internal tools.,,,,,,,,,pending
+S0245,self_created,A developer accessing from the office network can deploy code.,,,,,,,,,pending
+S0246,self_created,A contractor using the company VPN can access project files.,,,,,,,,,pending
+S0247,self_created,An analyst connecting from the secure network can run queries.,,,,,,,,,pending
+S0248,self_created,Nurses at Ward A can access ward-specific patient records.,,,,,,,,,pending
+S0249,self_created,Physicians within the ICU can override standard protocols.,,,,,,,,,pending
+S0250,self_created,Staff inside the secure facility can access classified data.,,,,,,,,,pending
+S0251,self_created,Managers at headquarters can approve regional requests.,,,,,,,,,pending
+S0252,self_created,Technicians on-site can modify equipment configurations.,,,,,,,,,pending
+S0253,self_created,Security guards within the data center can access surveillance feeds.,,,,,,,,,pending
+S0254,self_created,Researchers inside the laboratory can run experiments.,,,,,,,,,pending
+S0255,self_created,Healthcare workers within the hospital can view patient charts.,,,,,,,,,pending
+S0256,self_created,A janitor inside the server room must log their presence.,,,,,,,,,pending
+S0257,self_created,Visitors at reception must register before accessing the building.,,,,,,,,,pending
+S0258,self_created,Administrators using trusted workstations can modify system settings.,,,,,,,,,pending
+S0259,self_created,Doctors with hospital-issued devices can access patient records.,,,,,,,,,pending
+S0260,self_created,Staff using encrypted laptops may work with sensitive data.,,,,,,,,,pending
+S0261,self_created,Managers via the official management system can approve budgets.,,,,,,,,,pending
+S0262,self_created,Nurses through the bedside terminal can update patient charts.,,,,,,,,,pending
+S0263,self_created,Analysts using secure workstations can access financial models.,,,,,,,,,pending
+S0264,self_created,Employees via two-factor authenticated devices can access HR portals.,,,,,,,,,pending
+S0265,self_created,Researchers using approved lab systems can record experiment data.,,,,,,,,,pending
+S0266,self_created,IT staff through the admin console can view server logs.,,,,,,,,,pending
+S0267,self_created,A user via a managed device can access cloud resources.,,,,,,,,,pending
+S0268,self_created,Employees within the finance department can view budget reports.,,,,,,,,,pending
+S0269,self_created,Staff within the marketing division can edit campaign materials.,,,,,,,,,pending
+S0270,self_created,Users within the engineering team can access source code.,,,,,,,,,pending
+S0271,self_created,Managers within regional offices can approve local expenses.,,,,,,,,,pending
+S0272,self_created,Members within the security group can access audit trails.,,,,,,,,,pending
+S0273,self_created,Analysts from the data science department can run ML models.,,,,,,,,,pending
+S0274,self_created,Admins from the IT department can reset user passwords.,,,,,,,,,pending
+S0275,self_created,Staff from the legal department can access contract templates.,,,,,,,,,pending
+S0276,self_created,Members within the executive committee can view board resolutions.,,,,,,,,,pending
+S0277,self_created,Employees within the HR department can update personnel records.,,,,,,,,,pending
+S0278,self_created,A nurse from the ICU can access critical patient data from the hospital network.,,,,,,,,,pending
+S0279,self_created,A manager within the finance department can approve using the ERP system.,,,,,,,,,pending
+S0280,self_created,Doctors at City Hospital using hospital devices can view lab results.,,,,,,,,,pending
+S0281,self_created,Remote employees via VPN within business hours can access the intranet.,,,,,,,,,pending
+S0282,self_created,Staff inside the headquarters using secure terminals can modify policies.,,,,,,,,,pending
+S0283,self_created,Administrators within the IT department via the admin portal can reset accounts.,,,,,,,,,pending
+S0284,self_created,Researchers inside the lab using approved workstations can run simulations.,,,,,,,,,pending
+S0285,self_created,Nurses at night shift using bedside terminals can update medication records.,,,,,,,,,pending
+S0286,self_created,Users from the approved network within the corporate premises can login.,,,,,,,,,pending
+S0287,self_created,An analyst inside the data center using a secure system can access raw logs.,,,,,,,,,pending

@@ -1,0 +1,10 @@
+INPUT: A senior nurse can read and write medical records during business hours within the hospital.
+
+--- Extracted ABAC Policy (6 Modules) ---
+Subject:  nurse
+Actions:  ['Read', 'Write']
+Object:   records
+Environment: environment:time:during_business_hour_within_hospital = "during_business_hour_within_hospital", environment:location:within_hospital = "within_hospital"
+Other Attributes:
+  [SUBJECT] subject:role:senior_nurse = "senior_nurse"
+  [OBJECT] object:type:medical_record = "medical_record"

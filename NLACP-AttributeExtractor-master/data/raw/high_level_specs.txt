@@ -1,0 +1,5 @@
+1. The hospital management system allows a doctor to view patient health records.
+2. The registration module enables an admin to create a new user account.
+3. The HR department process requires a manager to approve employee leave requests.
+4. The financial subsystem permits an accountant to process invoice payments.
+5. In the academic portal, a lecturer can submit final exam grades.

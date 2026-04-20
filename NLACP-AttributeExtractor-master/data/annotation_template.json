@@ -1,0 +1,140 @@
+{
+    "_meta": {
+        "description": "ABAC Policy Annotation Dataset",
+        "paper": "Alohaly et al. 2019 — Automated extraction of attributes from natural language ABAC Policies",
+        "version": "1.0",
+        "annotation_guide": {
+            "subject": "Người/nhóm được cấp quyền (authorized entity)",
+            "action": "Hành động được thực hiện (can/may/must + verb)",
+            "object": "Tài nguyên bị tác động (resource)",
+            "subject_attributes": "Tính chất/đặc điểm mô tả subject",
+            "object_attributes": "Tính chất/đặc điểm mô tả object",
+            "valid": "true = attribute này thực sự mô tả quyền truy cập, false = noise"
+        },
+        "sources": [
+            "iTrust: https://sites.google.com/site/accesscontrolruleextraction",
+            "IBM App dataset (cùng link)",
+            "CyberChair dataset (cùng link)",
+            "Tự tạo thủ công"
+        ],
+        "target_count": 851,
+        "current_count": 0
+    },
+    "policies": [
+        {
+            "_comment": "=== MẪU ĐÃ ANNOTATE — dùng làm tham chiếu ===",
+            "id": "EXAMPLE_001",
+            "source": "manual",
+            "annotator": "PAV",
+            "sentence": "An on-call senior nurse may change the list of approved lab procedures.",
+            "subject": "nurse",
+            "action": "change",
+            "object": "procedures",
+            "subject_attributes": [
+                {
+                    "value": "on-call",
+                    "valid": true,
+                    "dep": "compound"
+                },
+                {
+                    "value": "senior",
+                    "valid": true,
+                    "dep": "amod"
+                }
+            ],
+            "object_attributes": [
+                {
+                    "value": "approved",
+                    "valid": true,
+                    "dep": "amod"
+                },
+                {
+                    "value": "lab",
+                    "valid": true,
+                    "dep": "compound"
+                }
+            ]
+        },
+        {
+            "_comment": "=== MẪU ĐÃ ANNOTATE ===",
+            "id": "EXAMPLE_002",
+            "source": "manual",
+            "annotator": "PAV",
+            "sentence": "A junior lab technician can request follow-up lab procedures.",
+            "subject": "technician",
+            "action": "request",
+            "object": "procedures",
+            "subject_attributes": [
+                {
+                    "value": "junior",
+                    "valid": true,
+                    "dep": "amod"
+                },
+                {
+                    "value": "lab",
+                    "valid": true,
+                    "dep": "compound"
+                }
+            ],
+            "object_attributes": [
+                {
+                    "value": "follow-up",
+                    "valid": true,
+                    "dep": "amod"
+                },
+                {
+                    "value": "lab",
+                    "valid": true,
+                    "dep": "compound"
+                }
+            ]
+        },
+        {
+            "_comment": "=== MẪU ĐÃ ANNOTATE ===",
+            "id": "EXAMPLE_003",
+            "source": "manual",
+            "annotator": "PAV",
+            "sentence": "Managers in the finance department can approve expense reports.",
+            "subject": "Managers",
+            "action": "approve",
+            "object": "reports",
+            "subject_attributes": [],
+            "object_attributes": [
+                {
+                    "value": "finance",
+                    "valid": true,
+                    "dep": "compound"
+                },
+                {
+                    "value": "expense",
+                    "valid": true,
+                    "dep": "compound"
+                }
+            ]
+        },
+        {
+            "_comment": "=== TEMPLATE TRỐNG — copy khi annotate ===",
+            "id": "TEMPLATE",
+            "source": "iTrust | ibm | cyberchair | manual",
+            "annotator": "TÊN_BẠN",
+            "sentence": "PASTE CÂU VÀO ĐÂY",
+            "subject": null,
+            "action": null,
+            "object": null,
+            "subject_attributes": [
+                {
+                    "value": "...",
+                    "valid": true,
+                    "dep": "amod | compound | acl | prep | nummod"
+                }
+            ],
+            "object_attributes": [
+                {
+                    "value": "...",
+                    "valid": true,
+                    "dep": "amod | compound | acl | prep | nummod"
+                }
+            ]
+        }
+    ]
+}

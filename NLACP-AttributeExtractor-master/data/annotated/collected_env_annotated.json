@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "collected_1857",
+    "dataset": "collected",
+    "sentence": "Employees ranked as professors or tenured assistant professors can select from, insert into, and delete from graduate admission related tables in the database.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1858",
+    "dataset": "collected",
+    "sentence": "Customer Service Reps, Pharmacists, and Billing Reps can collect and use customer name and date of birth to help confirm identity.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1859",
+    "dataset": "collected",
+    "sentence": "Customer service reps can use credit card number for the purpose of updating records if requested by a patient.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "requested by a patient",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1860",
+    "dataset": "collected",
+    "sentence": "Customer Service Reps, Pharmacists, and Billing Reps can collect and use customer name and e-mail addresses.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1861",
+    "dataset": "collected",
+    "sentence": "Shipping Reps can use customer name and customer mailing addresses to ship orders.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1862",
+    "dataset": "collected",
+    "sentence": "Billing Reps can use credit card numbers for order processing.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1863",
+    "dataset": "collected",
+    "sentence": "Customer Service Reps can modify credit card numbers for order processing, if the customer is notified by email of the change.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "customer is notified by email of the change",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1864",
+    "dataset": "collected",
+    "sentence": "Customer service reps, ducks or Lawyers can use credit card number for the purpose of making treatment decisions if customer has opted-in.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "customer has opted-in",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1865",
+    "dataset": "collected",
+    "sentence": "Admission nurses use SSN for reviewing eligibility if requested by a patient who is returning.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "requested by a patient who is returning",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1866",
+    "dataset": "collected",
+    "sentence": "Customer service reps and managers may collect and use name and social security number for the purpose of confirming identity.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1867",
+    "dataset": "collected",
+    "sentence": "The organisation may use email addresses to answer inquiries.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1868",
+    "dataset": "collected",
+    "sentence": "Supervisors can collect personal information if required by law.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "required by law",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1869",
+    "dataset": "collected",
+    "sentence": "Financial consultants can collect and use customer name for the purpose of confirming identity.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1870",
+    "dataset": "collected",
+    "sentence": "Financial analysts can use customer accounts to make loan decisions.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1871",
+    "dataset": "collected",
+    "sentence": "Management can report customer transactions if required by law.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "required by law",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1872",
+    "dataset": "collected",
+    "sentence": "The director chooses options from the package to give to all employees.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1873",
+    "dataset": "collected",
+    "sentence": "He or she also can read the information about the distribution of options.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1874",
+    "dataset": "collected",
+    "sentence": "The director can promote an employee to be a  manager.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1875",
+    "dataset": "collected",
+    "sentence": "An employee can appoint another employee to be his advocate, and have read access to his bonus information – for example, this might be useful if he needs help from a trade union.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1876",
+    "dataset": "collected",
+    "sentence": "For example, write a check use case should be invoked by (authorized to) clerk role.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1877",
+    "dataset": "collected",
+    "sentence": "If the invoice’s total amount exceeds one million, then two different supervisors must authorize the invoice.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "invoice’s total amount exceeds one million",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1878",
+    "dataset": "collected",
+    "sentence": "A professor can review the same project at most one time.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1879",
+    "dataset": "collected",
+    "sentence": "Only the business office manager and the dean can approve a project.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1880",
+    "dataset": "collected",
+    "sentence": "The PC chair appoints the PC members.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1881",
+    "dataset": "collected",
+    "sentence": "A PC member can resign his membership.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1882",
+    "dataset": "collected",
+    "sentence": "The reviewer of a paper can assign the paper to be sub-reviewed by an agent who is not an author of the paper and has not been assigned the same paper by another reviewer.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1883",
+    "dataset": "collected",
+    "sentence": "All members of Faculty can Assign both InternalGrades and ExternalGrades.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1885",
+    "dataset": "collected",
+    "sentence": "The sole counter-example shows that a student with the freedom to assign external grades is also a ta but not a faculty member.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1886",
+    "dataset": "collected",
+    "sentence": "All members of role Faculty Family can receive External-Grades.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1887",
+    "dataset": "collected",
+    "sentence": "If the subject is a faculty member, then permit that subject to assign grades.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "subject is a faculty member",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1888",
+    "dataset": "collected",
+    "sentence": "If the subject is not a faculty member, then permit that subject to enroll in courses.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "subject is not a faculty member",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1889",
+    "dataset": "collected",
+    "sentence": "The manager has the broadest access to the information, including access to personal, financial, clinical and medical information about each resident.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1891",
+    "dataset": "collected",
+    "sentence": "The care plan is updated in consultation with the resident or the responsible person.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1892",
+    "dataset": "collected",
+    "sentence": "Only the manager is allowed to delete the information about a resident but here also that right is restricted.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1893",
+    "dataset": "collected",
+    "sentence": "The health care workers are required to sign a confidentiality agreement before they have access to any resident data.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1895",
+    "dataset": "collected",
+    "sentence": "Access to emergency details is available for all staff.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1896",
+    "dataset": "collected",
+    "sentence": "For a special purpose, access to an older medical record can be sought and obtained from the manager.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1898",
+    "dataset": "collected",
+    "sentence": "Occasionally, due to pressing circumstances, it may be necessary for a visiting doctor to examine a resident who is not normally his or her patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1899",
+    "dataset": "collected",
+    "sentence": "This is permitted with the consent of the resident or the responsible person and the notification of the manager.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1900",
+    "dataset": "collected",
+    "sentence": "Privacy laws require, however, that a person should have full access to any information stored about them (unless the well-being of a third party would be jeopardised by revealing the information).",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "well-being of a third party would be jeopardised",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1901",
+    "dataset": "collected",
+    "sentence": "A user should already grant diagnosing right to create medicine orders.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1902",
+    "dataset": "collected",
+    "sentence": "Only one user, here is the Pharmacy System, can load medicines to the medicine dispenser.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1903",
+    "dataset": "collected",
+    "sentence": "Pharmacy System may get reports and status information of the medicine dispenser.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1904",
+    "dataset": "collected",
+    "sentence": "Pharmacy System can load medicines to the dispenser only at a time interval 12:00-13:00 in a day.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "at a time interval 12:00-13:00 in a day",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1905",
+    "dataset": "collected",
+    "sentence": "Only Doctors and Nurses can read patient records.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1906",
+    "dataset": "collected",
+    "sentence": "Any subject with an e-mail name in the med.example.com domain can perform any action on any resource.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "subject with an e-mail name in the med.example.com domain",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1907",
+    "dataset": "collected",
+    "sentence": "A person, identified by his or her patient number, may read any record for which he or she is the designated patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1908",
+    "dataset": "collected",
+    "sentence": "A person may read any record for which he or she is the designated parent or guardian, and for which the patient is under 16 years of age.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "he or she is the designated parent or guardian",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": " the patient is under 16 years of age",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1909",
+    "dataset": "collected",
+    "sentence": "A physician may write to any medical element for which he or she is the designated primary care physician, provided an email is sent to the patient.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "email is sent to the patient",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1910",
+    "dataset": "collected",
+    "sentence": "Administrators can access only the administrative pages",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1911",
+    "dataset": "collected",
+    "sentence": "Guests can access all the public areas of the site",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1912",
+    "dataset": "collected",
+    "sentence": "Owners can access their account, move funds, and review transactions.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1913",
+    "dataset": "collected",
+    "sentence": "Planners can access the sites financial planning and tax preparation functions",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1914",
+    "dataset": "collected",
+    "sentence": "Payers can use the site's bill paying function .",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1915",
+    "dataset": "collected",
+    "sentence": "Data Owners can transfer ownership of information to other users.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1916",
+    "dataset": "collected",
+    "sentence": "Data Owners can determine the type of access given to other users (read, write, copy, etc.).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1917",
+    "dataset": "collected",
+    "sentence": "Users who do not have access to information should not be able to determine its characteristics (file size, file name, directory path, etc.)",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "Users who do not have access to information",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1918",
+    "dataset": "collected",
+    "sentence": "All users can read from a lower classification than the one they are granted (A secret user can read an unclassified document).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1919",
+    "dataset": "collected",
+    "sentence": "All users can write to a higher classification (A secret user can post information to a Top Secret resource).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1920",
+    "dataset": "collected",
+    "sentence": "All users are given read or write access to objects only of the same classification (a secret user can only read or write to a secret document).",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "objects only of the same classification",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1921",
+    "dataset": "collected",
+    "sentence": "Staff can print on HP Laserjet 1.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1922",
+    "dataset": "collected",
+    "sentence": "David can assign the manager role to Alice.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1923",
+    "dataset": "collected",
+    "sentence": "John can assign clerk to users from department A",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1924",
+    "dataset": "collected",
+    "sentence": "Clerk can read from database.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1925",
+    "dataset": "collected",
+    "sentence": "Owners can read Name.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1926",
+    "dataset": "collected",
+    "sentence": "Clerks can add and change the Name, the date of birth, the Address and the Postcode.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1927",
+    "dataset": "collected",
+    "sentence": "All members of FACULTY can ASSIGN both INTERNALGRADES and EXTERNALGRADES.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1928",
+    "dataset": "collected",
+    "sentence": "All members of STUDENT can RECEIVE EXTERNALGRADES.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1929",
+    "dataset": "collected",
+    "sentence": "During the submission phase, an author may submit a paper.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "submission phase",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1930",
+    "dataset": "collected",
+    "sentence": "During the review phase, reviewer may submit a review for paper if reviewer is assigned to review paper.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "review phase",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      },
+      {
+        "category": "situational",
+        "value": "reviewer is assigned to review paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1931",
+    "dataset": "collected",
+    "sentence": "During the meeting phase, reviewer can read the scores for paper if reviewer has submitted a review for paper.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "During the meeting phase",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      },
+      {
+        "category": "situational",
+        "value": "reviewer has submitted a review for paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1932",
+    "dataset": "collected",
+    "sentence": "In the current paper system, all the information stored about a resident is accessible to the resident by arrangement with the manager.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1934",
+    "dataset": "collected",
+    "sentence": "Supervisor can not  execute the write a check use case.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1935",
+    "dataset": "collected",
+    "sentence": "For example, a user should not record and verify the same invoice.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1938",
+    "dataset": "collected",
+    "sentence": "A subject cannot review a project he or she has submitted.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "he or she has submitted",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1939",
+    "dataset": "collected",
+    "sentence": "A subject cannot approve projects he or she has reviewed or submitted.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "he or she has reviewed or submitted",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1940",
+    "dataset": "collected",
+    "sentence": "Authors of papers cannot be changed.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1941",
+    "dataset": "collected",
+    "sentence": "The PC chair can assign a paper to a PC member for reviewing, except if he is one of its authors.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "he is one of its authors",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1943",
+    "dataset": "collected",
+    "sentence": "A reviewer of a paper can resign, unless he has already appointed a sub-reviewer for the paper.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "he has already appointed a sub-reviewer for the paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1944",
+    "dataset": "collected",
+    "sentence": "A sub-reviewer can resign, unless he has already submitted his review.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "he has already submitted his review",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1945",
+    "dataset": "collected",
+    "sentence": "There do not exist members of Student who can Assign ExternalGrades.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1946",
+    "dataset": "collected",
+    "sentence": "No combination of roles exists such that a user with those roles can both Receive and Assign the resource ExternalGrades.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1948",
+    "dataset": "collected",
+    "sentence": "If the subject is a student, then do not permit that subject to assign grades.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "subject is a student",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1952",
+    "dataset": "collected",
+    "sentence": "So, for example, the manager should be made aware of repeated attempts by a health care worker to access information beyond their rights.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1954",
+    "dataset": "collected",
+    "sentence": "The doctor then has temporary access to the resident’s medical records (but not to the private notes of the resident’s usual doctor).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1955",
+    "dataset": "collected",
+    "sentence": "In an electronic system we can allow residents to hook into the network at any time as long as they can view only their own data and cannot make arbitrary changes.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "they can view only their own data and cannot make arbitrary changes",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1956",
+    "dataset": "collected",
+    "sentence": "This critical task should not be performed by a single user.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1957",
+    "dataset": "collected",
+    "sentence": "However, it should not perform these operations when it is loading medicines to the medicine dispenser.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "it is loading medicines to the medicine dispenser",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1959",
+    "dataset": "collected",
+    "sentence": "An administrator shall not be permitted to read or write to medical elements of a patient record.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1963",
+    "dataset": "collected",
+    "sentence": "There do not exist members of STUDENT who can ASSIGN EXTERNALGRADES.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1964",
+    "dataset": "collected",
+    "sentence": "There exists no combination of roles such that a user with those roles can both RECEIVE and ASSIGN the resource EXTERNALGRADES.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1965",
+    "dataset": "collected",
+    "sentence": "If a subject is not a pc-chair or admin, then he or she may not set the meeting flag.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "subject is not a pc-chair or admin",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1966",
+    "dataset": "collected",
+    "sentence": "If someone is not a pc-chair or admin, then he or she can never see paper-review-rc for which he or she is conflicted.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "someone is not a pc-chair or admin",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1967",
+    "dataset": "collected",
+    "sentence": "Authors may never read scores.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_1968",
+    "dataset": "collected",
+    "sentence": "Doctors need not sign a confidentiality agreement since they are bound by a code of professional conduct.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2121",
+    "dataset": "collected",
+    "sentence": "Requests for students to Receive ExternalGrades",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2122",
+    "dataset": "collected",
+    "sentence": "faculty to Assign and View both InternalGrades and ExternalGrades, will succeed.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2123",
+    "dataset": "collected",
+    "sentence": "Only the manager is allowed to add a new resident to the system and",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2124",
+    "dataset": "collected",
+    "sentence": "Only the manager is allowed to start or update the care plan of a resident.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2125",
+    "dataset": "collected",
+    "sentence": "Their main form of access is to view the care plan for each resident",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2126",
+    "dataset": "collected",
+    "sentence": "Their main form of access is to add progress note entries based on their observations.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2127",
+    "dataset": "collected",
+    "sentence": "A visiting doctor has access to all the medical information of residents who are his or her patients",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2128",
+    "dataset": "collected",
+    "sentence": "A visiting doctor can add entries to patients medical records.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2129",
+    "dataset": "collected",
+    "sentence": "Managers can read and set ordinary employees’ bonuses.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2130",
+    "dataset": "collected",
+    "sentence": "but not those of other managers or the director can read and set ordinary employees’ bonuses",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2131",
+    "dataset": "collected",
+    "sentence": "Every subject in the hierarchy can submit a project.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2132",
+    "dataset": "collected",
+    "sentence": "except the business office manager can submit a project",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2133",
+    "dataset": "collected",
+    "sentence": "Every professor can review a project.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2134",
+    "dataset": "collected",
+    "sentence": "except assistant professors, can review a project",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2135",
+    "dataset": "collected",
+    "sentence": "All PC members know who are the reviewers for this paper.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2136",
+    "dataset": "collected",
+    "sentence": "author(s) of a paper can not know who are the reviewers for this paper",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2137",
+    "dataset": "collected",
+    "sentence": "TA can view and assign InternalGrades",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2138",
+    "dataset": "collected",
+    "sentence": "TA can not view and assign  ExternalGrades (since faculty must take final responsibility for all external grades), combined with Pol3.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2139",
+    "dataset": "collected",
+    "sentence": "Although she can enter the past medical records when a resident is admitted,",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "when a resident is admitted",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2140",
+    "dataset": "collected",
+    "sentence": "she cannot subsequently add medical entries to the system.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2141",
+    "dataset": "collected",
+    "sentence": "Also, she cannot view the private notes of doctors",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2142",
+    "dataset": "collected",
+    "sentence": "clearly she cannot sign the legal agreement on behalf of a resident.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2143",
+    "dataset": "collected",
+    "sentence": "Health care workers can view recent medical records of residents (up to one year old)",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2144",
+    "dataset": "collected",
+    "sentence": "Health care workers cannot normally view older medical information.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2145",
+    "dataset": "collected",
+    "sentence": "Doctors also can add private notes about a resident, which, on the basis of doctor-patient confidentiality.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2146",
+    "dataset": "collected",
+    "sentence": "Private notes about a resident, which, on the basis of doctor-patient confidentiality, are not visible to health care staff or the manager.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2147",
+    "dataset": "collected",
+    "sentence": "Pharmacy System should not read patient records",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2148",
+    "dataset": "collected",
+    "sentence": "Pharmacy System can read patient medicine orders.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2149",
+    "dataset": "collected",
+    "sentence": "Users can view an Owner's account,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2150",
+    "dataset": "collected",
+    "sentence": "Users can not make changes to Owner's account",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2151",
+    "dataset": "collected",
+    "sentence": "Only administrators make changes to a resource's security label.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2152",
+    "dataset": "collected",
+    "sentence": "not data owners make changes to a resource's security label.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2153",
+    "dataset": "collected",
+    "sentence": "Owners cannot change any data",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "collected_2154",
+    "dataset": "collected",
+    "sentence": "Owners can read data all.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  }
+]

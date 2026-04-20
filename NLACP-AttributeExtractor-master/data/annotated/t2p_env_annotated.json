@@ -1,0 +1,3063 @@
+[
+  {
+    "id": "t2p_606",
+    "dataset": "t2p",
+    "sentence": "\"For each patient from the monitoring list, the LHCP can edit blood pressure, glucose levels, height, weight and pedometer readings.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_607",
+    "dataset": "t2p",
+    "sentence": "The LHCP is able to view the comprehensive patient report.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_608",
+    "dataset": "t2p",
+    "sentence": "\"The reports are viewed under the \"\"View My Records\"\" tab.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_609",
+    "dataset": "t2p",
+    "sentence": "\"The input data, a timestamp and the fact are saved.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_610",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP views the height, weight and pedometer data monitoring details.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_611",
+    "dataset": "t2p",
+    "sentence": "\"System presents a list of the patient's expired prescriptions, sorted by start date (the later date is ranked earlier closer to the top).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_612",
+    "dataset": "t2p",
+    "sentence": "\"The appointments in the list shall be ordered by appointment date and time, the soonest upcoming first.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_614",
+    "dataset": "t2p",
+    "sentence": "An LHCP views a list of his upcoming appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_615",
+    "dataset": "t2p",
+    "sentence": "An administrator maintains the hospital listing.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_616",
+    "dataset": "t2p",
+    "sentence": "System displays his appointments on the calendar.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_617",
+    "dataset": "t2p",
+    "sentence": "The HCP selects reasons out from the nine reasons listed here for the overriding.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_619",
+    "dataset": "t2p",
+    "sentence": "\"A patient, personal health representative or HCP views laboratory procedure status.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_620",
+    "dataset": "t2p",
+    "sentence": "The HCP can add the prescription to the list of medications.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_621",
+    "dataset": "t2p",
+    "sentence": "The administrator is allowed to add a new entry for a reason.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_622",
+    "dataset": "t2p",
+    "sentence": "The HCP can edit the patient according to data format.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_623",
+    "dataset": "t2p",
+    "sentence": "The drug is checked against the patient's drug allergies.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_624",
+    "dataset": "t2p",
+    "sentence": "The user can select a laboratory procedure from the calendar to read the laboratory procedure's details.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_625",
+    "dataset": "t2p",
+    "sentence": "The LHCP obtains a printable report.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_626",
+    "dataset": "t2p",
+    "sentence": "An LHCP refers a patient to another receiving LHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_627",
+    "dataset": "t2p",
+    "sentence": "The HCP notes about an office visit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_628",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of all immunizations for which he has been administered in the last 12 months.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_629",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP, patient and representative can sort his message inbox and message outbox.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_630",
+    "dataset": "t2p",
+    "sentence": "The HCP can disallow viewing access to the laboratory results.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_631",
+    "dataset": "t2p",
+    "sentence": "\"The patient may optionally enter a zip code (match on first three numbers of zip code), in addition to the name possibly and possibly specialty.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_632",
+    "dataset": "t2p",
+    "sentence": "A public health agent selects a specific time period for which he would like to see a detailed listing of all adverse events related to prescription drugs or immunizations.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_634",
+    "dataset": "t2p",
+    "sentence": "The patient chooses My Diagnoses.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_635",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP can sort messages in his message outbox by the recipient's last name or timestamp (but not both) in either ascending or descending order.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_636",
+    "dataset": "t2p",
+    "sentence": "\"When an LHCP views a list of his upcoming appointments, system presents an option to edit or remove the appointment.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": " LHCP views a list of his upcoming appointments",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_637",
+    "dataset": "t2p",
+    "sentence": "The patient views his access log.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_638",
+    "dataset": "t2p",
+    "sentence": "\"The admin must specify a specialty for a new LHCP (General Physician, Heart Surgeon, OB, GYN, Pediatrician, or Surgeon).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_639",
+    "dataset": "t2p",
+    "sentence": "The patient can undesignate any LHCP as being a DLHCP for them.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_640",
+    "dataset": "t2p",
+    "sentence": "A public health agent sees trends in adverse events relate to prescription drugs or immunizations.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_641",
+    "dataset": "t2p",
+    "sentence": "The data for personnel can be edited according to Data Format.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_643",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP, patient or representative can modify his \"\"messagedisplayingfilter\"\" by modifying the following filtering criteria.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_644",
+    "dataset": "t2p",
+    "sentence": "The administrator stores hospital Id number for the hospital and the name of the hospital.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_645",
+    "dataset": "t2p",
+    "sentence": "The HCP's medical identification number should also be maintained.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_646",
+    "dataset": "t2p",
+    "sentence": "The HCP selects a medication prescribed from a pull down list.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_647",
+    "dataset": "t2p",
+    "sentence": "A patient or personal representative may view medical records including family history.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_648",
+    "dataset": "t2p",
+    "sentence": "The LHCP then sends the request or to cancel.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_649",
+    "dataset": "t2p",
+    "sentence": "\"A fake email is sent to the LHCP who administered the immunization indicating the patient name and MID, drug, and symptoms.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_650",
+    "dataset": "t2p",
+    "sentence": "System presents a list of the patients.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_651",
+    "dataset": "t2p",
+    "sentence": "\"A patient views basic information about his designated LHCPs, including the name, phone number, and contact email information.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_652",
+    "dataset": "t2p",
+    "sentence": "\"Additionally, the HCP can document none, one, or more medications prescribed; none, one, or more lab procedures that are ordered (LOINC code, see Data Format 6.11); none, one, or more diagnoses (via the ICD-9CM code); none, one, or more medical procedures performed; and none, one, or more immunizations given chosen from appropriate pull-down lists.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_653",
+    "dataset": "t2p",
+    "sentence": "\"System presents a list of the patients whose height, weight, or pedometer data type is specified to be under monitoring and for which he or she is allowed to report measurements.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_654",
+    "dataset": "t2p",
+    "sentence": "System displays his appointments in the current month.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_655",
+    "dataset": "t2p",
+    "sentence": "\"System presents the patient’s name, patient’s address, and patient’s date of last office visit.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_656",
+    "dataset": "t2p",
+    "sentence": "The HCP does not have the ability to enter the patient's security question and password.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_657",
+    "dataset": "t2p",
+    "sentence": "\"He can report the height, weight and pedometer reading for the patient.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_658",
+    "dataset": "t2p",
+    "sentence": "\"The notification center also displays a list of the patient and patient representee upcoming appointments, the information of his designated HCP, and the number of unread messages from his message inbox.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_659",
+    "dataset": "t2p",
+    "sentence": "\"A link of \"\"Older Activities\"\" shall be displayed.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_660",
+    "dataset": "t2p",
+    "sentence": "The administrator chooses a drug from each list to record an interaction between the two drugs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_661",
+    "dataset": "t2p",
+    "sentence": "A LHCP creates UAPs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_662",
+    "dataset": "t2p",
+    "sentence": "The LHCP views all patients with which he or she has ever had an office visit with.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "has ever had an office visit with",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_663",
+    "dataset": "t2p",
+    "sentence": "The HCP must remain on the office visit page.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_664",
+    "dataset": "t2p",
+    "sentence": "The patient can select a diagnosis.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_665",
+    "dataset": "t2p",
+    "sentence": "System displays the details for the laboratory procedure in a new page.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_666",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of all drug interactions with that drug.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_667",
+    "dataset": "t2p",
+    "sentence": "An LHCP views the physiologic data monitoring details.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_668",
+    "dataset": "t2p",
+    "sentence": "The patient chooses prescription report.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_669",
+    "dataset": "t2p",
+    "sentence": "A user enters their MID and their password to gain role-based entry into iTrust.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_670",
+    "dataset": "t2p",
+    "sentence": "\"The HCP can view a list of laboratory procedures and results, sorted by the date of the last status update, most recent first.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_671",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters the representative's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_672",
+    "dataset": "t2p",
+    "sentence": "\"A patient inputs his weight, height or pedometer readings.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_673",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP can see the blood pressure and glucose levels, weight, height, and pedometer readings for the patients he or she is monitoring, with two separate lists for physiologic and height or weight or pedometer readings.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_674",
+    "dataset": "t2p",
+    "sentence": "\"The user selects a prescription from the calendar to read its details by clicking the \"\"Read Details\"\" link beside or below the medication displayed for the prescription.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_675",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of all his patients to view weight or pedometer data reported during the current date.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_676",
+    "dataset": "t2p",
+    "sentence": "An HCP creates patients.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_677",
+    "dataset": "t2p",
+    "sentence": "\"The administrator stores the ICD-9CM code, a classification and the name of the diagnosis.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_678",
+    "dataset": "t2p",
+    "sentence": "\"System presents a listing of all their own diagnoses, sorted by diagnosis date (more recent first).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_679",
+    "dataset": "t2p",
+    "sentence": "The administrator maintains a listing of allowable drugs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_680",
+    "dataset": "t2p",
+    "sentence": "The LHCP can select a patient to obtain additional information about a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_681",
+    "dataset": "t2p",
+    "sentence": "The administrator is allowed to set the length of this period of time.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_682",
+    "dataset": "t2p",
+    "sentence": "The administrator maintains the overriding reasons that an HCP can select from.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_683",
+    "dataset": "t2p",
+    "sentence": "\"He can report the height, weight and pedometer readings for the patient.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_685",
+    "dataset": "t2p",
+    "sentence": "An LHCP or UAP creates a list of patients (by MID) for which he or she will monitor remotely.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_686",
+    "dataset": "t2p",
+    "sentence": "\"The user selects a laboratory procedure from the calendar to read its details by clicking the \"\"Read Details\"\" link beside or below the LOINC code displayed for the laboratory procedure.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_687",
+    "dataset": "t2p",
+    "sentence": "\"After a message is sent, the LHCP is directed to his message outbox.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "message is sent",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_688",
+    "dataset": "t2p",
+    "sentence": "The patient or the personal representative can view a list of their own prescriptions or the prescriptions for whom the user is a person representative by choosing one patient from a a list of these patients.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_689",
+    "dataset": "t2p",
+    "sentence": "System presents a text box to HCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_690",
+    "dataset": "t2p",
+    "sentence": "\"A UAP or patient representative can input the blood pressure, glucose levels, height, weight, or pedometer readings for a patient.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_691",
+    "dataset": "t2p",
+    "sentence": "The administrator is allowed to modify the reason name in an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_692",
+    "dataset": "t2p",
+    "sentence": "The patient can add the HCP to their list of providers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_693",
+    "dataset": "t2p",
+    "sentence": "The administrator maintains a listing of allowable immunizations.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_694",
+    "dataset": "t2p",
+    "sentence": "\"A patient, personal representative or LHCP views prescription reports.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_695",
+    "dataset": "t2p",
+    "sentence": "\"The patient views the list sorted by dates, most recent access first.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_696",
+    "dataset": "t2p",
+    "sentence": "\"System displays the details for the visit in a new page, including date of office visit, note text, diagnoses (i.e., ICD-9CM codes), medical procedures performed (i.e., CPT code) , lab procedures ordered (LOINC code, see Data Format 6.11), medications prescribed (i.e., NDC, see Data Format 5.6), immunizations given (i.e., CPT Code, see UC15, S1), and the name of the doctor who prescribed the medication.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_697",
+    "dataset": "t2p",
+    "sentence": "The patient types the subject and the text of a message.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_698",
+    "dataset": "t2p",
+    "sentence": "The LHCP clicks the reply link above the message text.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_699",
+    "dataset": "t2p",
+    "sentence": "The representative views his message inbox.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_700",
+    "dataset": "t2p",
+    "sentence": "\"The HCP can indicate that the patient has passed away, providing an appropriate diagnosis code.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_701",
+    "dataset": "t2p",
+    "sentence": "The user can select an office visit from the calendar to read the visit's details.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_702",
+    "dataset": "t2p",
+    "sentence": "\"The LHCP, the patient or the representative clicks the \"\"Cancel\"\" button to cancel the modifications of the filter (i.e., repopulate the user interface with the values of the filtering criteria from the previously saved filter).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_703",
+    "dataset": "t2p",
+    "sentence": "The administrator records a drug interaction between two prescription drugs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_704",
+    "dataset": "t2p",
+    "sentence": "The LHCP must confirm the delete.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_705",
+    "dataset": "t2p",
+    "sentence": "The administrator deletes a drug interaction between two prescription drugs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_706",
+    "dataset": "t2p",
+    "sentence": "\"The administrator adds a new entry for an appointment type, including its type name with up to 30 alpha characters and duration in the unit of minutes.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_707",
+    "dataset": "t2p",
+    "sentence": "The answers to the survey are stored.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_708",
+    "dataset": "t2p",
+    "sentence": "\"A personal health representative views basic information about his designated LHCPs, including the name, phone number, and contact email information.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_709",
+    "dataset": "t2p",
+    "sentence": "An LHCP can delete a patient from his monitoring list by the LHCP typing the the patient's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_710",
+    "dataset": "t2p",
+    "sentence": "\"Any event which views, creates, edits or deletes information is logged.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_711",
+    "dataset": "t2p",
+    "sentence": "The administrator is not allowed to modify the reason ID number in an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_712",
+    "dataset": "t2p",
+    "sentence": "The administrator can choose the hospitals.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_713",
+    "dataset": "t2p",
+    "sentence": "The administrator stores information of a LOINC code.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_714",
+    "dataset": "t2p",
+    "sentence": "The administrator is not allowed to modify the appointment type name in an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_715",
+    "dataset": "t2p",
+    "sentence": "He can report the blood pressure and glucose levels for the patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_716",
+    "dataset": "t2p",
+    "sentence": "The administrator selects one drug.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_718",
+    "dataset": "t2p",
+    "sentence": "A patient's DLHCP adds a patient's personal representative by typing that person's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_719",
+    "dataset": "t2p",
+    "sentence": "System presents a success or failure message to the editor.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_721",
+    "dataset": "t2p",
+    "sentence": "System presents the LHCPs in the patient's living area (based upon the first three numbers of their zip code) who have handled this diagnosis in the last three years.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_722",
+    "dataset": "t2p",
+    "sentence": "The patient then chooses the beginning and end date for the period of time.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_723",
+    "dataset": "t2p",
+    "sentence": "The data for personnel can be edited according to Data Format 6.2 (all fields mandatory except for associated MID and Street Address 2).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_724",
+    "dataset": "t2p",
+    "sentence": "The user can select a prescription from the calendar to read the prescription's details.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_725",
+    "dataset": "t2p",
+    "sentence": "\"They can see diagnoses of blood pressure, high cholesterol, diabetes, cancer, heart disease, smoking, and the cause of death.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_726",
+    "dataset": "t2p",
+    "sentence": "A fake email is sent to the LHCP alerting the user that a new message has arrived.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_727",
+    "dataset": "t2p",
+    "sentence": "The administrator maintains a listing of allowable physical services (including laboratory procedures) that an HCP can use.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_728",
+    "dataset": "t2p",
+    "sentence": "\"On the patient homepage, the Patient views a notification center.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_730",
+    "dataset": "t2p",
+    "sentence": "A patient inputs his blood pressure or glucose levels.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_731",
+    "dataset": "t2p",
+    "sentence": "\"The user selects an office visit from the calendar to read its details by clicking the \"\"Read Details\"\" link beside or below the ICD-9CM code (i.e., diagnose).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_732",
+    "dataset": "t2p",
+    "sentence": "The notification center displays the message (You haven't entered remote monitoring information for today yet!)",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_733",
+    "dataset": "t2p",
+    "sentence": "\"A patient or personal health representative can view a list of his upcoming appointments for himself or herself, as well as appointments for the patients he represents.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_734",
+    "dataset": "t2p",
+    "sentence": "A patient finds the LHCPs who have handled that condition.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_735",
+    "dataset": "t2p",
+    "sentence": "\"The admin must specify a specialty for a new LHCP (one of: General Physician, Heart Surgeon, OB or GYN, Pediatrician, Surgeon).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_737",
+    "dataset": "t2p",
+    "sentence": "A message of the removal is sent to the adverse event reporter and to the LHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_739",
+    "dataset": "t2p",
+    "sentence": "Both patients and LHCPs can view a list of their upcoming appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_740",
+    "dataset": "t2p",
+    "sentence": "A LHCP enters an UAP as a user of system according to data format 6.2 (all fields mandatory).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_741",
+    "dataset": "t2p",
+    "sentence": "The patient chooses drugs for which to report the adverse event.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_742",
+    "dataset": "t2p",
+    "sentence": "\"When the chosen patient satisfies the preconditions of the chosen chronic disease, the LHCP is provided with a warning message.\"",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "chosen patient satisfies the preconditions of the chosen chronic disease",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_743",
+    "dataset": "t2p",
+    "sentence": "\"A patient can report height, weight and pedometer readings for those for whom he or she is a patient representative.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_744",
+    "dataset": "t2p",
+    "sentence": "A patient or personal health representative views his iTrust homepage.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_745",
+    "dataset": "t2p",
+    "sentence": "The HCP can allow viewing access to the laboratory results.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_746",
+    "dataset": "t2p",
+    "sentence": "Demographic information is entered.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_747",
+    "dataset": "t2p",
+    "sentence": "The administrator can select a particular pair of drugs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_748",
+    "dataset": "t2p",
+    "sentence": "\"LHCPs, patients and representatives may reply to messages.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_749",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP can sort messages in his message inbox by either the sender's last name or timestamp (but not both) in either ascending or descending order (where timestamps in descending order would have the most recent first).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_750",
+    "dataset": "t2p",
+    "sentence": "\"A UAP can report height, weight and pedometer measurements.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_751",
+    "dataset": "t2p",
+    "sentence": "System presents a list of pending referrals.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_752",
+    "dataset": "t2p",
+    "sentence": "Initially only the name and email are provided.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_753",
+    "dataset": "t2p",
+    "sentence": "Only the name and email are provided by the HCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_754",
+    "dataset": "t2p",
+    "sentence": "A patient's DLHCP deletes a patient's personal representative by typing that person's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_755",
+    "dataset": "t2p",
+    "sentence": "The patient or personal health representative views an appointment.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_756",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP views a list of his upcoming appointments for the current date, with each appointment displayed in the format \"\"HH:MM AM or PM - AppointmentType\"\".\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_757",
+    "dataset": "t2p",
+    "sentence": "The patient can view contact information of a selected LHCP shown in the expired prescription list.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_758",
+    "dataset": "t2p",
+    "sentence": "The LHCP is not able to remove any past appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_760",
+    "dataset": "t2p",
+    "sentence": "\"An administrator maintains the standards list for immunizations, diagnoses, allowable drugs, or allowable physical services.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_761",
+    "dataset": "t2p",
+    "sentence": "He can report his blood pressure (systolic and diastolic) and glucose levels.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_762",
+    "dataset": "t2p",
+    "sentence": "A patient can report physiologic measurements.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_763",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of all his patients.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_764",
+    "dataset": "t2p",
+    "sentence": "The LHCP schedules an appointment with a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_765",
+    "dataset": "t2p",
+    "sentence": "An LHCP sends a message to a patient or representative (no multiple recipients allowed in a single message).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_766",
+    "dataset": "t2p",
+    "sentence": "An HCP enters a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_767",
+    "dataset": "t2p",
+    "sentence": "\"After a message is sent, the patient or personal representative is directed to his message outbox.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "a message is sent",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_768",
+    "dataset": "t2p",
+    "sentence": "The user provides a zip code or a hospital code and an physician type.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_769",
+    "dataset": "t2p",
+    "sentence": "A patient or personal representative for a patient sends a message to an LHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_770",
+    "dataset": "t2p",
+    "sentence": "\"A patient reports his height, weight and pedometer data.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_771",
+    "dataset": "t2p",
+    "sentence": "\"The LHCP can see the patient’s name, patient’s phone number, patient’s personal representative, patient’s blood pressure, patient’s glucose levels, patient’s height, patient’s weight, and patient’s pedometer readings as well as whom reported the data (patient, UAP name, personal representative name) for that date range.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_773",
+    "dataset": "t2p",
+    "sentence": "The patient clicks the send button.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_774",
+    "dataset": "t2p",
+    "sentence": "\"A patient can click the \"\"View Full Calendar\"\" link to view his appointments in the current month.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_775",
+    "dataset": "t2p",
+    "sentence": "An patient views his appointments in the current month.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_776",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP then clicks the \"\"Sort\"\" button.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_778",
+    "dataset": "t2p",
+    "sentence": "The administrator is not allowed to delete an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_779",
+    "dataset": "t2p",
+    "sentence": "System presents  a listing of all his patients.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_780",
+    "dataset": "t2p",
+    "sentence": "\"By default, the messages in the list should be ordered by timestamp, the most recent first.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "By default",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_781",
+    "dataset": "t2p",
+    "sentence": "\"The HCP must provide instructions, or else they cannot add the prescription.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "HCP must provide instructions",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_782",
+    "dataset": "t2p",
+    "sentence": "The LHCP views the weight or pedometer monitoring details of his patients for the current date.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_783",
+    "dataset": "t2p",
+    "sentence": "A LHCP refers a patient to another receiving LHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_784",
+    "dataset": "t2p",
+    "sentence": "\"The user selects a message from the message inbox or outbox to read by clicking the \"\"Read\"\" link beside the row for the message, and then the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_785",
+    "dataset": "t2p",
+    "sentence": "\"The LHCP can view a prescription list for that patient, sorted by start date.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_787",
+    "dataset": "t2p",
+    "sentence": "System displays only the applicable input entries to the patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_788",
+    "dataset": "t2p",
+    "sentence": "A prescription list is then displayed.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_789",
+    "dataset": "t2p",
+    "sentence": "The two drugs and a textual description of the possible effects of the interaction are stored.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_790",
+    "dataset": "t2p",
+    "sentence": "The administrator maintains a listing of allowable diagnoses.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_791",
+    "dataset": "t2p",
+    "sentence": "An LHCP sends a message to a patient or the patient’s personal representative.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_792",
+    "dataset": "t2p",
+    "sentence": "The patient can designate any LHCP as being a DLHCP for them.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_793",
+    "dataset": "t2p",
+    "sentence": "The administrator can delete the interaction between the two drugs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_794",
+    "dataset": "t2p",
+    "sentence": "System displays only the applicable input entries to the UAP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_795",
+    "dataset": "t2p",
+    "sentence": "An LHCP or UAP can add patients from his monitoring list.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_796",
+    "dataset": "t2p",
+    "sentence": "An LHCP reviews pending consultations.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_797",
+    "dataset": "t2p",
+    "sentence": "An HCP edits patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_798",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative or LHCP opens his message inbox or outbox.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_799",
+    "dataset": "t2p",
+    "sentence": "HCPs can return to an office visit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_800",
+    "dataset": "t2p",
+    "sentence": "System presents the actual operational profile of the operations of the iTrust.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_801",
+    "dataset": "t2p",
+    "sentence": "The system shall append 20 more activities to the end of the currently listed activities on the same page.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_802",
+    "dataset": "t2p",
+    "sentence": "The LHCP views his message inbox.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_803",
+    "dataset": "t2p",
+    "sentence": "An LHCP can schedule an appointment with a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_804",
+    "dataset": "t2p",
+    "sentence": "A patient is added to the list by the LHCP or UAP through typing in the patient's MID or name.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_805",
+    "dataset": "t2p",
+    "sentence": "The HCP does not have the ability to edit the patient's security question and password.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_806",
+    "dataset": "t2p",
+    "sentence": "\"System displays the details for the prescription in a new page, including the medications prescribed.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_807",
+    "dataset": "t2p",
+    "sentence": "The HCP must proceed with the prescription.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_808",
+    "dataset": "t2p",
+    "sentence": "The LHCP views the physiologic data monitoring details of his patients for the current date.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_809",
+    "dataset": "t2p",
+    "sentence": "\"A secret key is personally provided to the user, with which the user can reset his or her password.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_810",
+    "dataset": "t2p",
+    "sentence": "An LHCP chooses a chronic disease and a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_811",
+    "dataset": "t2p",
+    "sentence": "An administrator can manage a standardized list of appointment types.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_812",
+    "dataset": "t2p",
+    "sentence": "The LHCP views an appointment.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_813",
+    "dataset": "t2p",
+    "sentence": "The patient views his message inbox.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_814",
+    "dataset": "t2p",
+    "sentence": "System presents a menu of his patients and a menu of other LHCPs.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_815",
+    "dataset": "t2p",
+    "sentence": "\"System presents the MID of the sending LHCP, the patient MID, and the referral details.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_816",
+    "dataset": "t2p",
+    "sentence": "\"By default, the messages in the message inbox should be ordered by timestamp, the most recent first.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "By default",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_817",
+    "dataset": "t2p",
+    "sentence": "\"The HCP provides the dosage in milligrams, the start and end date for the prescription, and any special instructions.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_818",
+    "dataset": "t2p",
+    "sentence": "The administrator stores the National Drug Code.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_819",
+    "dataset": "t2p",
+    "sentence": "A user views physician satisfaction survey results.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_820",
+    "dataset": "t2p",
+    "sentence": "An LHCP or UAP can delete patients from his monitoring list.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_821",
+    "dataset": "t2p",
+    "sentence": "The representative clicks the send button.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_822",
+    "dataset": "t2p",
+    "sentence": "The administrator is not allowed to modify the hospital ID number in an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_823",
+    "dataset": "t2p",
+    "sentence": "\"In both cases, system presents the name of the patient.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_824",
+    "dataset": "t2p",
+    "sentence": "A user can request to change their password.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_825",
+    "dataset": "t2p",
+    "sentence": "The information is edited.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_826",
+    "dataset": "t2p",
+    "sentence": "Patients with a weight value 5% more or less than the immediate previously recorded weight value are highlighted.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "Patients with a weight value 5% more or less than the immediate previously recorded weight value",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_827",
+    "dataset": "t2p",
+    "sentence": "\"The patient views the list sorted by the role of the accessor relative to the patient (personal health representative, DLHCP, LHCP, UAP, Emergency Responder; any order is fine as long as the list is sorted by role) as well as by date for each role type.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_828",
+    "dataset": "t2p",
+    "sentence": "The representative types the subject and the text of a message.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_829",
+    "dataset": "t2p",
+    "sentence": "\"The user selects an appointment from the calendar to read its details by clicking the \"\"Read Details\"\" link beside or below the appointment type name.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_830",
+    "dataset": "t2p",
+    "sentence": "\"On the LHCP homepage, the LHCP views a notification center with a list of his upcoming appointments for the current date, number of physiologic data monitoring reports of his patients for the current date, number of weight or pedometer data monitoring reports of his patients for the current date, number of unread messages from his message inbox.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_831",
+    "dataset": "t2p",
+    "sentence": "\"System presents a listing of immunization-related adverse events for the time period that do not have a status of \"\"removed\"\", sorted by CPT code .\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_832",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP, patient and representative may view a message.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_833",
+    "dataset": "t2p",
+    "sentence": "The patient views all LHCPs the patient has ever had an office visit with and those whom he or she had designated.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "patient has ever had an office visit with",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "he or she had designated",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_834",
+    "dataset": "t2p",
+    "sentence": "The LHCP can obtain additional information about a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_835",
+    "dataset": "t2p",
+    "sentence": "\"The LHCP name, specialty, and  address are provided.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_836",
+    "dataset": "t2p",
+    "sentence": "\"An administrator enters a LHCP, an ER, or a public healh agent.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_837",
+    "dataset": "t2p",
+    "sentence": "An LHCP views the number of submitted weight data monitoring reports of his patients for the current date.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_838",
+    "dataset": "t2p",
+    "sentence": "The public health agent can see the detail of a specific report.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_839",
+    "dataset": "t2p",
+    "sentence": "System presents an approvel screen.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_840",
+    "dataset": "t2p",
+    "sentence": "System presents a list of his messages in the message inbox.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_841",
+    "dataset": "t2p",
+    "sentence": "The LHCP must confirm the add.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_842",
+    "dataset": "t2p",
+    "sentence": "The LHCP can view of the comprehensive patient report for the specified patient",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_843",
+    "dataset": "t2p",
+    "sentence": "The HCP can edit the office visit in which the laboratory procedure was ordered.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_844",
+    "dataset": "t2p",
+    "sentence": "An LHCP views his iTrust homepage.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_845",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of patients for whom they are a DLHCP who need care because of satisfying the one of preceding conditions.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_846",
+    "dataset": "t2p",
+    "sentence": "An HCP may document an office visit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_847",
+    "dataset": "t2p",
+    "sentence": "A patient reports their physiologic data.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_848",
+    "dataset": "t2p",
+    "sentence": "\"System presents a listing of prescription drug-related adverse events for the time period that do not have a status of \"\"removed\"\", sorted by NDC.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_850",
+    "dataset": "t2p",
+    "sentence": "The LHCP opens the message to which he or she wishes to reply.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_851",
+    "dataset": "t2p",
+    "sentence": "\"The patient or personal representative can see patient personal health information, immunizations, and office visit information for their own records and the records for whom the user is a personal representative.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_852",
+    "dataset": "t2p",
+    "sentence": "The drug is checked for interactions between other drugs currently taken by the patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_853",
+    "dataset": "t2p",
+    "sentence": "The LHCP requests a comprehensive patient report for a particular patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_854",
+    "dataset": "t2p",
+    "sentence": "An HCP edits an office visit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_855",
+    "dataset": "t2p",
+    "sentence": "\"The patient is sent a \"\"fake email\"\".\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_856",
+    "dataset": "t2p",
+    "sentence": "LHCP can edit future appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_857",
+    "dataset": "t2p",
+    "sentence": "The LHCP confirms the patient's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_859",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP clicks this number to view his message inbox.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_861",
+    "dataset": "t2p",
+    "sentence": "The HCP prescribes a patient a drug by selecting its NDC and name.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_862",
+    "dataset": "t2p",
+    "sentence": "System presents a screen upon which he can choose a date range.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "upon which he can choose a date range",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_863",
+    "dataset": "t2p",
+    "sentence": "\"For the patient, the HCP can choose height or weight to graph.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_864",
+    "dataset": "t2p",
+    "sentence": "Demographic information is edited.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_865",
+    "dataset": "t2p",
+    "sentence": "The patient chooses the immunization for which to report the adverse event.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_866",
+    "dataset": "t2p",
+    "sentence": "System presents two lists of NDC codes or names.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_867",
+    "dataset": "t2p",
+    "sentence": "The patient can add also a LHCP to their provider list by searching for the name possibly and possibly specialty of a LHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_868",
+    "dataset": "t2p",
+    "sentence": "\"The LHCP, the patient or the representative clicks the \"\"Test Search\"\" button to search (i.e., displaying the message inbox including only the messages satisfying the specified filtering criteria).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_869",
+    "dataset": "t2p",
+    "sentence": "The HCP can graph height or weight of the patient over the last 3 calendar years.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_870",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP selects one option out of the \"\"by order of\"\" labeled drop-down box (with options of \"\"ascending\"\" or \"\"descending\"\").\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_871",
+    "dataset": "t2p",
+    "sentence": "\"HCPs can modify or delete the fields of the office visit information (date, hospital, notes, prescriptions, laboratory procedures, diagnoses, procedures, possibly and possibly immunizations).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_872",
+    "dataset": "t2p",
+    "sentence": "\"An administrator enters a LHCP, an ER or a public health agent as a user of system.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_874",
+    "dataset": "t2p",
+    "sentence": "\"The HCP can edit patient's historical values, patient's immunizations, patient's office visit information, patient's family history, and patient's BMI.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_875",
+    "dataset": "t2p",
+    "sentence": "\"An admin creates a LHCP, an ER and a public health agent.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_876",
+    "dataset": "t2p",
+    "sentence": "The software tester authenticates himself in the iTrust.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_877",
+    "dataset": "t2p",
+    "sentence": "A patient views a list of his upcoming appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_879",
+    "dataset": "t2p",
+    "sentence": "\"An HCP identifies chronic patients who need an office visit, older patients who need a flu shot, or any patient who is overdue for an immunization.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_880",
+    "dataset": "t2p",
+    "sentence": "The administrator modifies the duration in an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_881",
+    "dataset": "t2p",
+    "sentence": "The HCP is notified of drug allergy.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_882",
+    "dataset": "t2p",
+    "sentence": "\"A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID, drug, and symptoms.\"",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "LHCP who prescribed the medication",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_883",
+    "dataset": "t2p",
+    "sentence": "The patient’s MID can not be edited.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_884",
+    "dataset": "t2p",
+    "sentence": "The patient can view a list of laboratory procedures and status for their own records and the records for which the user is a personal representative.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_885",
+    "dataset": "t2p",
+    "sentence": "A fake email is sent to the LHCP alerting the LHCP that a new message reply has arrived.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_886",
+    "dataset": "t2p",
+    "sentence": "The HCP then documents the office visit date and hospital location of the office visit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_887",
+    "dataset": "t2p",
+    "sentence": "A HCP edits a laboratory procedure.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_888",
+    "dataset": "t2p",
+    "sentence": "The public health agent may  remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_891",
+    "dataset": "t2p",
+    "sentence": "\"The appointment details display the appointment type, appointment date and the start time, duration, the name of the patient, and appointment comments.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_892",
+    "dataset": "t2p",
+    "sentence": "An HCP chooses Office Visit Reminders.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_893",
+    "dataset": "t2p",
+    "sentence": "The HCP enters a patient as a new user of system.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_894",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP views the number of unread messages from his message inbox.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_895",
+    "dataset": "t2p",
+    "sentence": "\"The patient or personal representative can see an abbreviated health history of their siblings, parents, and both sets of grandparents for which MIDs are available in iTrust.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_896",
+    "dataset": "t2p",
+    "sentence": "The HCP does not have the ability to view the patient's security question and password.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_897",
+    "dataset": "t2p",
+    "sentence": "\"System displays the details for the appointment in a new page, including the appointment type, the appointment date and start time, comment, and the name of either the patient (only for the user being an LHCP) or the LHCP (only for the user being a patient).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_898",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP, patient and representative can modify and save his message displaying filter.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_899",
+    "dataset": "t2p",
+    "sentence": "The patient can click this link.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_900",
+    "dataset": "t2p",
+    "sentence": "The information is viewed.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_901",
+    "dataset": "t2p",
+    "sentence": "System presents patient's name and patient’s home phone number (so that reminder calls can be made).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_902",
+    "dataset": "t2p",
+    "sentence": "An email notification is sent.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_903",
+    "dataset": "t2p",
+    "sentence": "An LHCP views the number of submitted physiologic data monitoring reports of his patients for the current date.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_904",
+    "dataset": "t2p",
+    "sentence": "System presents a menu of DLHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_905",
+    "dataset": "t2p",
+    "sentence": "The patient or representative chooses one of these DLHCP.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_906",
+    "dataset": "t2p",
+    "sentence": "\"The LHCP, the patient or the representative clicks the \"\"Save\"\" button to save the modified filter.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_907",
+    "dataset": "t2p",
+    "sentence": "\"Upon reading the report, the public health agent can send a \"\"fake email\"\" message to the adverse event reporter to gain more information about the report.\"",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "Upon reading the report",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_908",
+    "dataset": "t2p",
+    "sentence": "The HCP must cancel the prescription.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_909",
+    "dataset": "t2p",
+    "sentence": "An LHCP views his appointments in the current month.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_910",
+    "dataset": "t2p",
+    "sentence": "\"Then, the LHCP can confirm the status setting or consultation entering or cancel.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_911",
+    "dataset": "t2p",
+    "sentence": "The LHCP confirms the representative's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_912",
+    "dataset": "t2p",
+    "sentence": "\"A patient, patient representative, or LHCP selects one option out of the \"\"Sort by\"\" labeled drop-down box (with options of \"\"Sender or Recipient\"\" or \"\"Timestamp\"\").\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_913",
+    "dataset": "t2p",
+    "sentence": "The system shall store reason id number for the reason and the name of the reason.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_914",
+    "dataset": "t2p",
+    "sentence": "An LHCP views his message inbox.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_915",
+    "dataset": "t2p",
+    "sentence": "A LHCP reviews the consultation.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_916",
+    "dataset": "t2p",
+    "sentence": "The administrator stores the CPT code and the name of the immunization.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_917",
+    "dataset": "t2p",
+    "sentence": "System presents a list of the patients for which he is allowed to report measurements.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_918",
+    "dataset": "t2p",
+    "sentence": "An LHCP views additional information for a patient.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_919",
+    "dataset": "t2p",
+    "sentence": "The LHCP is not able to edit any past appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_920",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of all his patients to view physiologic data reported during the current date.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_921",
+    "dataset": "t2p",
+    "sentence": "\"The status of the consultation being sent is set as \"\"pending\"\".\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_922",
+    "dataset": "t2p",
+    "sentence": "LHCP selects a patient from the list of requested reports.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_923",
+    "dataset": "t2p",
+    "sentence": "A patient reports an event related to a prescription drug or immunization reaction.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_924",
+    "dataset": "t2p",
+    "sentence": "The message displays the risk factors that the patients exhibit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_925",
+    "dataset": "t2p",
+    "sentence": "A patient's personal representative or a patient or personal representative sends a message to DLHCP or that of a person they are representing.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_926",
+    "dataset": "t2p",
+    "sentence": "A patient or personal representative can answer any of the following questions relative to a previous office visit.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_927",
+    "dataset": "t2p",
+    "sentence": "\"Also, the public health agent may  remove an adverse event report (such as based upon communication with the reporter or because the report appears to be bogus).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_928",
+    "dataset": "t2p",
+    "sentence": "The administrator shall be allowed to assign a LHCP to multiple hospitals.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_929",
+    "dataset": "t2p",
+    "sentence": "System presents a listing of all prescription drugs for which he has been prescribed and has taken in the last 12 months.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_930",
+    "dataset": "t2p",
+    "sentence": "The LHCP then selects a referral to view details.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_931",
+    "dataset": "t2p",
+    "sentence": "A HCP reviews consultations.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_932",
+    "dataset": "t2p",
+    "sentence": "The user can select an appointment from the calendar to read the appointment's details.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_933",
+    "dataset": "t2p",
+    "sentence": "\"A patient views his appointments in the current month together with his office visit dates, prescription dates, and lab procedure dates of the current month on a calendar for the current month.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_934",
+    "dataset": "t2p",
+    "sentence": "\"An LHCP or patient can click the \"\"View Appointment Calendar\"\" link to view his appointments in the current month.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_936",
+    "dataset": "t2p",
+    "sentence": "System presents an automatically-calculated value of BMI calculated based on the formula.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_937",
+    "dataset": "t2p",
+    "sentence": "A UAP can report physiologic measurements.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_938",
+    "dataset": "t2p",
+    "sentence": "The user opens his upcoming appointment list.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_939",
+    "dataset": "t2p",
+    "sentence": "\"An email alert is sent out to the iTrust user in the event of a changed password, status change in laboratory procedure, comprehensive report requested and generated.\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_940",
+    "dataset": "t2p",
+    "sentence": "\"When the patient and LHCP are chosen, system presents the MID of the patient that will be sent to the receiving HCP.\"",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "patient and LHCP are chosen",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_942",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters the patient's MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_943",
+    "dataset": "t2p",
+    "sentence": "\"System presents a line chart giving the chosen measurements (either height or weight) of the patient spanning the last 3 calendar years of data, averaged by quarters (January-March, April-June, July-September, October-December).\"",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_944",
+    "dataset": "t2p",
+    "sentence": "A fake email is sent to the patient alerting the patient that a new message reply has arrived.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_945",
+    "dataset": "t2p",
+    "sentence": "LHCP can delete future appointments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_946",
+    "dataset": "t2p",
+    "sentence": "The patient is then able to write a textual description.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_947",
+    "dataset": "t2p",
+    "sentence": "The event is logged  to verify his changes.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_948",
+    "dataset": "t2p",
+    "sentence": "the HCP is returned in the specific office visit record to verify his changes.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_949",
+    "dataset": "t2p",
+    "sentence": "System presents an option (\"finish\", \"decline\", \"pending\" with \"pending\" as default value) to mark the status of the consultation",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_950",
+    "dataset": "t2p",
+    "sentence": "System presents a text box to enter the details of the consultation.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_951",
+    "dataset": "t2p",
+    "sentence": "The LHCP or ER enters a MID",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_952",
+    "dataset": "t2p",
+    "sentence": "The LHCP or ER confirms the input.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_953",
+    "dataset": "t2p",
+    "sentence": "The representative enters the text of the response message (up to 1000 characters),",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_954",
+    "dataset": "t2p",
+    "sentence": "then The representative clicks the send button.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_955",
+    "dataset": "t2p",
+    "sentence": "The patient opens the message to which he or she wishes to reply,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_956",
+    "dataset": "t2p",
+    "sentence": "and The patient clicks the reply link above the message text.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_957",
+    "dataset": "t2p",
+    "sentence": "A patient renews the patient's expired prescriptions (i.e., prescriptions' end dates are earlier than the current date)",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_958",
+    "dataset": "t2p",
+    "sentence": "and therefore A patient finds the LHCPs who earlier wrote the patient's expired prescriptions (it is assumed that the doctors who wrote prescriptions are all LHCPs so no LHCP checks on the prescription-writing doctors are needed).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_959",
+    "dataset": "t2p",
+    "sentence": "The HCP enters a MID  or name of a patient",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_960",
+    "dataset": "t2p",
+    "sentence": "The HCP confirms their selection.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_961",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters a patient's MID",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_962",
+    "dataset": "t2p",
+    "sentence": "The LHCP confirms his input.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_963",
+    "dataset": "t2p",
+    "sentence": "The patient may type a last name or partial last name",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_964",
+    "dataset": "t2p",
+    "sentence": "The patient optionally reduces the list of choices by providing the specialty.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_965",
+    "dataset": "t2p",
+    "sentence": "The representative opens the message to which he or she wishes to reply,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_966",
+    "dataset": "t2p",
+    "sentence": "The representative clicks the reply link above the message text.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_967",
+    "dataset": "t2p",
+    "sentence": "The administrator adds a new entry for a hospital",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_968",
+    "dataset": "t2p",
+    "sentence": "The administrator modify the hospital name in an existing entry.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_969",
+    "dataset": "t2p",
+    "sentence": "The patient enters the text of the response message (up to 1000 characters)",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_970",
+    "dataset": "t2p",
+    "sentence": "The patient clicks the send button.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_971",
+    "dataset": "t2p",
+    "sentence": "The HCP enters a MID of a patient",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_972",
+    "dataset": "t2p",
+    "sentence": "The HCP confirms their input.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_973",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters the text of the response message (up to 1000 characters)",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_974",
+    "dataset": "t2p",
+    "sentence": "The LHCP clicks the send button.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_975",
+    "dataset": "t2p",
+    "sentence": "A LHCP or ER views an emergency report",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_976",
+    "dataset": "t2p",
+    "sentence": "A LHCP or ER provides an MID.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_977",
+    "dataset": "t2p",
+    "sentence": "The HCP can view a list of laboratory procedures",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_978",
+    "dataset": "t2p",
+    "sentence": "The HCP can update the status and comments.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_979",
+    "dataset": "t2p",
+    "sentence": "The editor may correct the form",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_980",
+    "dataset": "t2p",
+    "sentence": "The editor add more information.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_981",
+    "dataset": "t2p",
+    "sentence": "The health care personnel enters a MID of a patient",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_982",
+    "dataset": "t2p",
+    "sentence": "The health care personnel confirms their selection.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_983",
+    "dataset": "t2p",
+    "sentence": "The LHCP types the subject (up to 100 characters) and the text of a message (up to 1000 characters)",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_984",
+    "dataset": "t2p",
+    "sentence": "The LHCP clicks the send button.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_985",
+    "dataset": "t2p",
+    "sentence": "(If a patient or personal representative has not taken an office visit satisfaction survey for an office visit yet) The patient may take the survey for an office visit",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "patient or personal representative has not taken an office visit satisfaction survey for an office visit yet",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_986",
+    "dataset": "t2p",
+    "sentence": "(if the survey has already been taken, the patient or personal health representative will not have the ability to take the survey).",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "survey has already been taken",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_987",
+    "dataset": "t2p",
+    "sentence": "(if the survey has already been taken, the patient or personal health representative will not have the ability to view their previously submitted survey).",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "survey has already been taken",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_988",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters the patient MID,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_989",
+    "dataset": "t2p",
+    "sentence": "The LHCP selects the type of appointment from a pull-down menu of the existing appointment types,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_990",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters the appointment date and time,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_991",
+    "dataset": "t2p",
+    "sentence": "The LHCP enters comment (optional) up to 1000 characters such as reason for the appointment.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_992",
+    "dataset": "t2p",
+    "sentence": "The user selects a message from the list to read by clicking the \"Read\" link beside the row for the message,",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_993",
+    "dataset": "t2p",
+    "sentence": "the message subject, the name of the sender, the name of the the recipient, timestamp, and the message text shall be displayed in a new page.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_994",
+    "dataset": "t2p",
+    "sentence": "He can select a patient",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "t2p_995",
+    "dataset": "t2p",
+    "sentence": "He can enter data.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  }
+]

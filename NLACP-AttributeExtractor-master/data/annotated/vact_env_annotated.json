@@ -1,0 +1,1646 @@
+[
+  {
+    "id": "vact_1",
+    "dataset": "vact",
+    "sentence": "Security officers can view and modify exam grades during the night shift via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_2",
+    "dataset": "vact",
+    "sentence": "Security officers can approve and view network configurations at the headquarters building.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the headquarters building",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_3",
+    "dataset": "vact",
+    "sentence": "Training department staff can delete and approve network configurations using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_4",
+    "dataset": "vact",
+    "sentence": "IT support staff can configure and access cryptography datasets via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_5",
+    "dataset": "vact",
+    "sentence": "Managers can modify and submit personnel files within the VACT intranet.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "within the VACT intranet",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_6",
+    "dataset": "vact",
+    "sentence": "Lecturers can view cryptography datasets at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_7",
+    "dataset": "vact",
+    "sentence": "Managers can access personnel files on weekends.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "on weekends",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_8",
+    "dataset": "vact",
+    "sentence": "Librarians can view network configurations at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_9",
+    "dataset": "vact",
+    "sentence": "IT support staff can view exam grades from the campus network.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from the campus network",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_10",
+    "dataset": "vact",
+    "sentence": "Training department staff can view and submit cryptography datasets at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_11",
+    "dataset": "vact",
+    "sentence": "Training department staff can review system logs after the exam period at nighttime.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "after the exam period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "at nighttime",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_12",
+    "dataset": "vact",
+    "sentence": "Training department staff can modify and submit financial reports using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_13",
+    "dataset": "vact",
+    "sentence": "Managers can access and download student records outside the campus from external IP addresses.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "outside the campus",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "from external IP addresses",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_14",
+    "dataset": "vact",
+    "sentence": "Faculty members can approve library resources via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_15",
+    "dataset": "vact",
+    "sentence": "Security officers can update research papers during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_16",
+    "dataset": "vact",
+    "sentence": "VACT students can download personnel files via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_17",
+    "dataset": "vact",
+    "sentence": "Training department staff can modify network configurations between 8am and 5pm.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "between 8am and 5pm",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_18",
+    "dataset": "vact",
+    "sentence": "System administrators can review research papers at the headquarters building after the exam period.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the headquarters building",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "after the exam period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_19",
+    "dataset": "vact",
+    "sentence": "Faculty members can update network configurations using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_20",
+    "dataset": "vact",
+    "sentence": "Students can review personnel files using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_21",
+    "dataset": "vact",
+    "sentence": "Managers can review and access library resources at the headquarters building.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the headquarters building",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_22",
+    "dataset": "vact",
+    "sentence": "IT support staff can approve system logs at nighttime through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "at nighttime",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_23",
+    "dataset": "vact",
+    "sentence": "Security officers can download and modify exam schedules before the deadline.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_24",
+    "dataset": "vact",
+    "sentence": "VACT students can configure and upload exam grades via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_25",
+    "dataset": "vact",
+    "sentence": "Managers can download student records via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_26",
+    "dataset": "vact",
+    "sentence": "Lecturers can approve and update financial reports using internal devices during the registration period.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_27",
+    "dataset": "vact",
+    "sentence": "VACT students can modify system logs at the headquarters building.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the headquarters building",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_28",
+    "dataset": "vact",
+    "sentence": "VACT students can approve personnel files from the campus network.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from the campus network",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_29",
+    "dataset": "vact",
+    "sentence": "Security officers can review library resources through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_30",
+    "dataset": "vact",
+    "sentence": "Training department staff can delete course materials via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_31",
+    "dataset": "vact",
+    "sentence": "Faculty members can delete and access exam grades between 8am and 5pm.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "between 8am and 5pm",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_32",
+    "dataset": "vact",
+    "sentence": "Department heads can view and delete network configurations via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_33",
+    "dataset": "vact",
+    "sentence": "IT support staff can audit thesis submissions via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_34",
+    "dataset": "vact",
+    "sentence": "Training department staff can view course materials at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_35",
+    "dataset": "vact",
+    "sentence": "Guest users can approve and upload exam grades on weekends.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "on weekends",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_36",
+    "dataset": "vact",
+    "sentence": "Managers can view student records using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_37",
+    "dataset": "vact",
+    "sentence": "Librarians can modify system logs after the exam period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "after the exam period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_38",
+    "dataset": "vact",
+    "sentence": "VACT students can view exam grades using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_39",
+    "dataset": "vact",
+    "sentence": "Lecturers can delete and update research papers via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_40",
+    "dataset": "vact",
+    "sentence": "Students can modify and configure cryptography datasets from external IP addresses.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from external IP addresses",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_41",
+    "dataset": "vact",
+    "sentence": "Researchers can submit and download personnel files using internal devices via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_42",
+    "dataset": "vact",
+    "sentence": "Training department staff can access and review thesis submissions between 8am and 5pm outside the campus.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "between 8am and 5pm",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "outside the campus",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_43",
+    "dataset": "vact",
+    "sentence": "Guest users can configure and modify network configurations through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_44",
+    "dataset": "vact",
+    "sentence": "Lecturers can audit course materials during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_45",
+    "dataset": "vact",
+    "sentence": "Faculty members can delete thesis submissions after the exam period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "after the exam period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_46",
+    "dataset": "vact",
+    "sentence": "Faculty members can audit and upload network configurations within the VACT intranet.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "within the VACT intranet",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_47",
+    "dataset": "vact",
+    "sentence": "Training department staff can download cryptography datasets from the campus network.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from the campus network",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_48",
+    "dataset": "vact",
+    "sentence": "Managers can view exam grades via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_49",
+    "dataset": "vact",
+    "sentence": "Lecturers can configure student records during the registration period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_50",
+    "dataset": "vact",
+    "sentence": "Lecturers can delete library resources using authorized workstations.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using authorized workstations",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_51",
+    "dataset": "vact",
+    "sentence": "IT support staff can download thesis submissions through an encrypted channel during business hours.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "during business hours",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_52",
+    "dataset": "vact",
+    "sentence": "VACT students can download and view exam schedules during the registration period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_53",
+    "dataset": "vact",
+    "sentence": "IT support staff can configure research papers before the deadline.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_54",
+    "dataset": "vact",
+    "sentence": "Training department staff can review and access exam schedules through an encrypted channel via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_55",
+    "dataset": "vact",
+    "sentence": "Lecturers can review cryptography datasets between 8am and 5pm during business hours.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "between 8am and 5pm",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "during business hours",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_56",
+    "dataset": "vact",
+    "sentence": "System administrators can review system logs using authorized workstations.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using authorized workstations",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_57",
+    "dataset": "vact",
+    "sentence": "Librarians can configure exam grades during the registration period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_58",
+    "dataset": "vact",
+    "sentence": "Department heads can audit and upload network configurations during the registration period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_59",
+    "dataset": "vact",
+    "sentence": "Managers can access library resources during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_60",
+    "dataset": "vact",
+    "sentence": "Department heads can configure cryptography datasets during the registration period during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_61",
+    "dataset": "vact",
+    "sentence": "Managers can modify cryptography datasets outside the campus.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "outside the campus",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_62",
+    "dataset": "vact",
+    "sentence": "Librarians can review personnel files within the VACT intranet at nighttime.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "within the VACT intranet",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "at nighttime",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_63",
+    "dataset": "vact",
+    "sentence": "Lecturers can submit exam grades during the night shift before the deadline.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_64",
+    "dataset": "vact",
+    "sentence": "Guest users can upload and delete system logs during the night shift via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_65",
+    "dataset": "vact",
+    "sentence": "Librarians can upload system logs within the VACT intranet at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "within the VACT intranet",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_66",
+    "dataset": "vact",
+    "sentence": "Librarians can review and download network configurations during business hours.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during business hours",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_67",
+    "dataset": "vact",
+    "sentence": "System administrators can audit system logs at the headquarters building.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the headquarters building",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_68",
+    "dataset": "vact",
+    "sentence": "Managers can upload and review cryptography datasets through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_69",
+    "dataset": "vact",
+    "sentence": "Training department staff can download exam grades during business hours through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during business hours",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_70",
+    "dataset": "vact",
+    "sentence": "VACT students can review personnel files before the deadline at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_71",
+    "dataset": "vact",
+    "sentence": "Security officers can upload thesis submissions on weekends.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "on weekends",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_72",
+    "dataset": "vact",
+    "sentence": "Researchers can configure system logs outside the campus.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "outside the campus",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_73",
+    "dataset": "vact",
+    "sentence": "Researchers can configure research papers from external IP addresses.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from external IP addresses",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_74",
+    "dataset": "vact",
+    "sentence": "System administrators can audit thesis submissions using internal devices.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using internal devices",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_75",
+    "dataset": "vact",
+    "sentence": "Researchers can download student records via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_76",
+    "dataset": "vact",
+    "sentence": "Department heads can update financial reports before the deadline.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_77",
+    "dataset": "vact",
+    "sentence": "Managers can approve research papers from the campus network.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from the campus network",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_78",
+    "dataset": "vact",
+    "sentence": "Security officers can audit library resources during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_79",
+    "dataset": "vact",
+    "sentence": "Training department staff can delete research papers during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_80",
+    "dataset": "vact",
+    "sentence": "Faculty members can view and update financial reports via trusted platforms.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_81",
+    "dataset": "vact",
+    "sentence": "Guest users can submit student records during business hours.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during business hours",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_82",
+    "dataset": "vact",
+    "sentence": "Managers can view cryptography datasets through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_83",
+    "dataset": "vact",
+    "sentence": "VACT students can delete course materials using authorized workstations.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using authorized workstations",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_84",
+    "dataset": "vact",
+    "sentence": "VACT students can audit library resources using authorized workstations through an encrypted channel.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using authorized workstations",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "through an encrypted channel",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_85",
+    "dataset": "vact",
+    "sentence": "VACT students can update and delete research papers via a secure VPN using authorized workstations.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "using authorized workstations",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_86",
+    "dataset": "vact",
+    "sentence": "Security officers can download and view network configurations during the night shift.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_87",
+    "dataset": "vact",
+    "sentence": "IT support staff can download student records outside the campus.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "outside the campus",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_88",
+    "dataset": "vact",
+    "sentence": "Lecturers can modify research papers during the registration period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_89",
+    "dataset": "vact",
+    "sentence": "Lecturers can submit cryptography datasets using authorized workstations.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "using authorized workstations",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_90",
+    "dataset": "vact",
+    "sentence": "Training department staff can submit cryptography datasets via trusted platforms during business hours.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "via trusted platforms",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "during business hours",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_91",
+    "dataset": "vact",
+    "sentence": "Managers can audit and submit cryptography datasets at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_92",
+    "dataset": "vact",
+    "sentence": "Librarians can configure and submit personnel files during the night shift via a secure VPN.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "via a secure VPN",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_93",
+    "dataset": "vact",
+    "sentence": "Guest users can access cryptography datasets from external IP addresses.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from external IP addresses",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_94",
+    "dataset": "vact",
+    "sentence": "Guest users can modify thesis submissions from external IP addresses.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "from external IP addresses",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_95",
+    "dataset": "vact",
+    "sentence": "Security officers can access course materials during the registration period.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the registration period",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_96",
+    "dataset": "vact",
+    "sentence": "System administrators can access system logs before the deadline.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_97",
+    "dataset": "vact",
+    "sentence": "Department heads can submit system logs at the headquarters building within the VACT intranet.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the headquarters building",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "spatial",
+        "value": "within the VACT intranet",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_98",
+    "dataset": "vact",
+    "sentence": "Guest users can access and modify personnel files at the cryptography lab.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "at the cryptography lab",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_99",
+    "dataset": "vact",
+    "sentence": "Managers can review exam grades during the night shift before the deadline.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "during the night shift",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      },
+      {
+        "category": "temporal",
+        "value": "before the deadline",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  },
+  {
+    "id": "vact_100",
+    "dataset": "vact",
+    "sentence": "Faculty members can modify student records on weekends.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "on weekends",
+        "trigger": "Manual",
+        "source": "manual_annotation"
+      }
+    ],
+    "source": "Manual",
+    "annotated": true
+  }
+]

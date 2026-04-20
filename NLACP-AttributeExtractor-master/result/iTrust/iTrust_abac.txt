@@ -1,0 +1,46 @@
+Attributes found: ['adverse', 'personal', 'requested', 'comprehensive', 'own', 'public', 'specific', 'given', 'based', 'sorted', 'physiological', 'start', 'demographic', 'last', 'recent', 'upcoming', 'created', 'selected', 'received', 'taken']
+
+Clusters (3 total):
+  OUTLIER: ['adverse', 'own', 'public', 'specific', 'given', 'based', 'physiological', 'start', 'last', 'upcoming']
+  Cluster 0: ['personal', 'comprehensive', 'demographic', 'recent']
+  Cluster 1: ['requested', 'sorted', 'created', 'selected', 'received', 'taken']
+
+[INFO] Element → Attributes mapping:
+  height               (context): ['adverse']
+  weight               (context): ['adverse']
+  patient              (subject): ['personal']
+  health representative (subject): ['personal']
+  prescriptions        (object ): ['adverse', 'requested']
+  prescription list    (context): ['adverse', 'requested']
+  appointments         (object ): ['adverse']
+  patient report       (object ): ['personal']
+  reports              (object ): ['adverse', 'requested']
+  lab procedure        (context): ['adverse', 'requested']
+  measurements         (object ): ['adverse']
+  monitoring data      (object ): ['adverse']
+  events               (object ): ['adverse', 'requested']
+  event                (context): ['adverse']
+  details              (context): ['adverse']
+  event report         (context): ['adverse']
+  patient mid          (object ): ['personal']
+  information          (object ): ['personal']
+  health records       (object ): ['personal']
+  access logs          (object ): ['personal', 'requested']
+  messages             (object ): ['adverse', 'personal', 'requested']
+  event reports        (context): ['adverse']
+  [WARN] Hierarchy thất bại: 'context'
+
+[INFO] Machine: 53 policies  |  Gold: 53 policies
+
+==============================================================
+  F-SCORE RESULTS  (53 câu được so sánh)
+==============================================================
+  Field                 P        R       F1   TP    FP    FN
+  --------------------------------------------------------
+  Subject          1.0000   1.0000   1.0000    58     0     0
+  Actions          0.9474   1.0000   0.9730    54     3     0
+  Object           0.9825   1.0000   0.9912    56     1     0
+  Environment      1.0000   0.8000   0.8889     8     0     2
+  --------------------------------------------------------
+  OVERALL (micro)   0.9778   0.9888   0.9832   176     4     2
+==============================================================

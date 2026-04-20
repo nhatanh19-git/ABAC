@@ -1,0 +1,37 @@
+[
+    {
+        "process": "Hospital_management_system",
+        "action": "View",
+        "object": "Patient_health_record",
+        "activity_namespace": "Hospital_management_system:View:Patient_health_record",
+        "original_sentence": "1. The hospital management system allows a doctor to view patient health records."
+    },
+    {
+        "process": "Registration_module",
+        "action": "Create",
+        "object": "New_user_account",
+        "activity_namespace": "Registration_module:Create:New_user_account",
+        "original_sentence": "2. The registration module enables an admin to create a new user account."
+    },
+    {
+        "process": "Hr_department_process",
+        "action": "Approve",
+        "object": "Employee_leave_request",
+        "activity_namespace": "Hr_department_process:Approve:Employee_leave_request",
+        "original_sentence": "3. The HR department process requires a manager to approve employee leave requests."
+    },
+    {
+        "process": "Financial_subsystem",
+        "action": "Process",
+        "object": "Invoice_payment",
+        "activity_namespace": "Financial_subsystem:Process:Invoice_payment",
+        "original_sentence": "4. The financial subsystem permits an accountant to process invoice payments."
+    },
+    {
+        "process": "Academic_portal",
+        "action": "Submit",
+        "object": "Final_exam_grade",
+        "activity_namespace": "Academic_portal:Submit:Final_exam_grade",
+        "original_sentence": "5. In the academic portal, a lecturer can submit final exam grades."
+    }
+]

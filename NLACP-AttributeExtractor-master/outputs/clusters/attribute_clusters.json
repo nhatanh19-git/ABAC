@@ -1,0 +1,42 @@
+{
+    "clusters": [
+        {
+            "cluster_id": -1,
+            "short_name": "adverse",
+            "attributes": [
+                "adverse",
+                "own",
+                "public",
+                "specific",
+                "given",
+                "based",
+                "physiological",
+                "start",
+                "last",
+                "upcoming"
+            ]
+        },
+        {
+            "cluster_id": 0,
+            "short_name": "personal",
+            "attributes": [
+                "personal",
+                "comprehensive",
+                "demographic",
+                "recent"
+            ]
+        },
+        {
+            "cluster_id": 1,
+            "short_name": "requested",
+            "attributes": [
+                "requested",
+                "sorted",
+                "created",
+                "selected",
+                "received",
+                "taken"
+            ]
+        }
+    ]
+}

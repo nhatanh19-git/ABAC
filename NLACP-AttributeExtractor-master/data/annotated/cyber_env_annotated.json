@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "cyber_1",
+    "dataset": "cyber",
+    "sentence": "To support reviewers with making choices, CyberChair provides them with several webpages containing overviews of  the submitted abstracts.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_2",
+    "dataset": "cyber",
+    "sentence": "CyberChair generates a paper distribution proposal for the PCC.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_3",
+    "dataset": "cyber",
+    "sentence": "As soon as the full paper deadline has passed, the papers can be assigned to the reviewers.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "the full paper deadline has passed",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_4",
+    "dataset": "cyber",
+    "sentence": "In step 2, the full paper must be submitted by uploading it.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_5",
+    "dataset": "cyber",
+    "sentence": "Although CyberChair is not something to sit in (please refer to www.cyberchair.com if you are looking for that), when you are a program chair, you can sit back, relax and watch the progress of the submission and review process.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_6",
+    "dataset": "cyber",
+    "sentence": "For this process to work smoothly, the abstracts should be submitted at least one week  before the full paper is submitted.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "one week  before the full paper is submitted",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_7",
+    "dataset": "cyber",
+    "sentence": "Usually, people are allowed to send their submission by email.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_8",
+    "dataset": "cyber",
+    "sentence": "Reviewers can indicate whether they are an expert on the topic (X), no expert, but knowledgable in the subject area (Y), or an informed outsider (Z).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_9",
+    "dataset": "cyber",
+    "sentence": "Downloading of papers by the reviewers can start as soon as papers are submitted.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "papers are submitted",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_11",
+    "dataset": "cyber",
+    "sentence": "The current implementation collects the preferences (bids), expertise levels and willingness to review papers on certain topics and the conflicts of interest of the reviewers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_12",
+    "dataset": "cyber",
+    "sentence": "In the first step, authors must fill in a webform shown by figures 1 and 2, on which they state their names and contact information, the title of their paper, an abstract of the paper, and indicate which conference topics their paper covers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_13",
+    "dataset": "cyber",
+    "sentence": "In case there are less than 4 reviewers, this process is repeated with the list of reviewers who indicated a low preference for the paper.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "less than 4 reviewers",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_14",
+    "dataset": "cyber",
+    "sentence": "The level of agreement among reviewers is indicated on each reviewer's personal page, using a coloring scheme.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_15",
+    "dataset": "cyber",
+    "sentence": "After the meeting, the reviewers’ comments are sent back to the authors, so that they can improve their paper.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "After the meeting",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_16",
+    "dataset": "cyber",
+    "sentence": "The review process can be monitored by the chair.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_17",
+    "dataset": "cyber",
+    "sentence": "His or her personal webpage will then be updated automatically.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_18",
+    "dataset": "cyber",
+    "sentence": "For each paper that a reviewer would like to review, the corresponding checkbox in the left part of the window should be marked.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_20",
+    "dataset": "cyber",
+    "sentence": "Other reasons are that authors are forced to use it to submit their paper.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_23",
+    "dataset": "cyber",
+    "sentence": "You may also want to take a look at 2 posters: an overview (, 140 Kb) and a picture containing screenshots (, 1.71 Mb).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_24",
+    "dataset": "cyber",
+    "sentence": "It generates several overviews based on the reviews which support the Program Committee (PC) in selecting the best papers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_25",
+    "dataset": "cyber",
+    "sentence": "This is used to discover papers that have only been reviewed by non-experts, so that the PCC may ask another reviewer to review the paper.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_26",
+    "dataset": "cyber",
+    "sentence": "These overviews are currently updated at 5 minutes before the hour.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_27",
+    "dataset": "cyber",
+    "sentence": "After the PC meeting, the PCC must inform the maintainer about the accepted papers, so that the notifications can be sent to the authors.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "After the PC meeting",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_29",
+    "dataset": "cyber",
+    "sentence": "Authors can submit their abstracts and papers using the web (uploading).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_30",
+    "dataset": "cyber",
+    "sentence": "After the program committee meeting has taken place, and papers have been selected, the (anonymous) comments can be automatically sent to the authors.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "program committee meeting has taken place, and papers have been selected",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_32",
+    "dataset": "cyber",
+    "sentence": "Further, it allows reviewers to learn about each other’s opinions, which provides means for good preparation for the PC meeting.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_33",
+    "dataset": "cyber",
+    "sentence": "The authors must use the login and password combination sent after phase 1.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_34",
+    "dataset": "cyber",
+    "sentence": "Reviews can either be submitted via a webpage, or filled in off-line and emailed.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_35",
+    "dataset": "cyber",
+    "sentence": "To be able to protect the reviews from outsiders, each reviewer gets his or her own directory on the webserver.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_36",
+    "dataset": "cyber",
+    "sentence": "Following Nierstrasz’s pattern Make Champions Explicit , the reviewers are asked to fill in the classification of papers on the review form.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_37",
+    "dataset": "cyber",
+    "sentence": "When a reviewer reaches this maximum, he or she will not be part of the preference lists, because apparently his or her expertise is needed to review ’less popular’ papers.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "reviewer reaches this maximum",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_38",
+    "dataset": "cyber",
+    "sentence": "Further, a high or low priority should be chosen, to indicate how eager they are to review the paper.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_39",
+    "dataset": "cyber",
+    "sentence": "The submitted bids are accumulated.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_40",
+    "dataset": "cyber",
+    "sentence": "The 4 reviewers with the least number of papers assigned so far ’get’ the paper.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "reviewers with the least number of papers assigned",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_41",
+    "dataset": "cyber",
+    "sentence": "In case the ’expertise-value’ is equal, the reviewer with the least number of papers assigned so far ’gets’ the paper.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "the ’expertise-value’ is equal",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_42",
+    "dataset": "cyber",
+    "sentence": "These overviews can be printed in case reviewers want to read the abstracts offline.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "reviewers want to read the abstracts offline",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_43",
+    "dataset": "cyber",
+    "sentence": "All review files a reviewer needs, such as the review form and other reviewers’ reviews, are written in the reviewer’s directory.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_44",
+    "dataset": "cyber",
+    "sentence": "CyberChair supports preparation of the proceedings by generating the table of contents and author index, based on the input of the authors.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_45",
+    "dataset": "cyber",
+    "sentence": "Authors must submit their paper in two steps.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_46",
+    "dataset": "cyber",
+    "sentence": "Finally, after the camera-ready papers have been submitted, the proceedings must be prepared by the maintainer by entering the conference sessions and the numbers of the papers within those sections in a specific template file.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "camera-ready papers have been submitted",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_47",
+    "dataset": "cyber",
+    "sentence": "The reviewer can be added to the list of reviewers for that paper.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_48",
+    "dataset": "cyber",
+    "sentence": "The pages of the reviewers are generated once by the maintainer when the paper distribution has been done.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "paper distribution has been done",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_50",
+    "dataset": "cyber",
+    "sentence": "Based on the preferences and the reviewers' expertise, CyberChair calculates a paper assignment proposal for the chair, where as many as possible preferences of the reviewers are honored, provided that all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_52",
+    "dataset": "cyber",
+    "sentence": "In case a reviewer has already submitted a review of the selected paper, hyperlinks to the reviews of the other reviewers are shown, so that the reviewer can read their opinion.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "reviewer has already submitted a review of the selected paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_53",
+    "dataset": "cyber",
+    "sentence": "When all submissions have arrived, suitable members of the Program Committee (PC) must be selected to review each paper.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "all submissions have arrived",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_54",
+    "dataset": "cyber",
+    "sentence": "Reviewers are also asked to inform the maintainer of papers they do not want to review because of a conflict of interest.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_56",
+    "dataset": "cyber",
+    "sentence": "The state is based on the classification given to papers by the reviewers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_57",
+    "dataset": "cyber",
+    "sentence": "CyberChair provides direct reflection on submitted reviews (for easy comparison with the other reviewers' opinions), without the maintainer's interference.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_59",
+    "dataset": "cyber",
+    "sentence": "A copy of the message is sent to the PCC.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_61",
+    "dataset": "cyber",
+    "sentence": "As soon as the reviewer has submitted his or her review, the review will be the default to be displayed in this frame when the reviewer clicks on the paper number in the top frame.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "reviewer clicks on the paper number in the top frame",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_62",
+    "dataset": "cyber",
+    "sentence": "The reviewers’ reviews are compared to the other reviews to detect conflicts.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_63",
+    "dataset": "cyber",
+    "sentence": "This list is sorted, based on the number of papers the reviewers have already been assigned so far.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_64",
+    "dataset": "cyber",
+    "sentence": "Moreover, since we chose to regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes, this would make it almost impossible for reviewers to enter a review form.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "regenerate the state of all papers displayed on the reviewer’s webpage every 5 minutes",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_65",
+    "dataset": "cyber",
+    "sentence": "Following the patterns Experts Review Papers and Champions Review Papers , papers should be matched to domain experts in the PC.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_66",
+    "dataset": "cyber",
+    "sentence": "It helps the PC to select the best papers for the conference, which makes it a group decision support system.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_67",
+    "dataset": "cyber",
+    "sentence": "In case not enough reviewers can be found to review a paper, this is an indication that the script should be better tuned.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "not enough reviewers can be found to review a paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_68",
+    "dataset": "cyber",
+    "sentence": "To avoid 'pollution' of the demo data, uploading of files has been blocked.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_69",
+    "dataset": "cyber",
+    "sentence": "The reviewers are asked to indicated their expertise of the conference topics and their willingness to review papers on those topics.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_70",
+    "dataset": "cyber",
+    "sentence": "You will see a list of overviews that are available to the chair.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_71",
+    "dataset": "cyber",
+    "sentence": "For each paper, a list of the reviewers who indicated a high preference for the paper is generated.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "For each paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_72",
+    "dataset": "cyber",
+    "sentence": "After the review process, the authors of submitted papers should submit a camera-ready version of their paper, analogous to step 2.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "After the review process",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_73",
+    "dataset": "cyber",
+    "sentence": "Each time the reviewer clicks on a paper number in the top frame, CyberChair checks if the reviewer has already submitted his or her review.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "reviewer clicks on a paper number in the top frame",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_74",
+    "dataset": "cyber",
+    "sentence": "CyberChair is composed of a set of Common Gateway Interface (CGI) scripts, which are activated by the webforms that are used by the authors and reviewers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_77",
+    "dataset": "cyber",
+    "sentence": "When displaying a review, the date and time of the last update of the review is shown as extra check.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "When displaying a review",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_78",
+    "dataset": "cyber",
+    "sentence": "The authors may make corrections or changes to the  information that was submitted in step 1.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_79",
+    "dataset": "cyber",
+    "sentence": "CyberChair collects abstracts, papers and reviews and can therefore be regarded as a system that provides a shared workspace.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_80",
+    "dataset": "cyber",
+    "sentence": "Reviews can be updated.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_81",
+    "dataset": "cyber",
+    "sentence": "To enter the review process, authors must send their paper to the Program Committee Chair (PCC).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_82",
+    "dataset": "cyber",
+    "sentence": "This way, the reviewer can always look at the latest version of the reviews.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_83",
+    "dataset": "cyber",
+    "sentence": "If this is the case, then the reviews of the other reviewers for this paper are copied into the reviewer’s directory.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_84",
+    "dataset": "cyber",
+    "sentence": "Reviewers can browse the overviews by conference topic, to quickly identify the papers that match their interest  and expertise (Figure 3).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_86",
+    "dataset": "cyber",
+    "sentence": "The highest and lowest classification given to a paper are taken into account.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_87",
+    "dataset": "cyber",
+    "sentence": "The submission form in phase 2 is the same as the submission form in phase 1, except that authors must use it to upload their full paper file.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_88",
+    "dataset": "cyber",
+    "sentence": "After clicking on a paper number several hyperlinks are generated to allow the paper to be downloaded, to display the abstract and to submit or update a review.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "clicking on a paper number several",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_89",
+    "dataset": "cyber",
+    "sentence": "Papers that have not received enough bids should be assigned based on the expertise of the reviewers.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "Papers that have not received enough bids",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_90",
+    "dataset": "cyber",
+    "sentence": "Each reviewer gets a personal, password-protected webpage, that contains links to the papers (s)he is assigned to review, so they can be downloaded.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_91",
+    "dataset": "cyber",
+    "sentence": "If the publisher allows electronic versions, the maintainer should send or upload the proceedings, for further preparation by the publisher.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "publisher allows electronic versions",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_92",
+    "dataset": "cyber",
+    "sentence": "After the paper distribution, CyberChair generates a personal, password-protected webpage for each reviewer.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "After the paper distribution",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_93",
+    "dataset": "cyber",
+    "sentence": "CyberChair provides web pages for the reviewers to indicate their preference for papers they would like to review.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_94",
+    "dataset": "cyber",
+    "sentence": "Papers are classified, using the highest and the lowest classification given by the reviewers (A to D), as described in the paper mentioned above.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_95",
+    "dataset": "cyber",
+    "sentence": "The maintainer should make sure that enough disk space is available to store the papers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_96",
+    "dataset": "cyber",
+    "sentence": "In addition, the reviewers must indicate their overall expertise on the topics that a paper covers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_97",
+    "dataset": "cyber",
+    "sentence": "In case conflicting reviews exist, the reviewers can use the hyperlink that enables easy communication to the other reviewers by email.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "conflicting reviews exist",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_98",
+    "dataset": "cyber",
+    "sentence": "When the level of agreement differs too much, the reviewers and chair may give it special attention, even before the PC meeting takes place.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "level of agreement differs too much",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_99",
+    "dataset": "cyber",
+    "sentence": "CyberChair supports PCs by using these patterns in its implementation.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_100",
+    "dataset": "cyber",
+    "sentence": "The current version of CyberChair supports all phases of the review process, including preparation of the proceedings in the electronic format prescribed by the publisher.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_101",
+    "dataset": "cyber",
+    "sentence": "Not all reviewers like to fill in review forms on-line.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "on-line",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_102",
+    "dataset": "cyber",
+    "sentence": "CyberChair significantly reduces the workload of the PC, by doing all necessary bookkeeping.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_103",
+    "dataset": "cyber",
+    "sentence": "In The Information Lens  the authors focus on sharing information among a group of people to solve problems.",
+    "env_attributes": [
+      {
+        "category": "spatial",
+        "value": "In The Information Lens",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_104",
+    "dataset": "cyber",
+    "sentence": "Reviewer - Use the first and last name (in lowercase) as login and password, respectively.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_105",
+    "dataset": "cyber",
+    "sentence": "CyberChair points out conflicting reviews",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_106",
+    "dataset": "cyber",
+    "sentence": "CyberChair offers the reviewers means to easily communicate to solve these conflicts.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_107",
+    "dataset": "cyber",
+    "sentence": "CyberChair assigns a unique identification to the submission and",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_108",
+    "dataset": "cyber",
+    "sentence": "CyberChair sends a login and password combination for step 2 to the contact person’s email address.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_109",
+    "dataset": "cyber",
+    "sentence": "Other scripts are so-called administrative scripts which are started by the maintainer.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_110",
+    "dataset": "cyber",
+    "sentence": "Other scripts are so-called administrative scripts which are started automatically at regular intervals by the system (e.g. crontab on Unix systems).",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_111",
+    "dataset": "cyber",
+    "sentence": "After submission of a review, reviewers will be able to read the other reviewers' reviews.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "After submission of a review",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_112",
+    "dataset": "cyber",
+    "sentence": "After submission of a review, reviewers will be able to prepare for the PC meeting.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "After submission of a review",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_113",
+    "dataset": "cyber",
+    "sentence": "You can submit reviews.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_114",
+    "dataset": "cyber",
+    "sentence": "You can find out what happens.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_115",
+    "dataset": "cyber",
+    "sentence": "When a reviewer has submitted all his reviews and has time to review more papers, he may look at the overview containing all papers.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "a reviewer has submitted all his reviews and has time to review more papers",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_116",
+    "dataset": "cyber",
+    "sentence": "When a reviewer has submitted all his reviews and has time to review more papers, he may select papers for which conflicting reviews exist.",
+    "env_attributes": [
+      {
+        "category": "temporal",
+        "value": "When a reviewer has submitted all his reviews and has time to review more papers",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_117",
+    "dataset": "cyber",
+    "sentence": "The table of contents and author index of the proceedings are generated by CyberChair for electronic delivery to the publisher.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_118",
+    "dataset": "cyber",
+    "sentence": "The camera-ready papers are prepared for electronic delivery to the publisher.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_119",
+    "dataset": "cyber",
+    "sentence": "CyberChair can handle the paper distribution.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_120",
+    "dataset": "cyber",
+    "sentence": "CyberChair collects and categorizes all reviews.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_121",
+    "dataset": "cyber",
+    "sentence": "CyberChair prepares overviews of reviews which can be used during the PC meeting.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_122",
+    "dataset": "cyber",
+    "sentence": "CyberChair checks the review forms for correctness.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_124",
+    "dataset": "cyber",
+    "sentence": "Further, the maintainer may need to convert submitted papers to other formats.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_125",
+    "dataset": "cyber",
+    "sentence": "Further, the maintainer may need to ask the authors to submit the paper in another format.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_126",
+    "dataset": "cyber",
+    "sentence": "The PCC sends the papers and review forms to the reviewers.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_127",
+    "dataset": "cyber",
+    "sentence": "Reviewers must fill in the review forms.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_128",
+    "dataset": "cyber",
+    "sentence": "Reviewers must send review forms to the PCC.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_129",
+    "dataset": "cyber",
+    "sentence": "CyberChair deals with most administrative tasks that are involved in the review process.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_130",
+    "dataset": "cyber",
+    "sentence": "CyberChair stores author information, abstracts, (camera-ready) papers and reviews.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_131",
+    "dataset": "cyber",
+    "sentence": "If there are still not enough reviewers for the paper, the expertise level of reviewers of all topics the paper covers is calculated.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "there are still not enough reviewers for the paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_132",
+    "dataset": "cyber",
+    "sentence": "If there are still not enough reviewers for the paper, the paper is assigned to the reviewers with the highest overall expertise.",
+    "env_attributes": [
+      {
+        "category": "situational",
+        "value": "there are still not enough reviewers for the paper",
+        "trigger": "LitroACP",
+        "source": "condition_annotation"
+      }
+    ],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_133",
+    "dataset": "cyber",
+    "sentence": "The authors of accepted papers may submit a brushed-up version of their paper, in so-called camera-ready format to the PCC.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_134",
+    "dataset": "cyber",
+    "sentence": "PCC will send camera-ready format, together with the preface and the table of contents to the publisher to have the proceedings printed.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  },
+  {
+    "id": "cyber_135",
+    "dataset": "cyber",
+    "sentence": "CyberChair transforms review forms into a format that can be used for display in a browser.",
+    "env_attributes": [],
+    "source": "LitroACP",
+    "annotated": true
+  }
+]
