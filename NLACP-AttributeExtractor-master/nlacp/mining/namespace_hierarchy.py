@@ -18,7 +18,8 @@ import sys as _sys
 _sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from nlacp.paths import (POLICY_DATASET_PATH as DATASET_PATH,
                           ATTRIBUTE_CLUSTERS_PATH as CLUSTERS_PATH,
-                          NAMESPACE_HIERARCHY_PATH as OUTPUT_PATH)
+                          NAMESPACE_HIERARCHY_PATH as OUTPUT_PATH,
+                          POLICY_BUNDLES_PATH as BUNDLES_PATH)
 
 
 # ===================================================================
@@ -30,8 +31,109 @@ def load_dataset():
         return json.load(f)
 
 def load_clusters():
-    with open(CLUSTERS_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    # Prefer explicit attribute clusters file. If missing, try to build
+    # a lightweight clusters structure from policy_bundles or from
+    # attributes present in the policy dataset (fallback).
+    if os.path.exists(CLUSTERS_PATH):
+        with open(CLUSTERS_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    # Build synthetic clusters from policy bundles if available
+    attrs_set = set()
+    if os.path.exists(BUNDLES_PATH):
+        try:
+            with open(BUNDLES_PATH, "r", encoding="utf-8") as f:
+                bundles = json.load(f).get("policy_bundles", [])
+            # bundles may not contain attribute names; fall back to dataset later
+        except Exception:
+            bundles = []
+    else:
+        bundles = []
+
+    # If bundles present, try to extract attribute names and suggested short_names
+    attr_to_short = {}    # canonical attr name -> suggested short_name
+    attrs_found = set()
+
+    # From dataset attributes (preferred source for short_name suggestions)
+    if os.path.exists(DATASET_PATH):
+        try:
+            with open(DATASET_PATH, "r", encoding="utf-8") as f:
+                dataset = json.load(f)
+            for policy in dataset.get("policies", []):
+                for attr in policy.get("attributes", []):
+                    name = (attr.get("name") or attr.get("value") or "").strip()
+                    short = (attr.get("short_name") or "").strip()
+                    if name:
+                        key = name.lower()
+                        attrs_found.add(key)
+                        if short:
+                            attr_to_short[key] = short
+        except Exception:
+            pass
+
+    # From policy bundles: resource names, relation labels, context relations
+    if os.path.exists(BUNDLES_PATH):
+        try:
+            with open(BUNDLES_PATH, "r", encoding="utf-8") as f:
+                bundles = json.load(f).get("policy_bundles", [])
+            for b in bundles:
+                # resource name
+                rc = b.get("resource_cluster", {})
+                rname = rc.get("resource") or ""
+                if rname:
+                    attrs_found.add(str(rname).lower())
+                # relations
+                ctx = b.get("context_cluster", {})
+                for rel in ctx.get("relations", []) or []:
+                    # rel may be dict with attribute/value
+                    if isinstance(rel, dict):
+                        # try keys commonly used
+                        for k in ("attribute", "value", "name", "label"):
+                            v = rel.get(k)
+                            if v:
+                                attrs_found.add(str(v).lower())
+                    elif isinstance(rel, str):
+                        attrs_found.add(rel.lower())
+        except Exception:
+            pass
+
+    # Helper to compute short name from a list of attribute strings
+    def _compute_short_name(attr_list):
+        stop = {"a", "an", "the", "of", "in", "at", "on", "by", "to", "for", "own"}
+        from collections import Counter
+        tokens = []
+        for attr in attr_list:
+            for t in str(attr).lower().split():
+                if t not in stop and len(t) > 2:
+                    tokens.append(t)
+        if not tokens:
+            return (attr_list[0] if attr_list else "attr").replace(" ", "_")
+        return Counter(tokens).most_common(1)[0][0]
+
+    # If we have found attrs, group them by suggested short_name or heuristic
+    clusters = {"clusters": []}
+    if attrs_found:
+        grouping = {}
+        for a in sorted(attrs_found):
+            short = attr_to_short.get(a)
+            if not short:
+                # heuristic: use token freq
+                short = _compute_short_name([a])
+            grouping.setdefault(short, []).append(a)
+
+        cid = 0
+        for short, members in grouping.items():
+            clusters["clusters"].append({
+                "cluster_id": cid,
+                "short_name": short,
+                "attributes": members
+            })
+            cid += 1
+    else:
+        # fallback: empty clusters
+        clusters = {"clusters": []}
+
+    return clusters
 
 
 # ===================================================================

@@ -26,6 +26,7 @@ sys.path.insert(0, PROJECT_ROOT)
 
 from nlacp.extraction.relation_candidate import extract_relations, parse_sentence
 from nlacp.extraction.env_extractor import extract_env_attributes
+from nlacp.pipeline.pipeline_v2 import parse_acp_sentence
 from nlacp.paths import POLICY_DATASET_PATH, RELATION_CANDIDATE_PATH
 
 DATASET_DIR = os.path.join(PROJECT_ROOT, "dataset")
@@ -184,7 +185,10 @@ def build_policy_record(extracted: dict, idx: int) -> dict:
         "actions":        extracted["actions"],
         "object":         extracted["object"],
         "relation_pairs": relation_pairs,
-        "environment":    environment
+        "environments":   environment,
+        "authorization_decision": None,
+        "policy_modality": None,
+        "context": []
     }
 
 
@@ -301,6 +305,22 @@ def main(input_file: str = None):
     new_policies = []
     for i, extracted in enumerate(extracted_all):
         idx = start_id + i
+        # Prefer v2 parser output (Pydantic Policy) if possible
+        try:
+            p = parse_acp_sentence(extracted["sentence"], policy_id=idx)
+            if p:
+                # p is a Pydantic model (Policy) - dump to plain dict
+                try:
+                    pdict = p.model_dump()
+                except Exception:
+                    # fallback for older pydantic versions
+                    pdict = p.dict()
+                new_policies.append(pdict)
+                continue
+        except Exception:
+            # fall back to legacy record
+            pass
+
         policy = build_policy_record(extracted, idx)
         new_policies.append(policy)
 

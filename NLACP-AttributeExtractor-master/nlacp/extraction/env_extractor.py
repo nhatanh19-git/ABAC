@@ -18,10 +18,18 @@ Tầng 3 — Phân loại loại Environment
 """
 
 import re
+import spacy
 
-from nlacp.utils.nlp_utils import get_spacy_model
+nlp = None  # Lazy load
 
-nlp = get_spacy_model()
+def _get_nlp():
+    global nlp
+    if nlp is None:
+        try:
+            nlp = spacy.load("en_core_web_sm")
+        except OSError:
+            nlp = spacy.blank("en")
+    return nlp
 
 # Regex patterns cho numeric detection
 _NUM_PATTERN  = re.compile(r'\d')
@@ -1277,7 +1285,7 @@ def extract_env_attributes(sentence: str) -> list:
       { category, env_type, subcategory, trigger, phrase, full_value,
         ner_type, normalized, namespace, data_type, method }
     """
-    doc = nlp(sentence)
+    doc = _get_nlp()(sentence)
 
     # Tầng 0: Chuẩn bị — xác định subject/object NP tokens
     subject_tokens = _get_subject_tokens(doc)
@@ -1311,7 +1319,7 @@ def extract_env_candidates(sentence: str) -> list:
       { action, env_phrase, env_type, ner_type, valid, method }
     valid = True vì đây là positive instances từ rule-based detection.
     """
-    doc  = nlp(sentence)
+    doc  = _get_nlp()(sentence)
     envs = extract_env_attributes(sentence)
 
     candidates = []

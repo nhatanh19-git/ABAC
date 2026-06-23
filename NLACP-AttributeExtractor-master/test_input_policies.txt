@@ -1,0 +1,3 @@
+Civilian students can view their own scores.
+Faculty can approve the grades in the system.
+Students cannot access the examination schedule outside of business hours.

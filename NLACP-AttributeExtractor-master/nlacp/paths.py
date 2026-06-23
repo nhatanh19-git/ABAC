@@ -16,6 +16,9 @@ POLICY_DATASET_PATH      = os.path.join(BASE_DIR, "outputs", "policies", "policy
 POLICY_DATASET_GOLD_PATH = os.path.join(BASE_DIR, "outputs", "policies", "policy_dataset_gold.json")
 ATTRIBUTE_CLUSTERS_PATH = os.path.join(BASE_DIR, "outputs", "clusters",  "attribute_clusters.json")
 NAMESPACE_HIERARCHY_PATH = os.path.join(BASE_DIR, "outputs", "hierarchy", "namespace_hierarchy.json")
+POLICY_BUNDLES_PATH = os.path.join(BASE_DIR, "outputs", "clusters", "policy_bundles.json")
+ENV_CONTEXT_CLUSTERS_PATH = os.path.join(BASE_DIR, "outputs", "clusters", "env_context_clusters.json")
+AGGREGATED_BUNDLES_PATH = os.path.join(BASE_DIR, "outputs", "clusters", "aggregate_policy_bundles.json")
 
 # Namespace Constants
 NS_ENV_TIME      = "env:time"
