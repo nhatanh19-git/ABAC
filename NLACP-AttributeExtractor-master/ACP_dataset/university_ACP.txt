@@ -1,0 +1,100 @@
+A student reads his transcript during office hours.
+A student checks application status on the campus portal.
+An instructor updates a gradebook during the semester.
+A teaching assistant modifies course grades in the lab.
+A registrar officer accesses transcripts during working hours.
+An admissions officer reviews applications in the admissions office.
+A department chair views course schedules during meetings.
+A student reads course schedules in the library.
+An instructor assigns grades during exam period.
+A teaching assistant reviews submissions at night.
+An instructor can update the gradebook between 8am and 6pm.
+A registrar officer can modify transcripts only during business hours (9am to 5pm).
+A teaching assistant can view the gradebook between 7am and 9pm.
+An admissions officer can review applications after 8am.
+A department chair can approve course schedules before 5pm.
+A student can access course schedules between 6am and 11pm.
+An instructor can download gradebooks only between 9am and 5pm on weekdays.
+A registrar officer can access transcripts between 8:30am and 4:30pm.
+A student can submit applications between 9am and 11pm.
+A student can submit an application during the enrollment period.
+An instructor can update the gradebook during the grading period.
+An admissions officer can approve applications before the deadline.
+A registrar officer can view transcripts during the academic year.
+A teaching assistant can access gradebooks during the active course period.
+An instructor can view applications during the admission review window.
+A department chair can approve course schedules before the registration deadline.
+An admissions officer can review applications only during the spring admission cycle.
+A student can update their application until the submission deadline.
+An instructor can read course schedules during the course planning period.
+A teaching assistant can submit grades before the grade submission deadline.
+A department chair can access applications during the faculty recruitment period.
+A student can access transcripts only from the university network.
+An instructor can update the gradebook when connected to the campus Wi-Fi.
+A registrar officer can modify transcripts only from the registrar office.
+A student can download transcripts only while on campus.
+A registrar officer can access course schedules from any university-managed device.
+An instructor can view applications remotely only through the secure VPN.
+A teaching assistant can submit grades only from the department lab.
+A department chair can access transcripts from the administrative network only.
+A student can view course schedules from any location.
+An admissions officer can modify applications only from the main campus offices.
+A registrar officer can delete records only from the secure terminal in the records room.
+A teaching assistant can read transcripts only from the faculty lounge computers.
+A student can view their transcript only if their account is in good standing.
+An instructor can update the gradebook only when the course is active.
+An admissions officer can approve an application only if the application status is under review.
+A registrar officer can modify a transcript only if it has not been officially sealed.
+A department chair can modify a course schedule only when the schedule is in draft status.
+A teaching assistant can access the gradebook only when grading is open.
+A student can submit an application only when the application portal is open.
+An instructor can access course schedules only when scheduling is unlocked.
+A registrar officer can delete a record only when it is marked as archived.
+An admissions officer can read applications only when the review committee is assembled.
+A department chair can approve a course schedule only when it is pending approval.
+A teaching assistant can download a gradebook only when the grade audit is active.
+A student can access course schedules only when they are officially enrolled.
+A registrar officer can upload new transcripts only when the system is in maintenance mode.
+An instructor can submit grades only when the grading window is open.
+A student can submit applications during business hours within the enrollment period.
+A student can access transcripts between 8am and 8pm from the university network.
+A registrar officer can modify course schedules during working hours from the registrar office.
+An instructor can update gradebooks between 9am and 5pm while on campus.
+A student can download transcripts from the university network only when their account is active.
+An admissions officer can approve an application from the admissions office when it is under review.
+A registrar officer can delete a transcript from the secure terminal when it is archived.
+A teaching assistant can access gradebooks from on-campus terminals when grading is open.
+An admissions officer can approve applications between 9am and 5pm.
+An admissions officer can approve applications during the spring admission cycle.
+An admissions officer can approve applications only from the admissions building.
+A registrar officer can modify transcripts between 8am and 4pm.
+A registrar officer can modify transcripts before the semester deadline.
+A student can view course schedules after 7am.
+A student can view course schedules during the enrollment period.
+A student can view course schedules only from the university network.
+An instructor can update the gradebook between 8am and 6pm.
+An instructor can update the gradebook during the grading period.
+An instructor can update the gradebook only from campus.
+An instructor can update the gradebook only when the course is active.
+A department chair can approve course schedules before 5pm.
+A department chair can approve course schedules before the semester starts.
+A department chair can approve course schedules only from the department office.
+A department chair can approve course schedules only when the schedule is pending approval.
+An instructor can view the gradebook.
+A student can submit an application.
+A registrar officer can update transcripts.
+A department chair can approve course schedules.
+A teaching assistant can access gradebooks.
+An admissions officer can review applications.
+A student can view their transcript.
+An instructor can read course schedules.
+A registrar officer can delete outdated records.
+A department chair can modify departmental course schedules.
+A student can view transcripts during the academic year only when their account is in good standing.
+An admissions officer can approve applications during the admission cycle only when the application is under review.
+An instructor can update the gradebook during the grading period only when the course is active.
+A department chair can modify course schedules before the semester starts.
+A department chair can modify course schedules only when the schedule is in draft status.
+A registrar officer can delete transcripts after the retention period expires.
+A registrar officer can delete transcripts only when the record is archived.
+A registrar officer can modify transcripts between 9am and 4pm.

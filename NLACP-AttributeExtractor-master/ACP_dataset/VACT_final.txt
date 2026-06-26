@@ -1,0 +1,100 @@
+Civilian students can view their own final grades in the academic information system for courses which they have taken.
+Civilian students can view their own scores in the learning management system for multiple-choice exams which they have taken.
+Lecturers can view the scores of all civilian students in the learning management system for courses which they teach.
+Users in the educational testing and quality assurance office can view the scores of all civilian students in the learning management system for all courses.
+Users in the academic affairs office can view the scores of all civilian students in the learning management system for all courses.
+The course lecturer can add and view scores in the learning management system for that course.
+Course lecturers can update scores and assign final grades in the learning management system for their courses with the approval of the department chair and the head of educational testing and quality assurance.
+A department’s academic coordinator can view the scores of all civilian students in the learning management system for that department’s courses.
+A department chair can view the scores of all civilian students in the learning management system for that department’s courses.
+Users in the educational testing and quality assurance office can modify civilian students’ final grades in the academic information system with the approval of the head of educational testing and quality assurance.
+Civilian students can view rosters in the learning management system for courses which they are taking.
+The course lecturer can view and download the course roster in the learning management system for that course.
+A department’s academic coordinator can view and download rosters in the academic information and learning management systems for that department’s courses.
+A department chair can view and download rosters in the academic information and learning management systems for that department’s courses.
+Users in the academic affairs office can view and modify all rosters in the academic information and learning management systems.
+Users in the academic affairs office can upload and download course rosters in the academic information and learning management systems.
+Users in the academic affairs office can delete course rosters in the academic information and learning management systems.
+Civilian students can view and download their own transcripts in the academic information system.
+A department chair can view and download the transcripts of all civilian students in the academic information system for that department.
+Users in the academic affairs office can view and download the transcripts of all civilian students in the academic information system.
+Users in the educational testing and quality assurance office can view and download the transcripts of all civilian students in the academic information system.
+The head of academic affairs can modify a civilian student’s transcript in the academic information system with the director’s approval.
+The reason for a transcript revision must be recorded in the academic information system after the head of academic affairs modifies a civilian student’s transcript.
+Applicants can check the status of their own applications in the academic information system.
+Users in the academic affairs office can view and update the status of all applications in the academic information system.
+Applicants can modify applications in the academic information system.
+Applicants can upload and download applications in the academic information system.
+Applicants can delete applications in the academic information system only if the applications are currently pending.
+The course lecturer can create multiple-choice exams and view their details in the learning management system.
+The course lecturer can modify and delete multiple-choice exams in the learning management system.
+The course lecturer can upload and download multiple-choice exams in the learning management system.
+A department’s academic coordinator can view and download multiple-choice exams in the learning management system for that department’s courses.
+A department chair can view and assess multiple-choice exams in the learning management system for that department’s courses.
+A department chair can upload and download multiple-choice exams in the learning management system for that department’s courses.
+The head of academic affairs can view and assess multiple-choice exams in the learning management system for all courses.
+The head of academic affairs can download multiple-choice exams from the learning management system for all courses.
+The head of educational testing and quality assurance can view and assess multiple-choice exams in the learning management system for all courses.
+The head of educational testing and quality assurance can download multiple-choice exams from the learning management system for all courses.
+The course lecturer can create and view learning materials in the learning management system for that course.
+The course lecturer can upload and download learning materials in the learning management system.
+The course lecturer can modify and delete learning materials in the learning management system.
+Civilian students can view and download learning materials in the learning management system for courses which they are taking.
+Civilian students can comment on learning materials in the learning management system for courses which they are taking.
+A department’s academic coordinator can view and download learning materials in the learning management system for that department’s courses.
+A department chair can view and assess learning materials in the learning management system for that department’s courses.
+A department chair can upload and download learning materials in the learning management system for that department’s courses.
+The head of academic affairs can view and assess learning materials in the learning management system for all courses.
+The head of academic affairs can download learning materials from the learning management system for all courses.
+The head of educational testing and quality assurance can view and assess learning materials in the learning management system for all courses.
+The head of educational testing and quality assurance can download learning materials from the learning management system for all courses.
+Users in the academic affairs office can create and view a course offering in the academic information system.
+Users in the academic affairs office can modify and delete a course offering in the academic information system.
+The course lecturer can view and comment on a course offering in the academic information system.
+The course lecturer can accept or deny a course offering in the academic information system.
+A department’s academic coordinator and chair can view and comment on a course offering in the academic information system.
+Civilian students cannot register for courses in the course registration system if they owe tuition fees exceeding the prescribed limit.
+Civilian students cannot register for a course in the course registration system if the total number of registered credits exceeds the prescribed limit.
+Civilian students cannot register for a course in the course registration system if they have not passed the prerequisites for that course.
+Civilian students cannot register for two courses in the course registration system if the courses have overlapping class schedules.
+Civilian students can only register for courses in the course registration system which are currently open.
+Civilian students cannot register for courses in the course registration system which are currently closed.
+Civilian students cannot register for a course in the course registration system if the number of registered civilian students reaches the prescribed capacity.
+Civilian students can cancel their registration in the course registration system for a course which they have previously registered for successfully.
+Civilian students cannot cancel their registration in the course registration system for a course which is currently closed.
+Civilian students can view the status of registered courses in the course registration system.
+Civilian students cannot register for courses in the course registration system if the system has not been activated.
+Users in the academic affairs office can view the course registration results of all civilian students in the course registration system.
+Civilian students’ class schedules are only allowed in the academic information system between 7:00 am and 5:25 pm.
+Lecturers’ teaching schedules are only allowed in the academic information system between 7:00 am and 5:25 pm.
+A department chair can view the course registration results of all civilian students in the academic information system for that department.
+A department’s academic coordinator can view the course registration results of all civilian students in the academic information system for that department.
+Civilian students can retake a course in the course registration system even if the number of registered civilian students has reached the prescribed capacity.
+A department’s academic coordinator and instructors can upload and view the details of suggested graduation project topics in the learning management system.
+Civilian students can register for graduation project topics only when the system is activated.
+A graduation project can have at most two instructors.
+A civilian student can register for at most one graduation project topic in the learning management system from the list of suggested topics uploaded by an instructor.
+A civilian student can register for up to three preferred instructors in the learning management system.
+Instructors can accept or deny civilian students’ applications for graduation project topics in the learning management system.
+Civilian students can view the details of graduation project topics in the learning management system which have been uploaded by instructors.
+A department chair can view the details of all graduation project topics in the learning management system for that department.
+Users in the academic affairs office can view the details of all graduation project topics in the learning management system.
+A department’s academic coordinator and chair can view the list of civilian students in the learning management system who have successfully registered for graduation project topics in that department.
+A department’s academic coordinator and chair can view the list of civilian students in the learning management system who belong to that department and have not yet registered for a graduation project topic.
+Instructors can modify the details of their suggested graduation project topics in the learning management system.
+Instructors can delete their suggested graduation project topics in the learning management system.
+Civilian students cannot register for graduation project topics until the system is activated.
+Users in the academic affairs or finance office can view the details of visiting lecturer agreements in the visiting lecturer management system.
+Users who are not in the academic affairs office cannot number visiting lecturer agreements in the visiting lecturer management system.
+Users who are not in the academic affairs or finance office cannot export entire visiting lecturer agreements in the visiting lecturer management system.
+A department’s academic coordinator and chair can view the details of visiting lecturer agreements in the visiting lecturer management system.
+A department’s academic coordinator can export visiting lecturer agreements in the visiting lecturer management system only for that department.
+Visiting lecturer agreements for classes are considered valid only after approval by the finance office.
+A visiting lecturer agreement can only be issued in the visiting lecturer management system if it has been numbered, validated, and exported.
+The finance office can approve visiting lecturer classes in the visiting lecturer management system only if the total teaching hours of a visiting lecturer within the year do not exceed the prescribed limit.
+A visiting lecturer who has not yet retired cannot teach more than 280 hours per year.
+A retired visiting lecturer cannot teach more than 560 hours per year.
+A department’s academic coordinator cannot modify visiting lecturer agreement information in the visiting lecturer management system after approval by the academic affairs office or finance office.
+A department’s academic coordinator can modify a visiting lecturer agreement in the visiting lecturer management system only if the board of directors has rejected its approval.
+A valid visiting lecturer agreement must have a contract number in the visiting lecturer management system.
+Visiting lecturers can view their issued visiting lecturer agreements in the visiting lecturer management system.
